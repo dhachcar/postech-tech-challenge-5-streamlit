@@ -1,0 +1,6 @@
+TITULO_PRINCIPAL = "Tech Challenge 5 | FIAP"
+TITULO_INTRODUCAO = "Introdução"
+TITULO_PASSOS_MAGICOS = "Passos Mágicos"
+TITULO_ANALISE_EXPLORATORIA = "Análise exploratória"
+TITULO_MODELO_E_REDES_NEURAIS = "Modelos e Redes Neurais"
+TITULO_REFERENCIAS = "Referências"
