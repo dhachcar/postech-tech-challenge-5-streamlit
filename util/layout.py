@@ -50,6 +50,18 @@ def output_layout():
     )
 
     with st.sidebar:
+        st.markdown("#")
+
+        col0, col1 = st.columns([1, 1])
+
+        with col0:
+            st.image("assets/imgs/logo-fiap.png", width=150)
+
+        with col1:
+            st.image("assets/imgs/logo-postech.png", width=150)
+
+        st.divider()
+
         st.subheader("Aluno")
         st.text("Danilo Henrique Achcar")
         st.text("RM 351516 | 2DTAT")

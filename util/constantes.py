@@ -1,3 +1,4 @@
+TITULO_TECHCHALLENGE = "Tech Challenge 5"
 TITULO_PRINCIPAL = "Tech Challenge 5 | FIAP"
 TITULO_INTRODUCAO = "Introdução"
 TITULO_PASSOS_MAGICOS = "Passos Mágicos"

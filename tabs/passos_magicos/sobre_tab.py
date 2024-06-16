@@ -4,7 +4,7 @@ import streamlit as st
 from util.layout import format_number
 
 
-class PassosMagicosSobre(TabInterface):
+class PassosMagicosSobreTab(TabInterface):
     def __init__(self, tab):
         self.tab = tab
         self.render()

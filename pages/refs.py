@@ -13,8 +13,11 @@ with st.container():
 
     st.markdown(
         """
-        https://passosmagicos.org.br/
-        ONU, ODG. https://brasil.un.org/pt-br/sdgs
+        * https://passosmagicos.org.br/ Acesso em: 12/06/2024.
+        * ONU, ODG. https://brasil.un.org/pt-br/sdgs Acesso em: 12/06/2024.
+        * ONU, ODG. Inglês. https://www.globalgoals.org/goals/ Acesso em: 16/06/2024.
+        * ONU. https://www.un.org/en/about-us Acesso em: 16/06/2024.
+        * ONU. https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_das_Na%C3%A7%C3%B5es_Unidas Acesso em: 16/06/2024.
     """
     )
 
