@@ -10,4 +10,9 @@ class IntroCNNTab(TabInterface):
         self.render()
 
     def render(self):
-        x = 1
+        with self.tab:
+            st.markdown(
+                """
+                Uma rede neural convolucional (CNN) é um tipo de rede neural especialmente eficaz para processar e analisar dados com uma estrutura de grade, como imagens. Inspirada pela organização do córtex visual animal, uma CNN utiliza camadas de convolução para detectar características locais, como bordas, texturas e padrões, em diferentes níveis de abstração. Essas camadas são seguidas por camadas de pooling que reduzem a dimensionalidade dos dados, mantendo as informações mais relevantes. Esse processo de extração hierárquica de características permite que a CNN aprenda a reconhecer objetos e padrões visuais de forma altamente eficiente, tornando-a amplamente utilizada em tarefas de visão computacional, como classificação de imagens, detecção de objetos e segmentação semântica.
+            """
+            )

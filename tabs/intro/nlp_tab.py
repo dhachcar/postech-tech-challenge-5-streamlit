@@ -10,4 +10,10 @@ class IntroNLPTab(TabInterface):
         self.render()
 
     def render(self):
-        x = 1
+        with self.tab:
+            st.markdown(
+                """
+                As Redes Neurais também são comumente aplicadas ao processamento de linguagem natural (NLP). Aqui, elas são modelos computacionais projetados para entender, interpretar e gerar linguagem humana. Elas são treinadas com grandes volumes de texto para reconhecer padrões linguísticos e contextos. Utilizando arquiteturas como redes neurais recorrentes (RNNs) e transformadores, essas redes podem realizar tarefas complexas como tradução automática, análise de sentimentos, resumo de textos e respostas a perguntas. A capacidade das redes neurais de captar nuances e relações contextuais permite que máquinas compreendam e produzam linguagem de maneira mais natural e precisa. Hoje em dia existem grandes players no mercado que lançaram modelos NLP que são extremamente robustos e aptos a agregar valor no cotidiano da sociedade (OpenAI com o ChatGPT e Google com o Gemini).
+            """,
+                unsafe_allow_html=True,
+            )
