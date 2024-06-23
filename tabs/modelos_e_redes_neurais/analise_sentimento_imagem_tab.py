@@ -44,6 +44,8 @@ class ModelosAnaliseSentimentoImagemTab(TabInterface):
 
             fs = st.file_uploader("upload a file")
 
+            # TODO: talvez colocar um botao?
+
             if fs is not None:
                 with st.spinner("Processando..."):
                     time.sleep(3)

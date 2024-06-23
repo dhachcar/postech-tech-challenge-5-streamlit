@@ -24,6 +24,8 @@ with st.container():
     #     """
     #     )
 
+    # TODO: colocar um disclaimer, q para ter modelos perfeitos, seria necessario grandes quantidades de dados para treinamento, oque é inviavel no escopo deste projeto
+
     tab0, tab1 = st.tabs(tabs=["Imagem", "Texto"])
 
     ModelosAnaliseSentimentoImagemTab(tab0)
