@@ -16,6 +16,7 @@ with st.container():
         * https://passosmagicos.org.br/ Acesso em: 12/06/2024.
         * https://medium.com/liga-mackenzie-de-ia-ci%C3%AAncia-de-dados/svm-ou-support-vector-machine-7efcabdcc7be
         * https://paperswithcode.com/method/mobilenetv2
+        * https://docs.streamlit.io/develop/api-reference
         * ONU, ODG. https://brasil.un.org/pt-br/sdgs Acesso em: 12/06/2024.
         * ONU, ODG. Inglês. https://www.globalgoals.org/goals/ Acesso em: 16/06/2024.
         * ONU. https://www.un.org/en/about-us Acesso em: 16/06/2024.
