@@ -27,6 +27,9 @@ with st.container():
         * ONU. https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_das_Na%C3%A7%C3%B5es_Unidas Acesso em: 16/06/2024.
         * https://medium.com/data-hackers/introdu%C3%A7%C3%A3o-ao-processamento-de-linguagem-natural-natural-language-processing-nlp-be907cd06c71
         * https://amazinum.com/insights/what-is-nlp-and-how-it-is-implemented-in-our-lives/
+        * SILVA, Dario Rodrigues da. Pesquisa do Desenvolvimento Educaional - PEDE 2020. Associação Passos Mágicos. São Paulo, p.XXX-YYYY. 2021.
+        * SILVA, Dario Rodrigues da. Pesquisa do Desenvolvimento Educaional - PEDE 2021. Associação Passos Mágicos. São Paulo, p.XXX-YYYY. 2022.
+        * SILVA, Dario Rodrigues da. Pesquisa do Desenvolvimento Educaional - PEDE 2022. Associação Passos Mágicos. São Paulo, p.XXX-YYYY. 2023.
     """
     )
 
