@@ -5,6 +5,7 @@ from tabs.modelos_e_redes_neurais.analise_sentimento_imagem_tab import (
 from tabs.modelos_e_redes_neurais.analise_sentimento_texto_tab import (
     ModelosAnaliseSentimentoTextoTab,
 )
+from tabs.modelos_e_redes_neurais.lstm_tab import ModelosLstmTab
 from util.constantes import TITULO_MODELO_E_REDES_NEURAIS, TITULO_PRINCIPAL
 from util.layout import output_layout
 
@@ -24,9 +25,10 @@ with st.container():
     #     """
     #     )
 
-    # TODO: colocar um disclaimer, q para ter modelos perfeitos, seria necessario grandes quantidades de dados para treinamento, oque é inviavel no escopo deste projeto
+    tab0, tab1, tab2 = st.tabs(
+        tabs=["LSTM", "Análise de sentimentos: Imagem", "Análise de sentimentos: Texto"]
+    )
 
-    tab0, tab1 = st.tabs(tabs=["Imagem", "Texto"])
-
-    ModelosAnaliseSentimentoImagemTab(tab0)
-    ModelosAnaliseSentimentoTextoTab(tab1)
+    ModelosLstmTab(tab0)
+    ModelosAnaliseSentimentoImagemTab(tab1)
+    ModelosAnaliseSentimentoTextoTab(tab2)

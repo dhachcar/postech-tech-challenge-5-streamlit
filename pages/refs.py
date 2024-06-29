@@ -13,14 +13,20 @@ with st.container():
 
     st.markdown(
         """
+        * https://medium.com/itau-data/redes-neurais-convolucionais-2206a089c715
         * https://passosmagicos.org.br/ Acesso em: 12/06/2024.
         * https://medium.com/liga-mackenzie-de-ia-ci%C3%AAncia-de-dados/svm-ou-support-vector-machine-7efcabdcc7be
+        * https://scikit-learn.org/stable/modules/svm.html
+        * https://www.deeplearningbook.com.br/as-10-principais-arquiteturas-de-redes-neurais/
         * https://paperswithcode.com/method/mobilenetv2
         * https://docs.streamlit.io/develop/api-reference
+        * https://www.datageeks.com.br/xgboost/
         * ONU, ODG. https://brasil.un.org/pt-br/sdgs Acesso em: 12/06/2024.
         * ONU, ODG. Inglês. https://www.globalgoals.org/goals/ Acesso em: 16/06/2024.
         * ONU. https://www.un.org/en/about-us Acesso em: 16/06/2024.
         * ONU. https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_das_Na%C3%A7%C3%B5es_Unidas Acesso em: 16/06/2024.
+        * https://medium.com/data-hackers/introdu%C3%A7%C3%A3o-ao-processamento-de-linguagem-natural-natural-language-processing-nlp-be907cd06c71
+        * https://amazinum.com/insights/what-is-nlp-and-how-it-is-implemented-in-our-lives/
     """
     )
 

@@ -76,3 +76,11 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
                     time.sleep(3)
 
                     self.predict(txt)
+
+            # TODO: deixar blocos pre prontos com os resultados e exemplos (utilizar textos/reviews/comentarios da pagina facebook)
+
+            st.markdown(
+                """
+                **:red[IMPORTANTE:] Esta rede neural foi desenvolvida com um conjunto limitado de dados de treinamento e teste, podendo apresentar inconsistências em seus resultados. Um treinamento mais abrangente está fora do escopo deste projeto. Como sugestão para futuros desenvolvimentos, podemos utilizar um conjunto maior de dados de treinamento para aprimorar o resultado final.**
+            """
+            )

@@ -52,3 +52,11 @@ class ModelosAnaliseSentimentoImagemTab(TabInterface):
 
                     file_bytes = np.asarray(bytearray(fs.read()), dtype=np.uint8)
                     self.predict(file_bytes)
+
+            # TODO: deixar blocos pre prontos com os resultados e exemplos (utilizar imgs da pagina facebook)
+
+            st.markdown(
+                """
+                **:red[IMPORTANTE:] Esta rede neural foi desenvolvida com um conjunto limitado de dados de treinamento e teste, podendo apresentar inconsistências em seus resultados. Um treinamento mais abrangente está fora do escopo deste projeto. Como sugestão para futuros desenvolvimentos, podemos utilizar um conjunto maior de dados de treinamento para aprimorar o resultado final.**
+            """
+            )

@@ -17,3 +17,10 @@ class IntroNLPTab(TabInterface):
             """,
                 unsafe_allow_html=True,
             )
+
+            st.subheader(':blue[Aplicação no projeto]')
+
+            st.markdown('''TODO: redigir
+                        ''')
+
+            st.image('assets/imgs/nlp.jpg', caption='O que é NLP, fonte: https://amazinum.com/insights/what-is-nlp-and-how-it-is-implemented-in-our-lives/')
