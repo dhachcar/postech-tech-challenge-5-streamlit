@@ -1,4 +1,5 @@
 from tabs.tab import TabInterface
+import streamlit as st
 
 
 class ModelosLstmTab(TabInterface):
@@ -20,6 +21,9 @@ class ModelosLstmTab(TabInterface):
     def render(self):
         with self.tab:
             x = 1
-            
-            
+
+            st.markdown(
+                ":red[TODO: criar modelo LSTM para identificar se um aluno irá atingir ou não seu ponto de virada (IPV)]"
+            )
+
             # TODO: qual a ideia para esse LSTM?
