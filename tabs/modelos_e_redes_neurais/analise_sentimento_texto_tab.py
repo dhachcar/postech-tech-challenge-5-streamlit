@@ -78,6 +78,7 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
                     self.predict(txt)
 
             # TODO: deixar blocos pre prontos com os resultados e exemplos (utilizar textos/reviews/comentarios da pagina facebook)
+            # TODO: colocar o resultado da accuracy_score (mesma função das aulas, verificar qual é)
 
             st.markdown(
                 """

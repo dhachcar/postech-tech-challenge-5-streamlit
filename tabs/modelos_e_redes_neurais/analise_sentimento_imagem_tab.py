@@ -54,6 +54,7 @@ class ModelosAnaliseSentimentoImagemTab(TabInterface):
                     self.predict(file_bytes)
 
             # TODO: deixar blocos pre prontos com os resultados e exemplos (utilizar imgs da pagina facebook)
+            # TODO: colocar o resultado da accuracy_score (mesma função das aulas, verificar qual é)
 
             st.markdown(
                 """
