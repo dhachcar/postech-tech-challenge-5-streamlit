@@ -21,6 +21,7 @@ with st.container():
         * https://paperswithcode.com/method/mobilenetv2
         * https://docs.streamlit.io/develop/api-reference
         * https://www.datageeks.com.br/xgboost/
+        * https://plotly.com/python/distplot/
         * ONU, ODG. https://brasil.un.org/pt-br/sdgs Acesso em: 12/06/2024.
         * ONU, ODG. Inglês. https://www.globalgoals.org/goals/ Acesso em: 16/06/2024.
         * ONU. https://www.un.org/en/about-us Acesso em: 16/06/2024.

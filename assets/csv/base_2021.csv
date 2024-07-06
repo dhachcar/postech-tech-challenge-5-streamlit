@@ -1,0 +1,685 @@
+NOME;FASE;TURMA;INSTITUICAO_ENSINO_ALUNO;SINALIZADOR_INGRESSANTE;PEDRA;INDE;IAA;IEG;IPS;IDA;IPP;REC_EQUIPE_1;REC_EQUIPE_2;REC_EQUIPE_3;REC_EQUIPE_4;PONTO_VIRADA;IPV;IAN;NIVEL_IDEAL;DEFASAGEM;ANO
+ALUNO-1;2.0;G;Rede Decisão;Ingressante;Ametista;7.319;7.5;6.3;6.9;8.8;7.7;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.1;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-3;3.0;F;Escola Pública;Veterano;Ametista;7.021;7.1;6.9;6.3;5.6;7.3;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.2;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-5;2.0;L;Escola Pública;Veterano;Ametista;7.399;7.4;7.5;7.5;5.4;8.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.4;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-8;5.0;L;Rede Decisão;Veterano;Topázio;8.269;8.8;8.6;7.5;7.1;8.0;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não;8.5;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-11;1.0;A;Rede Decisão;Veterano;Topázio;8.99;9.0;10.0;6.3;8.8;7.7;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Sim;9.7;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-13;0.0;T;Escola Pública;Ingressante;Quartzo;3.413;8.0;0.0;7.5;0.8;0.0;Não avaliado;Não avaliado;Não avaliado;Não avaliado;Não;6.0;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-17;1.0;G;Escola Pública;Veterano;Ágata;6.14;9.5;4.2;7.5;2.6;8.4;Não avaliado;Mantido na Fase atual;Mantido na Fase + Bolsa;Não avaliado;Não;8.8;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-18;4.0;F;Escola Pública;Veterano;Ágata;5.666;10.0;3.3;6.3;5.3;7.7;Mantido na Fase atual;Promovido de Fase + Bolsa;Mantido na Fase atual;Mantido na Fase atual;Não;5.2;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-19;2.0;C;Escola Pública;Ingressante;Ágata;6.751;9.0;6.3;7.5;4.6;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-28;4.0;G;Rede Decisão;Ingressante;Topázio;9.079;8.3;9.2;7.5;8.8;9.4;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.9;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-29;3.0;D;Escola Pública;Ingressante;Ágata;6.342;9.6;5.3;7.5;3.8;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.9;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-34;2.0;C;Escola Pública;Veterano;Ágata;6.129;6.9;2.9;7.5;5.5;7.7;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-35;7.0;A;Escola Pública;Veterano;Topázio;8.416;9.2;9.4;7.5;8.2;8.4;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Sim;9.4;5.0;Nível 8 (Universitários);-1.0;2021
+ALUNO-36;3.0;C;Escola Pública;Veterano;Ágata;6.246;8.3;6.4;3.8;4.7;7.3;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.9;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-37;2.0;N;Escola Pública;Veterano;Ágata;6.154;0.0;5.4;6.9;6.5;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.7;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-38;3.0;L;Escola Pública;Ingressante;Ágata;6.847;3.8;6.9;7.5;5.1;7.5;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.8;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-40;5.0;B;Escola Pública;Ingressante;Ametista;7.334;9.2;7.8;7.5;6.0;8.3;Promovido de Fase + Bolsa;Mantido na Fase atual;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;8.0;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-41;2.0;C;Escola Pública;Veterano;Ágata;6.1;0.0;5.0;7.5;6.8;7.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-42;0.0;J;Escola Pública;Ingressante;Ágata;6.802;10.0;6.7;7.5;4.0;7.2;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.0;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-46;0.0;P;Escola Pública;Veterano;Topázio;8.471;8.5;10.0;7.5;6.9;8.1;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.4;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-47;1.0;A;Escola Pública;Ingressante;Ágata;6.056;8.5;6.3;7.5;4.0;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-51;1.0;F;Escola Pública;Ingressante;Ametista;8.051;9.0;9.2;7.5;5.4;7.7;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.6;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-54;3.0;B;Escola Pública;Ingressante;Ágata;6.388;7.5;5.8;7.5;4.1;7.3;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;5.8;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-55;7.0;A;Rede Decisão;Veterano;Ametista;8.219;9.6;8.9;8.1;7.6;8.1;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Sim;9.2;5.0;Nível 8 (Universitários);-1.0;2021
+ALUNO-56;6.0;A;Escola Pública;Ingressante;Ágata;6.777;8.8;7.5;5.6;5.5;7.8;Promovido de Fase;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.2;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-57;7.0;A;Rede Decisão;Veterano;Ametista;7.213;8.3;6.9;6.3;6.0;7.7;Mantido na Fase atual;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.0;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-60;6.0;C;Rede Decisão;Veterano;Ametista;6.956;7.9;7.5;6.9;6.1;7.2;Mantido na Fase atual;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.7;5.0;Nível 8 (Universitários);-2.0;2021
+ALUNO-61;1.0;M;Escola Pública;Veterano;Quartzo;3.017;0.0;1.3;5.6;0.0;6.9;Mantido na Fase atual;Não avaliado;Mantido na Fase atual;Não avaliado;Não;5.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-62;2.0;L;Escola Pública;Veterano;Ágata;5.704;8.5;4.6;7.5;3.1;8.1;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.2;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-65;0.0;R;Escola Pública;Ingressante;Topázio;8.438;10.0;10.0;7.5;6.9;8.1;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não avaliado;Não avaliado;Sim;10.0;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-66;2.0;E;Escola Pública;Ingressante;Ágata;6.875;8.0;6.3;7.5;5.9;8.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;7.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-67;1.0;J;Escola Pública;Ingressante;Quartzo;4.939;7.4;3.3;7.5;1.1;8.3;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-75;4.0;L;Rede Decisão;Veterano;Topázio;9.108;10.0;9.2;7.5;8.5;8.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.7;10.0;Nível 3 (7o e 8o ano);1.0;2021
+ALUNO-76;1.0;B;Escola Pública;Veterano;Topázio;8.869;10.0;10.0;7.5;7.6;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Sim;9.2;10.0;ALFA  (2o e 3o ano);1.0;2021
+ALUNO-77;0.0;J;Escola Pública;Ingressante;Ametista;7.854;9.5;10.0;7.5;6.4;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.1;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-78;1.0;B;Escola Pública;Ingressante;Ágata;6.339;8.9;9.2;7.5;2.6;7.3;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.6;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-81;5.0;L;Rede Decisão;Veterano;Ágata;6.188;6.3;5.8;2.5;6.5;8.1;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não;7.7;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-83;5.0;B;Rede Decisão;Veterano;Ágata;5.987;6.7;6.4;3.8;3.0;7.3;Promovido de Fase + Bolsa;Mantido na Fase atual;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;6.7;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-84;1.0;A;Escola Pública;Ingressante;Ametista;7.867;3.5;10.0;7.5;6.8;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.3;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-85;0.0;P;Escola Pública;Veterano;Ágata;6.652;9.5;6.7;6.3;6.9;4.7;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.0;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-87;5.0;L;Rede Decisão;Veterano;Ametista;8.004;7.9;7.8;7.5;7.8;8.1;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não;7.7;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-88;2.0;D;Rede Decisão;Veterano;Ametista;8.096;9.5;9.6;6.3;7.4;8.1;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Sim;9.1;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-90;4.0;L;Escola Pública;Veterano;Ágata;5.994;7.1;5.0;7.5;4.6;7.2;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não;7.0;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-91;2.0;H;Escola Pública;Veterano;Quartzo;4.2;9.5;0.0;7.5;2.2;5.6;Mantido na Fase atual;Não avaliado;Não avaliado;Não avaliado;Não;2.5;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-93;0.0;L;Escola Pública;Ingressante;Ágata;6.248;8.0;4.2;7.5;5.1;6.6;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;5.9;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-94;4.0;F;Escola Pública;Ingressante;Ágata;5.923;7.5;3.6;7.5;4.6;7.3;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não;5.2;10.0;Nível 3 (7o e 8o ano);1.0;2021
+ALUNO-95;4.0;F;Escola Pública;Veterano;Quartzo;4.957;8.3;5.6;7.5;1.3;6.9;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;4.1;5.0;Nível 6 (2o EM);-2.0;2021
+ALUNO-97;2.0;D;Escola Pública;Veterano;Ágata;6.317;8.0;5.8;7.5;5.8;7.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;6.0;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-98;3.0;D;Escola Pública;Ingressante;Ametista;6.953;9.2;6.4;7.5;6.3;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.5;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-100;1.0;M;Escola Pública;Veterano;Quartzo;3.117;8.5;0.0;3.8;0.0;6.3;Mantido na Fase atual;Não avaliado;Mantido na Fase atual;Não avaliado;Não;3.8;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-102;1.0;J;Escola Pública;Veterano;Ágata;6.704;6.3;7.5;7.5;4.8;7.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-103;1.0;F;Escola Pública;Veterano;Ametista;8.076;9.5;8.8;6.3;6.2;7.9;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.6;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-104;0.0;J;Escola Pública;Ingressante;Ametista;8.01;9.0;10.0;7.5;6.4;7.2;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.8;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-105;4.0;E;Escola Pública;Veterano;Quartzo;4.956;10.0;1.1;7.5;2.8;6.7;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;3.7;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-106;1.0;N;Escola Pública;Veterano;Ametista;8.242;10.0;7.9;7.5;7.9;8.3;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Sim;10.0;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-109;6.0;A;Escola Pública;Ingressante;Ametista;7.36;7.5;6.7;7.5;7.8;8.4;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;8.2;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-111;4.0;L;Escola Pública;Veterano;Ametista;7.222;8.3;8.1;7.5;6.0;8.4;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não;7.4;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-112;4.0;F;Escola Pública;Ingressante;Ágata;6.098;9.2;3.1;6.9;6.2;7.7;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não;6.9;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-113;2.0;K;Escola Pública;Veterano;Ágata;6.664;9.5;7.1;7.5;4.6;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.6;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-117;2.0;N;Escola Pública;Veterano;Ametista;7.774;8.5;7.1;7.5;7.1;8.3;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.6;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-118;1.0;B;Escola Pública;Veterano;Topázio;8.299;8.5;9.6;7.5;6.9;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.2;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-120;1.0;A;Escola Pública;Veterano;Ametista;7.096;8.5;8.3;7.5;6.1;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-124;0.0;T;Escola Pública;Ingressante;Topázio;8.275;9.0;8.3;7.5;6.1;8.1;Promovido de Fase;Promovido de Fase;Não avaliado;Não avaliado;Sim;9.7;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-125;2.0;P;Escola Pública;Veterano;Ágata;6.461;6.3;4.6;7.5;4.6;7.9;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;7.2;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-126;0.0;P;Escola Pública;Ingressante;Ágata;6.069;9.0;4.2;7.5;4.5;7.2;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.3;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-127;1.0;A;Escola Pública;Ingressante;Ametista;6.907;10.0;7.1;7.5;5.6;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.9;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-128;0.0;I;Escola Pública;Veterano;Quartzo;5.229;7.9;6.7;4.4;4.0;2.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;5.6;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-129;2.0;H;Escola Pública;Ingressante;Ágata;5.819;7.4;4.2;7.5;4.6;7.2;Mantido na Fase atual;Não avaliado;Mantido na Fase atual;Não avaliado;Não;4.3;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-133;1.0;F;Escola Pública;Veterano;Ametista;7.99;9.5;9.6;7.5;7.1;7.7;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.4;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-135;1.0;A;Escola Pública;Veterano;Ágata;5.788;9.5;4.2;6.3;3.6;6.9;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.3;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-137;0.0;R;Escola Pública;Ingressante;Ágata;6.012;8.0;5.8;7.5;5.3;5.0;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.2;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-143;3.0;H;Escola Pública;Ingressante;Ágata;6.278;7.9;4.4;6.3;4.3;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.8;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-149;7.0;A;Rede Decisão;Veterano;Topázio;8.36;8.8;8.1;6.9;7.4;8.3;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Sim;9.4;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-151;2.0;J;Rede Decisão;Veterano;Topázio;9.004;9.5;9.6;8.1;9.1;10.0;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Sim;10.0;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-152;3.0;B;Rede Decisão;Veterano;Topázio;8.672;8.8;8.3;7.5;8.0;8.3;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.8;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-153;4.0;F;Rede Decisão;Veterano;Topázio;8.355;10.0;7.5;7.5;7.5;8.0;Promovido de Fase;Promovido de Fase;Promovido de Fase;Promovido de Fase;Sim;9.0;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-154;1.0;N;Escola Pública;Veterano;Quartzo;5.163;9.5;2.9;7.5;1.5;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.3;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-155;6.0;C;Escola Pública;Ingressante;Quartzo;5.082;7.1;5.3;0.0;3.4;8.1;Mantido na Fase + Bolsa;Promovido de Fase;Não avaliado;Não avaliado;Não;6.6;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-156;3.0;J;Rede Decisão;Veterano;Ametista;7.981;7.5;7.8;6.3;7.3;8.3;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.8;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-158;4.0;F;Escola Pública;Veterano;Ágata;6.056;8.3;6.1;6.9;4.5;6.9;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;6.1;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-159;0.0;O;Escola Pública;Ingressante;Ametista;8.025;9.0;10.0;7.5;6.1;8.1;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;9.3;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-162;1.0;B;Escola Pública;Veterano;Ametista;7.531;8.5;10.0;7.5;6.6;7.5;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;6.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-164;2.0;C;Escola Pública;Veterano;Ametista;7.125;9.5;5.8;7.5;5.9;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.7;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-165;1.0;R;Escola Pública;Veterano;Ametista;7.579;10.0;7.5;7.5;7.3;8.3;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;7.7;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-167;1.0;A;Escola Pública;Ingressante;Ametista;7.639;10.0;9.2;7.5;5.8;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-168;2.0;R;Escola Pública;Veterano;Quartzo;3.524;0.0;1.7;5.6;2.5;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.4;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-169;0.0;I;Escola Pública;Veterano;Ametista;6.898;8.5;10.0;4.4;6.1;5.3;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.8;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-171;3.0;A;Escola Pública;Ingressante;Ametista;8.036;8.8;8.9;7.5;7.5;8.3;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não avaliado;Sim;9.0;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-173;5.0;F;Escola Pública;Veterano;Ágata;6.532;9.6;6.7;5.0;4.9;7.7;Mantido na Fase atual;Mantido na Fase + Bolsa;Promovido de Fase;Mantido na Fase atual;Não;7.5;5.0;Nível 7 (3o EM);-2.0;2021
+ALUNO-176;2.0;I;Escola Pública;Veterano;Ágata;5.674;7.5;6.3;5.0;4.3;6.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-177;0.0;L;Escola Pública;Ingressante;Ametista;7.196;9.0;8.3;7.5;4.6;6.9;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.3;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-184;2.0;I;Escola Pública;Ingressante;Ametista;7.896;8.5;9.2;7.5;5.6;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.0;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-185;0.0;M;Escola Pública;Ingressante;Ametista;7.906;8.0;10.0;7.5;5.4;7.2;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.8;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-188;3.0;C;Escola Pública;Veterano;Ágata;6.435;7.1;5.8;7.5;4.7;8.1;Promovido de Fase;Promovido de Fase + Bolsa;Mantido na Fase atual;Não avaliado;Não;7.8;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-193;3.0;F;Escola Pública;Veterano;Ametista;8.215;9.2;10.0;5.6;7.7;7.9;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Não avaliado;Sim;9.6;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-197;3.0;G;Rede Decisão;Veterano;Ametista;7.751;8.3;7.2;7.5;6.0;8.1;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.6;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-200;4.0;F;Escola Pública;Veterano;Quartzo;4.788;7.5;1.7;6.9;3.3;6.7;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;3.5;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-201;4.0;L;Escola Pública;Veterano;Ágata;5.636;5.8;5.6;0.0;6.4;8.3;Promovido de Fase;Promovido de Fase;Não avaliado;Promovido de Fase;Não;6.7;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-206;7.0;A;Escola Pública;Veterano;Quartzo;5.143;8.8;4.2;0.0;2.0;7.7;Mantido na Fase atual;Promovido de Fase + Bolsa;Não avaliado;Mantido na Fase atual;Não;6.3;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-207;3.0;H;Escola Pública;Ingressante;Quartzo;5.504;8.3;3.9;6.9;5.3;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.4;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-208;2.0;D;Escola Pública;Veterano;Ágata;6.45;7.0;6.3;7.5;4.5;7.5;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.0;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-209;1.0;N;Escola Pública;Veterano;Ametista;7.167;8.5;7.9;7.5;4.2;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Sim;9.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-212;0.0;M;Escola Pública;Veterano;Ágata;5.663;9.5;8.3;5.0;4.3;2.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;4.7;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-213;3.0;C;Escola Pública;Veterano;Topázio;8.761;9.6;9.4;7.5;7.5;8.8;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;8.9;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-217;1.0;G;Escola Pública;Veterano;Ametista;7.765;8.5;8.8;7.5;7.1;8.1;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.4;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-218;0.0;T;Escola Pública;Ingressante;Topázio;8.821;9.5;10.0;7.5;6.9;8.1;Promovido de Fase;Promovido de Fase;Não avaliado;Não avaliado;Sim;9.7;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-219;2.0;K;Escola Pública;Veterano;Quartzo;4.176;0.0;4.2;6.9;1.9;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-221;3.0;A;Escola Pública;Ingressante;Quartzo;4.442;9.2;2.8;7.5;1.8;5.8;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;3.9;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-225;5.0;B;Rede Decisão;Veterano;Ametista;7.138;8.3;6.7;6.9;6.0;7.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;6.7;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-226;2.0;G;Rede Decisão;Veterano;Quartzo;4.617;0.0;4.2;5.6;4.3;7.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-229;0.0;Q;Escola Pública;Ingressante;Quartzo;5.054;8.5;0.0;7.5;4.0;6.9;Não avaliado;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.3;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-231;7.0;A;Escola Pública;Veterano;Ametista;7.698;9.2;8.6;6.9;5.4;8.0;Mantido na Fase atual;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase + Bolsa;Não;7.5;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-232;5.0;B;Escola Pública;Ingressante;Ametista;7.331;8.3;7.2;7.5;6.7;8.3;Promovido de Fase + Bolsa;Mantido na Fase atual;Promovido de Fase + Bolsa;Promovido de Fase;Não;8.2;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-235;3.0;B;Rede Decisão;Veterano;Ametista;7.544;9.2;6.9;5.6;6.6;7.3;Promovido de Fase + Bolsa;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.1;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-238;2.0;H;Escola Pública;Veterano;Quartzo;3.663;8.5;1.3;4.4;2.1;5.0;Mantido na Fase atual;Não avaliado;Não avaliado;Não avaliado;Não;3.5;5.0;Nível 4 (9o ano);-2.0;2021
+ALUNO-240;3.0;D;Escola Pública;Ingressante;Ametista;7.629;8.8;6.1;7.5;6.9;7.3;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.4;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-241;2.0;I;Escola Pública;Veterano;Quartzo;2.86;7.9;0.4;5.6;0.0;4.1;Alocado em Fase anterior;Mantido na Fase atual;Não avaliado;Não avaliado;Não;2.6;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-242;2.0;I;Escola Pública;Veterano;Ágata;5.833;8.5;5.4;7.5;2.9;7.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-243;0.0;O;Escola Pública;Ingressante;Ágata;6.354;8.5;5.0;7.5;3.2;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.8;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-246;1.0;R;Escola Pública;Veterano;Ametista;7.013;9.0;8.8;5.6;4.6;8.5;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;7.7;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-247;0.0;T;Escola Pública;Ingressante;Ametista;8.013;10.0;8.3;7.5;6.8;8.1;Promovido de Fase;Promovido de Fase;Não avaliado;Não avaliado;Sim;9.7;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-249;1.0;B;Escola Pública;Ingressante;Ágata;6.025;8.5;7.9;7.5;2.1;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-251;2.0;N;Escola Pública;Veterano;Ametista;7.976;9.0;6.7;7.5;7.3;8.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.4;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-252;0.0;M;Escola Pública;Ingressante;Ametista;7.473;10.0;10.0;7.5;5.9;7.2;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.6;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-258;0.0;Q;Escola Pública;Ingressante;Ágata;6.283;7.8;10.0;7.5;5.3;2.5;Alocado em Fase anterior;Mantido na Fase atual;Não avaliado;Não avaliado;Não;4.8;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-260;0.0;Q;Escola Pública;Ingressante;Ágata;6.75;9.5;6.7;7.5;4.5;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.8;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-261;4.0;A;Escola Pública;Veterano;Ametista;6.899;9.2;7.8;7.5;5.9;8.4;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não;7.0;2.5;Nível 8 (Universitários);-4.0;2021
+ALUNO-262;6.0;C;Rede Decisão;Veterano;Ametista;7.903;9.2;6.9;7.5;7.7;7.8;Mantido na Fase atual;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.7;10.0;Nível 6 (2o EM);0.0;2021
+ALUNO-263;6.0;A;Rede Decisão;Veterano;Ametista;7.694;7.9;7.8;7.5;6.5;8.0;Promovido de Fase;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.5;10.0;Nível 6 (2o EM);0.0;2021
+ALUNO-266;2.0;B;Escola Pública;Veterano;Ametista;7.892;9.0;8.3;6.3;6.8;7.5;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.0;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-267;4.0;G;Rede Decisão;Ingressante;Ametista;8.014;9.2;8.9;6.3;8.2;8.3;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;8.6;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-271;3.0;J;Escola Pública;Ingressante;Ágata;6.429;9.6;5.0;7.5;4.3;7.7;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;5.5;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-273;1.0;R;Escola Pública;Veterano;Quartzo;4.125;9.5;2.1;7.5;0.0;6.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.4;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-274;5.0;A;Escola Pública;Veterano;Ágata;6.88;7.1;7.8;7.5;6.1;7.7;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;6.9;5.0;Nível 7 (3o EM);-2.0;2021
+ALUNO-275;3.0;M;Escola Pública;Veterano;Ágata;5.815;8.8;5.8;6.3;3.4;6.9;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.4;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-277;1.0;E;Escola Pública;Veterano;Ametista;8.183;9.5;10.0;7.5;7.8;8.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;7.8;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-282;5.0;B;Escola Pública;Ingressante;Topázio;8.544;9.2;9.7;7.5;8.8;8.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Sim;9.0;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-283;5.0;A;Escola Pública;Ingressante;Topázio;8.531;8.8;9.4;7.5;8.7;8.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.5;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-288;3.0;B;Rede Decisão;Veterano;Ametista;8.088;8.3;7.5;7.5;7.7;7.3;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.7;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-293;5.0;F;Escola Pública;Veterano;Quartzo;3.08;0.0;3.9;0.0;0.0;5.9;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;3.5;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-294;0.0;K;Escola Pública;Ingressante;Topázio;8.994;9.5;10.0;7.5;7.3;8.4;Mantido na Fase + Bolsa;Mantido na Fase + Bolsa;Não avaliado;Não avaliado;Sim;10.0;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-295;1.0;A;Escola Pública;Veterano;Ágata;6.771;9.0;7.1;7.5;6.9;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.3;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-296;2.0;B;Escola Pública;Veterano;Ametista;7.221;9.5;7.9;7.5;3.6;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.4;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-297;3.0;J;Escola Pública;Veterano;Quartzo;4.894;8.8;3.3;5.6;2.8;7.7;Mantido na Fase atual;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;6.1;2.5;Nível 6 (2o EM);-3.0;2021
+ALUNO-301;2.0;J;Escola Pública;Veterano;Topázio;8.289;9.0;9.2;7.5;6.3;8.5;Mantido na Fase + Bolsa;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.4;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-303;0.0;M;Escola Pública;Ingressante;Ametista;7.767;8.5;8.3;7.5;6.8;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.0;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-305;3.0;J;Rede Decisão;Veterano;Ametista;7.315;7.9;7.8;5.6;7.5;7.5;Promovido de Fase + Bolsa;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-310;0.0;L;Escola Pública;Ingressante;Ametista;7.165;9.0;8.3;7.5;4.6;6.6;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.3;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-312;2.0;J;Rede Decisão;Veterano;Ametista;7.946;9.0;9.6;4.4;7.8;8.8;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-313;0.0;P;Escola Pública;Veterano;Ametista;7.375;9.5;8.3;5.0;6.3;8.1;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.4;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-315;5.0;A;Rede Decisão;Veterano;Topázio;8.909;8.8;9.2;7.5;8.2;8.6;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.8;10.0;Nível 4 (9o ano);1.0;2021
+ALUNO-319;2.0;B;Escola Pública;Veterano;Ametista;7.821;7.5;9.6;6.9;8.2;7.3;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.0;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-321;7.0;A;Rede Decisão;Veterano;Ametista;7.891;8.3;7.5;5.6;7.6;8.3;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não;8.3;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-323;1.0;B;Rede Decisão;Veterano;Quartzo;4.976;7.4;7.1;4.4;3.3;3.8;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.3;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-324;7.0;A;Rede Decisão;Veterano;Topázio;8.252;8.3;8.1;6.9;7.9;8.3;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não;8.6;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-331;0.0;R;Escola Pública;Ingressante;Topázio;8.923;9.0;10.0;7.5;7.3;8.4;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não avaliado;Não avaliado;Sim;9.8;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-332;1.0;G;Escola Pública;Veterano;Topázio;8.342;9.0;9.6;7.5;7.4;8.3;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Sim;9.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-336;0.0;I;Escola Pública;Veterano;Ametista;7.533;9.0;10.0;6.3;6.9;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.9;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-337;5.0;B;Rede Decisão;Veterano;Ametista;7.661;7.5;8.1;7.5;7.3;8.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;8.5;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-339;3.0;C;Escola Pública;Veterano;Ametista;7.676;8.8;8.1;7.5;6.2;8.5;Promovido de Fase;Promovido de Fase + Bolsa;Mantido na Fase atual;Não avaliado;Sim;9.2;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-340;3.0;C;Escola Pública;Veterano;Ametista;7.8;8.8;8.1;7.5;7.0;8.3;Promovido de Fase;Promovido de Fase + Bolsa;Mantido na Fase atual;Não avaliado;Sim;9.1;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-342;2.0;B;Rede Decisão;Veterano;Ametista;7.392;8.5;6.7;7.5;7.6;7.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.4;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-343;5.0;L;Escola Pública;Veterano;Ametista;7.07;8.3;8.1;6.9;6.0;8.0;Promovido de Fase + Bolsa;Mantido na Fase atual;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;7.2;5.0;Nível 7 (3o EM);-2.0;2021
+ALUNO-345;1.0;F;Escola Pública;Veterano;Ágata;6.764;9.5;5.0;7.5;4.2;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.3;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-346;1.0;A;Escola Pública;Veterano;Quartzo;4.925;7.9;3.8;7.5;0.0;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;4.4;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-348;1.0;F;Escola Pública;Veterano;Ametista;7.558;10.0;8.8;7.5;6.4;7.7;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.5;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-349;1.0;C;Escola Pública;Veterano;Quartzo;4.414;8.0;3.3;7.5;0.4;6.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.6;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-352;4.0;F;Escola Pública;Ingressante;Ágata;5.783;7.5;3.6;7.5;3.5;7.2;Promovido de Fase;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não;5.7;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-357;3.0;M;Escola Pública;Ingressante;Ágata;6.854;8.3;5.3;7.5;5.9;7.3;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.6;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-359;2.0;E;Escola Pública;Veterano;Ametista;7.326;8.0;5.0;7.5;8.0;8.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Sim;9.1;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-363;0.0;O;Escola Pública;Ingressante;Ametista;8.231;10.0;8.3;7.5;6.5;7.8;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.7;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-364;2.0;A;Escola Pública;Veterano;Ágata;6.306;0.0;7.5;4.4;4.7;7.1;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.6;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-365;6.0;C;Rede Decisão;Veterano;Ametista;7.376;9.2;6.9;5.0;6.5;6.9;Mantido na Fase atual;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.9;10.0;Nível 6 (2o EM);0.0;2021
+ALUNO-367;4.0;F;Escola Pública;Veterano;Ágata;6.392;7.9;4.4;7.5;4.8;7.0;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;6.5;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-370;3.0;G;Escola Pública;Veterano;Ametista;8.196;7.9;8.9;6.3;9.1;9.0;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;8.9;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-372;2.0;E;Escola Pública;Veterano;Ágata;6.36;8.0;5.4;7.5;4.9;7.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;7.4;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-373;4.0;L;Escola Pública;Veterano;Quartzo;4.712;9.2;4.4;5.6;1.5;7.2;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;4.2;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-374;7.0;A;Escola Pública;Ingressante;Topázio;8.276;9.6;9.4;7.5;6.4;8.1;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não;7.9;10.0;ERRO;0.0;2021
+ALUNO-375;2.0;B;Rede Decisão;Veterano;Topázio;8.858;9.5;10.0;7.5;8.1;7.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.9;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-376;4.0;A;Escola Pública;Ingressante;Quartzo;5.216;8.8;5.8;0.0;3.9;7.7;Promovido de Fase + Bolsa;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;5.7;5.0;Nível 6 (2o EM);-2.0;2021
+ALUNO-377;3.0;G;Rede Decisão;Veterano;Ametista;7.11;8.8;7.5;5.6;4.2;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.9;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-378;6.0;C;Rede Decisão;Veterano;Ametista;7.441;6.7;7.8;4.4;7.7;7.8;Promovido de Fase;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.3;10.0;Nível 6 (2o EM);0.0;2021
+ALUNO-379;4.0;E;Escola Pública;Veterano;Quartzo;4.151;10.0;2.8;5.0;1.7;5.6;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Alocado em Fase anterior;Não;3.5;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-381;0.0;I;Escola Pública;Veterano;Ametista;7.052;9.5;8.3;6.3;6.1;7.8;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.6;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-383;0.0;R;Escola Pública;Ingressante;Ametista;6.915;9.5;5.8;7.5;6.3;7.2;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.8;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-384;1.0;C;Escola Pública;Ingressante;Ametista;7.418;8.5;9.2;8.8;3.6;8.1;Promovido de Fase;Promovido de Fase;Mantido na Fase + Bolsa;Não avaliado;Sim;9.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-385;3.0;M;Escola Pública;Veterano;Quartzo;5.435;8.8;3.9;7.5;2.6;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.4;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-387;3.0;R;Escola Pública;Veterano;Ágata;6.19;7.9;5.8;5.0;6.6;7.3;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;5.9;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-388;2.0;C;Escola Pública;Veterano;Ágata;6.007;9.5;3.8;7.5;3.8;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-389;6.0;A;Rede Decisão;Veterano;Ametista;8.201;8.3;8.6;6.3;9.0;9.4;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;8.9;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-393;2.0;F;Escola Pública;Veterano;Ametista;7.26;9.0;6.7;7.5;7.4;8.1;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.4;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-394;4.0;F;Rede Decisão;Veterano;Ágata;6.053;7.1;5.3;6.9;5.2;7.2;Promovido de Fase;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não;6.7;5.0;Nível 6 (2o EM);-2.0;2021
+ALUNO-396;5.0;A;Escola Pública;Veterano;Ametista;7.593;7.9;8.1;7.5;7.2;7.7;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;8.7;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-397;3.0;B;Rede Decisão;Veterano;Quartzo;4.257;6.7;2.8;3.1;2.5;4.6;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;3.8;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-400;1.0;C;Escola Pública;Veterano;Quartzo;3.729;0.0;3.3;5.6;1.2;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-403;3.0;D;Escola Pública;Ingressante;Ametista;7.878;9.2;7.2;7.5;6.4;7.9;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.5;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-404;4.0;G;Rede Decisão;Veterano;Topázio;8.499;8.8;9.2;7.5;7.4;8.9;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;8.3;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-405;0.0;S;Escola Pública;Ingressante;Ametista;7.767;8.5;8.3;7.5;6.0;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.8;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-406;1.0;A;Escola Pública;Veterano;Ágata;6.868;9.0;8.3;6.9;6.4;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.4;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-407;4.0;G;Rede Decisão;Veterano;Topázio;8.475;8.3;8.9;7.5;6.6;9.2;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.4;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-408;1.0;C;Escola Pública;Veterano;Topázio;8.699;9.0;9.2;8.8;7.2;8.8;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.9;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-416;2.0;H;Escola Pública;Veterano;Ametista;7.349;9.0;8.8;4.4;6.9;7.3;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.2;5.0;Nível 4 (9o ano);-2.0;2021
+ALUNO-421;4.0;F;Escola Pública;Veterano;Ágata;6.624;9.2;5.8;7.5;5.8;7.7;Promovido de Fase;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não;6.9;5.0;Nível 6 (2o EM);-2.0;2021
+ALUNO-422;0.0;Q;Escola Pública;Ingressante;Ametista;7.965;9.0;10.0;7.5;7.2;8.4;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.7;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-423;5.0;F;Escola Pública;Ingressante;Quartzo;3.146;0.0;1.7;5.0;1.5;6.9;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;4.2;5.0;Nível 7 (3o EM);-2.0;2021
+ALUNO-424;2.0;I;Escola Pública;Veterano;Ágata;5.99;9.0;5.0;7.5;4.5;7.3;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;6.1;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-425;3.0;F;Escola Pública;Veterano;Ágata;6.642;9.2;6.4;7.5;5.5;7.1;Promovido de Fase + Bolsa;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;6.9;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-432;0.0;I;Escola Pública;Veterano;Quartzo;4.946;9.0;6.7;5.0;2.6;2.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;4.8;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-435;5.0;B;Escola Pública;Veterano;Quartzo;4.169;6.7;4.7;0.0;3.0;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Promovido de Fase;Não;3.5;5.0;Nível 7 (3o EM);-2.0;2021
+ALUNO-436;2.0;J;Escola Pública;Ingressante;Ametista;7.743;9.5;8.8;7.5;6.3;8.5;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.4;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-437;2.0;P;Escola Pública;Veterano;Ágata;6.482;8.5;5.0;7.5;4.0;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.6;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-438;5.0;B;Escola Pública;Ingressante;Ágata;5.756;9.2;5.3;7.5;2.8;7.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;6.1;5.0;Nível 7 (3o EM);-2.0;2021
+ALUNO-440;5.0;B;Escola Pública;Ingressante;Ametista;7.382;8.3;8.1;7.5;6.7;8.1;Promovido de Fase;Mantido na Fase atual;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.7;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-441;2.0;R;Escola Pública;Veterano;Ametista;7.571;9.0;7.9;6.3;7.8;8.1;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.0;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-442;1.0;F;Escola Pública;Veterano;Quartzo;5.188;8.5;4.2;7.5;0.7;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-444;1.0;J;Escola Pública;Ingressante;Ágata;6.469;9.5;4.2;7.5;5.1;8.1;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-447;1.0;J;Escola Pública;Veterano;Ametista;7.69;9.5;9.6;5.0;6.4;7.9;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.7;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-448;3.0;R;Escola Pública;Veterano;Ametista;7.85;9.2;7.8;7.5;6.3;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.1;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-449;2.0;N;Escola Pública;Veterano;Ametista;7.653;8.5;7.5;7.5;4.9;8.5;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.6;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-450;5.0;A;Escola Pública;Ingressante;Ametista;7.196;7.1;7.5;7.5;6.3;8.1;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;8.3;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-451;1.0;E;Escola Pública;Veterano;Ágata;5.667;8.5;5.0;7.5;1.0;8.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.7;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-452;1.0;G;Escola Pública;Ingressante;Ametista;7.118;7.0;8.8;7.5;4.8;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-455;2.0;F;Escola Pública;Veterano;Ametista;7.154;8.5;7.1;7.5;4.9;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.2;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-463;4.0;G;Rede Decisão;Veterano;Topázio;8.292;9.6;8.3;7.5;7.0;8.8;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;8.2;10.0;Nível 3 (7o e 8o ano);1.0;2021
+ALUNO-465;0.0;S;Escola Pública;Ingressante;Ametista;8.123;8.5;10.0;7.5;7.6;7.8;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.6;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-468;2.0;N;Escola Pública;Ingressante;Ágata;6.583;7.0;6.3;7.5;3.6;7.7;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.0;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-469;4.0;A;Rede Decisão;Veterano;Ágata;6.759;6.3;6.7;7.5;6.4;7.3;Promovido de Fase;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não;5.2;10.0;Nível 3 (7o e 8o ano);1.0;2021
+ALUNO-474;2.0;H;Escola Pública;Veterano;Ametista;7.215;9.0;7.5;7.5;4.6;7.1;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.2;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-477;2.0;L;Escola Pública;Veterano;Quartzo;5.185;0.0;5.8;7.5;4.3;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.9;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-482;2.0;F;Rede Decisão;Veterano;Topázio;9.021;10.0;10.0;7.5;9.1;9.8;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não avaliado;Sim;9.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-483;2.0;G;Rede Decisão;Veterano;Ametista;7.644;9.5;8.3;5.0;8.1;7.9;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.1;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-485;3.0;D;Escola Pública;Ingressante;Ágata;6.387;7.1;6.1;7.5;5.0;7.3;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.4;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-486;2.0;C;Escola Pública;Ingressante;Quartzo;5.511;0.0;6.3;7.5;6.0;6.7;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-487;0.0;S;Escola Pública;Veterano;Ametista;7.44;10.0;6.7;7.5;7.1;7.8;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.3;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-488;3.0;R;Escola Pública;Veterano;Ágata;5.539;8.3;5.3;7.5;3.0;7.1;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;5.5;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-490;4.0;A;Rede Decisão;Ingressante;Ametista;7.044;8.8;7.8;6.9;6.5;7.3;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Mantido na Fase atual;Não;7.0;5.0;Nível 6 (2o EM);-2.0;2021
+ALUNO-494;1.0;C;Escola Pública;Ingressante;Topázio;8.268;9.5;9.2;7.5;7.2;8.8;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Sim;9.6;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-496;4.0;A;Rede Decisão;Ingressante;Ametista;7.895;9.6;6.7;7.5;7.5;8.3;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Mantido na Fase atual;Não;7.7;10.0;Nível 3 (7o e 8o ano);1.0;2021
+ALUNO-497;2.0;K;Escola Pública;Ingressante;Ametista;7.599;9.0;8.3;7.5;6.6;8.1;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.2;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-498;3.0;H;Escola Pública;Ingressante;Ágata;5.735;9.6;3.9;5.0;3.8;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.1;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-499;2.0;A;Rede Decisão;Veterano;Ametista;7.497;9.0;7.1;7.5;7.1;7.5;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-500;7.0;A;Rede Decisão;Veterano;Ametista;7.878;9.2;8.9;5.6;6.4;8.1;Promovido de Fase + Bolsa;Mantido na Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não;7.6;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-502;4.0;G;Escola Pública;Veterano;Ágata;6.853;10.0;4.7;7.5;3.9;8.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.5;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-503;0.0;J;Escola Pública;Ingressante;Ametista;8.008;9.5;10.0;7.5;6.9;7.5;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.4;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-507;4.0;E;Escola Pública;Veterano;Ágata;5.58;9.6;3.9;5.0;2.8;7.2;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não;5.3;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-511;0.0;S;Escola Pública;Ingressante;Ametista;7.296;7.5;8.3;7.5;6.6;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.8;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-512;4.0;A;Rede Decisão;Veterano;Ametista;7.972;8.3;8.6;7.5;7.0;8.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.5;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-513;1.0;F;Escola Pública;Veterano;Ametista;7.285;8.5;7.5;7.5;6.1;7.7;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.4;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-518;7.0;A;Rede Decisão;Veterano;Ametista;7.971;9.6;6.7;7.5;7.9;8.1;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.7;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-520;3.0;L;Rede Decisão;Veterano;Topázio;8.414;7.9;9.7;5.6;7.2;9.0;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;8.9;10.0;Nível 2 (5o e 6o ano);1.0;2021
+ALUNO-521;2.0;E;Escola Pública;Veterano;Ametista;7.254;9.5;4.6;7.5;5.3;8.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.7;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-522;2.0;P;Escola Pública;Veterano;Ágata;5.868;8.5;4.2;7.5;3.8;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.1;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-523;3.0;D;Escola Pública;Ingressante;Ametista;7.082;7.9;5.6;7.5;6.4;6.9;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.3;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-524;1.0;E;Escola Pública;Veterano;Topázio;8.494;9.5;9.2;7.5;8.4;8.8;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não avaliado;Sim;9.6;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-526;1.0;F;Escola Pública;Ingressante;Ametista;7.626;8.5;8.8;7.5;7.8;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.3;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-527;6.0;C;Rede Decisão;Veterano;Ametista;7.62;9.2;7.2;7.5;7.1;8.6;Promovido de Fase + Bolsa;Mantido na Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;8.7;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-529;1.0;N;Escola Pública;Ingressante;Ametista;8.09;8.0;9.6;7.5;8.0;8.1;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.6;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-531;5.0;A;Escola Pública;Veterano;Ametista;7.223;8.8;8.3;7.5;5.7;7.8;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;7.5;5.0;Nível 7 (3o EM);-2.0;2021
+ALUNO-533;3.0;B;Escola Pública;Veterano;Ágata;5.956;9.2;5.3;7.5;4.9;7.8;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;4.9;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-536;1.0;R;Escola Pública;Ingressante;Quartzo;4.586;8.0;1.7;7.5;3.1;6.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.6;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-537;0.0;M;Escola Pública;Ingressante;Quartzo;4.808;6.3;4.2;7.5;3.4;5.0;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;4.6;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-538;2.0;J;Escola Pública;Ingressante;Quartzo;4.824;9.0;5.0;5.0;1.1;5.2;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.9;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-540;2.0;I;Escola Pública;Veterano;Ágata;6.078;8.5;5.4;7.5;4.5;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.2;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-541;4.0;L;Rede Decisão;Veterano;Ametista;7.835;9.2;6.9;7.5;6.8;8.1;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não;8.0;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-542;0.0;R;Escola Pública;Ingressante;Ametista;7.565;8.0;8.3;7.5;7.0;7.8;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.3;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-544;2.0;R;Escola Pública;Veterano;Ametista;7.292;9.0;7.9;6.3;6.7;8.1;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;7.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-546;6.0;A;Escola Pública;Veterano;Ágata;5.728;10.0;7.2;2.5;4.0;4.6;Não avaliado;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não;6.3;5.0;Nível 8 (Universitários);-2.0;2021
+ALUNO-547;4.0;G;Escola Pública;Veterano;Ágata;6.8;7.5;6.4;6.3;7.1;8.0;Promovido de Fase + Bolsa;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não;7.1;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-548;0.0;S;Escola Pública;Ingressante;Topázio;8.431;9.5;10.0;7.5;5.3;7.8;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;9.5;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-550;0.0;S;Escola Pública;Ingressante;Ametista;7.873;10.0;8.3;7.5;6.9;7.2;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;9.3;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-555;2.0;J;Escola Pública;Veterano;Topázio;8.489;7.4;10.0;8.1;6.6;8.5;Mantido na Fase + Bolsa;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.8;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-557;2.0;M;Escola Pública;Veterano;Ametista;7.543;9.0;8.3;6.9;5.9;8.1;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.9;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-560;2.0;N;Escola Pública;Veterano;Ágata;6.489;9.5;4.6;7.5;3.2;8.1;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.1;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-561;3.0;G;Escola Pública;Veterano;Quartzo;4.74;7.9;1.1;7.5;4.0;6.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.9;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-562;2.0;L;Rede Decisão;Veterano;Topázio;8.418;7.5;7.9;7.5;9.2;8.8;Promovido de Fase + Bolsa;Mantido na Fase + Bolsa;Mantido na Fase atual;Não avaliado;Não;8.1;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-563;0.0;T;Escola Pública;Ingressante;Topázio;8.371;9.5;10.0;7.5;7.1;8.1;Promovido de Fase;Promovido de Fase;Não avaliado;Não avaliado;Sim;9.7;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-564;4.0;E;Escola Pública;Ingressante;Ágata;5.755;10.0;3.9;7.5;2.8;7.2;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;4.8;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-565;1.0;N;Escola Pública;Ingressante;Topázio;8.385;10.0;8.8;7.5;5.8;8.1;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Sim;9.6;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-566;5.0;B;Escola Pública;Ingressante;Ametista;8.133;8.8;7.8;7.5;7.9;8.4;Promovido de Fase;Mantido na Fase atual;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.6;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-567;0.0;Q;Escola Pública;Ingressante;Ágata;6.885;8.0;5.8;7.5;5.0;7.2;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.3;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-569;1.0;B;Escola Pública;Ingressante;Topázio;8.644;10.0;10.0;7.5;7.0;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.7;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-570;1.0;R;Escola Pública;Veterano;Quartzo;5.049;9.5;3.3;7.5;2.0;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.1;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-571;3.0;D;Escola Pública;Ingressante;Ametista;7.246;6.7;7.2;7.5;7.6;7.7;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.9;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-572;0.0;Q;Escola Pública;Ingressante;Topázio;8.681;7.5;10.0;7.5;6.7;8.4;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;10.0;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-574;6.0;C;Escola Pública;Veterano;Ametista;7.336;8.8;8.6;7.5;5.7;8.0;Mantido na Fase atual;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.8;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-578;0.0;Q;Escola Pública;Ingressante;Ametista;7.49;8.5;6.7;7.5;5.2;7.2;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;9.0;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-579;2.0;H;Escola Pública;Veterano;Ametista;7.332;8.5;6.3;7.5;5.4;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.2;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-583;4.0;A;Escola Pública;Veterano;Ágata;6.535;6.7;5.6;7.5;5.8;7.7;Promovido de Fase;Mantido na Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não;7.9;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-584;1.0;C;Escola Pública;Ingressante;Ametista;7.039;9.0;8.8;7.5;2.7;8.1;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.9;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-585;2.0;F;Escola Pública;Veterano;Quartzo;2.735;0.0;1.3;4.4;0.4;6.6;Mantido na Fase atual;Não avaliado;Mantido na Fase atual;Não avaliado;Não;5.3;2.5;Nível 5 (1o EM);-3.0;2021
+ALUNO-586;1.0;J;Escola Pública;Veterano;Ametista;8.019;8.5;9.6;7.5;7.1;8.1;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.9;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-588;1.0;E;Escola Pública;Veterano;Topázio;8.881;10.0;9.6;7.5;7.8;8.8;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.9;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-589;1.0;R;Escola Pública;Veterano;Ametista;7.413;7.4;8.3;7.5;6.4;8.1;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-594;1.0;C;Escola Pública;Veterano;Ametista;7.476;9.5;9.2;7.5;4.8;7.9;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.4;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-595;0.0;S;Escola Pública;Ingressante;Topázio;8.806;9.5;10.0;7.5;6.9;7.8;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;9.8;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-596;1.0;N;Escola Pública;Ingressante;Ágata;6.374;10.0;6.7;7.5;3.0;8.1;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.9;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-602;1.0;E;Escola Pública;Ingressante;Quartzo;4.94;0.0;4.6;7.5;2.3;8.4;Mantido na Fase atual;Não avaliado;Mantido na Fase atual;Não avaliado;Não;7.3;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-603;1.0;R;Escola Pública;Veterano;Ágata;5.787;0.0;9.2;3.1;3.3;8.1;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-608;4.0;A;Escola Pública;Veterano;Ametista;7.31;7.1;7.2;5.0;8.5;7.7;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não;8.5;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-610;5.0;B;Escola Pública;Ingressante;Ametista;6.913;8.8;6.4;7.5;5.8;8.4;Promovido de Fase;Mantido na Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;7.5;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-613;1.0;R;Escola Pública;Veterano;Ametista;7.196;9.5;9.2;3.1;5.5;8.3;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-615;1.0;B;Escola Pública;Veterano;Topázio;8.358;9.0;8.8;7.5;7.4;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.7;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-617;0.0;T;Escola Pública;Ingressante;Topázio;8.583;9.0;10.0;7.5;5.9;8.1;Promovido de Fase;Promovido de Fase;Não avaliado;Não avaliado;Sim;9.7;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-619;2.0;N;Escola Pública;Veterano;Ágata;6.682;7.9;5.0;7.5;4.6;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.2;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-620;1.0;C;Escola Pública;Ingressante;Quartzo;2.942;0.0;1.3;7.5;0.0;6.3;Mantido na Fase atual;Não avaliado;Mantido na Fase atual;Não avaliado;Não;4.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-622;3.0;F;Escola Pública;Veterano;Quartzo;5.193;10.0;3.6;7.5;0.7;6.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.5;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-624;3.0;F;Escola Pública;Veterano;Ágata;5.742;7.1;5.0;7.5;5.1;7.1;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.5;2.5;Nível 6 (2o EM);-3.0;2021
+ALUNO-627;0.0;S;Escola Pública;Ingressante;Ametista;7.442;8.0;8.3;7.5;6.9;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.0;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-628;0.0;O;Escola Pública;Ingressante;Ametista;7.438;9.0;8.3;7.5;5.9;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.4;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-632;0.0;S;Escola Pública;Ingressante;Ágata;5.888;9.0;5.0;7.5;3.4;7.5;Mantido na Fase atual;Não avaliado;Não avaliado;Não avaliado;Não;6.5;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-634;1.0;A;Escola JP II;Veterano;Quartzo;3.754;6.3;2.1;6.3;2.4;4.4;Não avaliado;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;3.3;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-635;5.0;F;Escola Pública;Veterano;Quartzo;4.494;4.6;3.3;5.0;4.8;5.9;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;4.0;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-638;2.0;I;Escola Pública;Veterano;Ágata;6.783;8.5;6.3;6.9;6.1;7.5;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.7;5.0;Nível 4 (9o ano);-2.0;2021
+ALUNO-642;1.0;C;Escola Pública;Veterano;Ametista;7.082;8.5;7.5;6.3;6.4;6.9;Alocado em Fase anterior;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-644;2.0;A;Rede Decisão;Veterano;Topázio;9.163;10.0;10.0;5.0;9.4;8.5;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.7;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-645;0.0;J;Escola Pública;Veterano;Ágata;6.633;10.0;6.7;7.5;5.3;7.5;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.2;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-646;2.0;D;Escola Pública;Veterano;Ametista;7.396;9.0;7.9;7.5;6.6;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-647;2.0;R;Escola Pública;Veterano;Quartzo;3.868;9.5;1.7;5.0;0.0;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-653;0.0;M;Escola Pública;Ingressante;Ametista;6.942;9.0;5.8;7.5;4.9;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.0;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-657;2.0;P;Escola Pública;Veterano;Ametista;8.046;9.5;6.3;7.5;8.5;9.0;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Não avaliado;Sim;10.0;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-658;0.0;N;Escola Pública;Ingressante;Ágata;5.615;9.5;4.2;7.5;2.8;7.8;Mantido na Fase atual;Mantido na Fase + Bolsa;Não avaliado;Não avaliado;Não;6.2;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-659;3.0;B;Escola Pública;Veterano;Quartzo;5.348;8.3;3.6;7.5;1.3;7.8;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;5.1;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-660;5.0;B;Escola Pública;Ingressante;Quartzo;5.336;8.3;4.7;0.0;5.3;7.9;Promovido de Fase + Bolsa;Mantido na Fase atual;Promovido de Fase + Bolsa;Não avaliado;Não;6.0;5.0;Nível 7 (3o EM);-2.0;2021
+ALUNO-663;2.0;D;Escola Pública;Veterano;Quartzo;5.479;7.8;2.9;7.5;3.3;6.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.2;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-664;5.0;A;Rede Decisão;Veterano;Topázio;8.681;10.0;8.6;7.5;9.3;8.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.9;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-668;2.0;J;Escola Pública;Veterano;Ágata;6.722;8.0;5.8;7.5;4.5;7.5;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;6.8;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-670;6.0;A;Rede Decisão;Veterano;Ametista;7.872;7.9;7.5;7.5;7.9;9.2;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.2;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-671;1.0;E;Escola Pública;Veterano;Ametista;7.963;9.0;9.6;6.3;7.4;8.3;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.5;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-672;1.0;N;Escola Pública;Veterano;Quartzo;5.411;9.5;3.3;7.5;2.3;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.6;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-675;5.0;B;Escola Pública;Ingressante;Quartzo;4.6;8.3;2.8;7.5;0.0;7.5;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase + Bolsa;Não avaliado;Não;3.6;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-681;2.0;C;Escola Pública;Veterano;Ágata;6.842;8.5;6.3;6.9;6.6;7.3;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Não;7.5;5.0;Nível 4 (9o ano);-2.0;2021
+ALUNO-682;1.0;N;Escola Pública;Veterano;Ametista;8.04;8.0;9.6;7.5;7.3;8.1;Mantido na Fase atual;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-685;0.0;P;Escola Pública;Veterano;Ágata;6.048;8.5;5.0;6.3;4.7;7.2;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.1;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-686;0.0;P;Escola Pública;Veterano;Ametista;6.917;9.5;5.8;7.5;6.5;7.5;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.5;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-687;3.0;C;Escola Pública;Ingressante;Quartzo;5.101;6.7;5.0;7.5;2.0;7.3;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;5.3;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-688;7.0;A;Escola Pública;Veterano;Ametista;7.738;8.3;9.7;5.6;8.3;7.8;Mantido na Fase atual;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.3;5.0;Nível 8 (Universitários);-1.0;2021
+ALUNO-689;2.0;B;Rede Decisão;Veterano;Ametista;7.908;8.5;9.2;7.5;7.9;7.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-690;0.0;N;Escola Pública;Ingressante;Ágata;6.042;9.0;8.3;0.0;4.9;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.2;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-693;0.0;P;Escola Pública;Veterano;Ágata;6.675;8.5;5.0;7.5;5.9;7.5;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.3;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-694;0.0;Q;Escola Pública;Ingressante;Topázio;8.665;9.5;10.0;7.5;7.3;7.8;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.7;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-695;0.0;J;Escola Pública;Veterano;Topázio;8.263;10.0;10.0;7.5;7.1;7.5;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;9.3;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-698;6.0;A;Escola Pública;Veterano;Ametista;7.294;7.9;8.1;5.6;7.2;8.1;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.9;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-700;2.0;I;Escola Pública;Veterano;Ágata;6.197;9.5;4.6;7.5;4.9;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-703;3.0;F;Escola Pública;Veterano;Ametista;7.106;9.2;6.7;7.5;6.3;7.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;7.9;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-706;2.0;I;Escola Pública;Veterano;Ametista;7.213;10.0;6.3;7.5;6.9;7.7;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Não;7.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-707;2.0;C;Escola Pública;Veterano;Ágata;6.814;9.5;7.1;7.5;5.4;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.1;2.5;Nível 5 (1o EM);-3.0;2021
+ALUNO-708;1.0;E;Escola Pública;Veterano;Ametista;7.286;9.0;9.2;7.5;5.1;8.3;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-709;1.0;R;Escola Pública;Ingressante;Ametista;7.449;8.5;8.3;7.5;5.8;8.5;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.4;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-710;2.0;B;Rede Decisão;Veterano;Topázio;8.713;9.5;9.2;7.5;8.3;8.3;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.4;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-713;2.0;R;Escola Pública;Veterano;Quartzo;5.129;0.0;6.3;6.9;2.6;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-716;2.0;G;Escola Pública;Veterano;Ametista;6.911;8.5;6.3;7.5;4.5;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.1;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-717;3.0;R;Escola Pública;Ingressante;Quartzo;5.494;8.8;4.7;7.5;3.3;7.1;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;5.3;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-721;2.0;I;Escola Pública;Veterano;Quartzo;5.029;9.5;3.8;5.6;2.5;6.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.5;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-722;1.0;M;Escola Pública;Ingressante;Topázio;8.271;10.0;10.0;7.5;6.9;8.1;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Sim;9.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-725;2.0;M;Escola Pública;Veterano;Quartzo;2.767;0.0;0.4;7.5;0.0;7.5;Mantido na Fase atual;Não avaliado;Mantido na Fase atual;Não avaliado;Não;3.4;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-726;0.0;M;Escola Pública;Ingressante;Ágata;5.981;8.4;4.2;7.5;3.4;7.2;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;5.7;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-729;4.0;E;Escola Pública;Ingressante;Ágata;5.686;6.7;3.9;7.5;5.8;7.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;5.4;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-730;5.0;F;Rede Decisão;Ingressante;Ágata;5.69;8.3;4.4;5.0;5.8;7.3;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;5.3;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-732;5.0;L;Rede Decisão;Veterano;Ametista;7.765;7.9;6.4;7.5;8.0;8.1;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não;7.7;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-733;3.0;L;Rede Decisão;Veterano;Ametista;6.89;8.8;6.4;6.3;4.4;7.7;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.3;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-736;0.0;N;Escola Pública;Ingressante;Quartzo;5.113;9.0;5.0;0.0;3.6;2.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.2;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-737;2.0;N;Escola Pública;Veterano;Ametista;7.431;9.0;7.1;7.5;6.9;8.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.1;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-738;3.0;J;Rede Decisão;Veterano;Ametista;8.042;9.2;7.8;6.3;8.1;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.9;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-739;3.0;A;Rede Decisão;Veterano;Ametista;8.085;9.2;8.1;8.8;7.6;8.1;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.2;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-740;0.0;P;Escola Pública;Veterano;Ágata;6.421;9.0;5.8;7.5;4.2;7.5;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.6;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-741;5.0;B;Escola Pública;Ingressante;Ametista;7.002;8.8;4.4;7.5;6.2;8.0;Promovido de Fase;Mantido na Fase atual;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;7.3;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-742;3.0;G;Escola Pública;Ingressante;Ametista;7.36;7.5;6.1;7.5;6.8;7.7;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;7.5;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-743;1.0;J;Escola Pública;Veterano;Ametista;8.061;10.0;8.8;5.0;6.4;7.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.7;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-746;2.0;G;Rede Decisão;Veterano;Topázio;9.107;9.0;8.8;8.8;9.3;8.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Sim;9.4;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-747;4.0;E;Escola Pública;Veterano;Topázio;8.675;8.8;8.9;7.5;7.4;9.2;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Sim;9.3;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-748;0.0;Q;Escola Pública;Ingressante;Ametista;7.985;10.0;10.0;7.5;6.4;7.8;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.3;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-749;4.0;G;Escola Pública;Veterano;Ágata;6.508;6.3;5.0;7.5;7.6;7.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não;6.8;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-753;4.0;E;Escola Pública;Veterano;Quartzo;4.785;8.3;2.5;7.5;0.8;7.2;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;4.1;10.0;Nível 3 (7o e 8o ano);1.0;2021
+ALUNO-755;4.0;G;Rede Decisão;Veterano;Ágata;6.872;7.1;4.7;6.9;6.8;7.8;Promovido de Fase;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não;7.0;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-757;3.0;A;Escola Pública;Veterano;Quartzo;5.421;7.9;5.3;7.5;2.9;7.3;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;5.1;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-758;2.0;K;Escola Pública;Veterano;Ametista;6.983;8.5;5.4;7.5;6.5;8.3;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-760;0.0;P;Escola Pública;Veterano;Ametista;7.36;8.0;5.8;7.5;6.8;7.8;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.5;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-763;1.0;F;Escola Pública;Ingressante;Ágata;6.546;7.5;7.1;7.5;3.2;7.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.5;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-766;5.0;A;Escola Pública;Ingressante;Ametista;7.44;9.2;7.5;7.5;6.5;7.8;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;8.4;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-768;3.0;G;Rede Decisão;Veterano;Ametista;8.065;8.3;9.2;6.3;8.4;8.1;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;8.9;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-769;3.0;B;Escola Pública;Ingressante;Topázio;8.401;9.6;7.2;7.5;8.5;7.7;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;8.9;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-773;2.0;F;Rede Decisão;Veterano;Topázio;8.921;9.5;10.0;7.5;8.9;9.8;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não avaliado;Sim;9.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-775;2.0;A;Escola Pública;Ingressante;Topázio;9.211;9.5;10.0;7.5;8.9;8.1;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.6;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-776;3.0;R;Escola Pública;Veterano;Quartzo;5.424;7.9;4.2;7.5;3.9;6.9;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;5.4;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-777;2.0;D;Escola Pública;Veterano;Quartzo;5.5;8.0;3.8;7.5;4.3;7.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;6.8;2.5;Nível 5 (1o EM);-3.0;2021
+ALUNO-781;3.0;M;Escola Pública;Veterano;Quartzo;5.45;8.8;3.1;7.5;3.3;6.7;Mantido na Fase atual;Alocado em Fase anterior;Mantido na Fase atual;Não avaliado;Não;4.4;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-783;2.0;K;Escola Pública;Veterano;Ágata;6.118;7.5;4.6;7.5;3.6;8.3;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-784;2.0;G;Rede Decisão;Ingressante;Topázio;8.533;9.5;9.2;8.8;7.9;8.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Sim;9.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-786;5.0;F;Escola Pública;Veterano;Quartzo;5.341;7.1;6.1;5.0;3.3;7.2;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;5.1;5.0;Nível 7 (3o EM);-2.0;2021
+ALUNO-790;4.0;A;Rede Decisão;Veterano;Topázio;8.65;10.0;8.3;7.5;7.5;8.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.3;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-792;2.0;I;Escola Pública;Veterano;Quartzo;5.531;6.3;5.8;5.0;4.1;7.5;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;5.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-793;1.0;E;Escola Pública;Veterano;Ágata;6.506;8.0;7.9;7.5;3.9;7.3;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;6.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-794;3.0;L;Rede Decisão;Veterano;Ametista;7.211;7.9;7.5;6.3;8.2;7.9;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;8.1;2.5;Nível 6 (2o EM);-3.0;2021
+ALUNO-796;4.0;E;Escola Pública;Veterano;Ágata;5.943;8.3;6.7;7.5;2.3;7.3;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;4.2;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-797;2.0;R;Escola Pública;Veterano;Quartzo;2.468;0.0;0.4;6.3;0.0;6.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.1;2.5;Nível 6 (2o EM);-4.0;2021
+ALUNO-798;3.0;R;Escola Pública;Ingressante;Ametista;7.25;9.2;7.5;7.5;6.5;7.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;7.7;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-802;0.0;Q;Escola Pública;Ingressante;Topázio;9.046;9.5;10.0;7.5;7.9;8.8;Promovido de Fase + Bolsa;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;9.4;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-803;0.0;K;Escola Pública;Veterano;Ametista;7.133;8.5;6.7;7.5;6.6;8.8;Mantido na Fase atual;Não avaliado;Não avaliado;Não avaliado;Não;7.5;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-805;1.0;J;Escola Pública;Ingressante;Ametista;6.993;8.5;5.8;7.5;5.1;8.1;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;6.9;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-807;1.0;E;Escola Pública;Veterano;Topázio;9.176;10.0;10.0;5.0;9.1;9.0;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não avaliado;Sim;9.8;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-809;1.0;G;Escola Pública;Ingressante;Quartzo;4.769;10.0;2.5;7.5;0.0;7.2;Não avaliado;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.5;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-811;2.0;B;Rede Decisão;Veterano;Ametista;7.196;8.0;8.3;7.5;6.3;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-812;0.0;Q;Escola Pública;Ingressante;Ametista;8.075;10.0;10.0;7.5;7.1;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.3;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-813;2.0;F;Escola Pública;Veterano;Ametista;7.275;9.0;7.5;7.5;3.9;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.8;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-814;2.0;E;Escola Pública;Veterano;Ágata;6.231;7.9;5.0;7.5;4.4;7.9;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.6;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-817;2.0;C;Escola Pública;Veterano;Ametista;7.549;9.0;7.5;7.5;7.6;7.9;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Sim;9.2;2.5;Nível 5 (1o EM);-3.0;2021
+ALUNO-818;0.0;O;Escola Pública;Ingressante;Ametista;6.958;8.0;6.7;7.5;4.4;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.3;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-820;5.0;B;Rede Decisão;Veterano;Ametista;8.073;8.8;6.1;7.5;8.2;8.6;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;8.7;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-822;0.0;T;Escola Pública;Ingressante;Topázio;8.758;9.5;10.0;7.5;6.6;8.1;Promovido de Fase;Promovido de Fase;Não avaliado;Não avaliado;Sim;9.7;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-823;2.0;N;Rede Decisão;Veterano;Ametista;7.207;8.5;7.1;7.5;3.9;7.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.1;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-824;1.0;M;Escola Pública;Veterano;Ametista;7.76;9.0;10.0;7.5;4.9;8.1;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Sim;9.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-825;3.0;M;Escola JP II;Veterano;Quartzo;4.286;7.9;2.8;6.3;1.2;6.3;Mantido na Fase atual;Alocado em Fase anterior;Mantido na Fase atual;Não avaliado;Não;4.8;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-826;2.0;L;Escola Pública;Veterano;Quartzo;4.186;0.0;2.5;7.5;1.0;7.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.2;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-827;0.0;S;Escola Pública;Ingressante;Ágata;6.733;9.0;5.0;7.5;6.0;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.2;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-828;5.0;L;Rede Decisão;Veterano;Ametista;7.482;9.2;7.5;7.5;7.3;8.1;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não;7.7;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-829;3.0;F;Escola Pública;Veterano;Ágata;6.418;10.0;3.9;7.5;3.6;7.3;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.2;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-830;5.0;B;Rede Decisão;Veterano;Topázio;8.506;10.0;7.8;7.5;7.9;8.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;8.8;10.0;Nível 4 (9o ano);1.0;2021
+ALUNO-831;1.0;M;Escola Pública;Veterano;Ametista;7.351;9.5;10.0;7.5;3.6;7.7;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-833;0.0;K;Escola Pública;Ingressante;Ágata;5.825;8.5;8.3;4.4;4.4;2.5;Mantido na Fase atual;Alocado em Fase anterior;Não avaliado;Não avaliado;Não;6.2;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-834;3.0;H;Escola Pública;Ingressante;Quartzo;5.506;6.7;3.1;6.9;5.8;7.3;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.7;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-835;2.0;M;Escola Pública;Veterano;Quartzo;4.335;0.0;5.4;5.6;1.6;7.8;Mantido na Fase atual;Não avaliado;Mantido na Fase atual;Não avaliado;Não;5.4;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-838;6.0;A;Rede Decisão;Veterano;Ágata;6.315;7.5;7.2;2.5;5.3;7.7;Alocado em Fase anterior;Promovido de Fase;Não avaliado;Mantido na Fase atual;Não;5.2;10.0;Nível 6 (2o EM);0.0;2021
+ALUNO-840;0.0;K;Escola Pública;Veterano;Ágata;6.598;9.0;8.3;4.4;6.6;5.3;Mantido na Fase atual;Alocado em Fase anterior;Não avaliado;Não avaliado;Não;6.2;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-843;6.0;C;Escola Pública;Ingressante;Ágata;6.644;7.1;7.2;5.6;7.3;6.9;Mantido na Fase atual;Promovido de Fase;Alocado em Fase anterior;Promovido de Fase;Não;6.5;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-845;3.0;A;Escola Pública;Ingressante;Ágata;5.683;8.8;4.4;4.4;4.5;6.0;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;4.9;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-848;2.0;M;Escola Pública;Veterano;Ágata;6.85;8.5;7.9;7.5;4.9;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-849;2.0;R;Escola Pública;Veterano;Ametista;7.444;7.5;8.3;8.1;4.6;7.9;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Não;7.6;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-850;3.0;B;Rede Decisão;Veterano;Ametista;8.151;9.2;7.5;7.5;6.6;8.1;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.3;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-851;1.0;G;Escola Pública;Veterano;Ametista;7.713;9.5;9.6;7.5;4.8;8.1;Mantido na Fase atual;Mantido na Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-855;2.0;L;Escola Pública;Veterano;Ágata;6.243;8.0;7.1;7.5;2.8;7.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.1;5.0;Nível 4 (9o ano);-2.0;2021
+ALUNO-858;2.0;A;Escola Pública;Veterano;Topázio;8.586;9.5;10.0;7.5;6.2;7.7;Mantido na Fase atual;Promovido de Fase + Bolsa;Mantido na Fase atual;Não avaliado;Sim;9.4;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-860;3.0;C;Escola Pública;Veterano;Ametista;7.069;8.8;5.0;7.5;7.2;8.3;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.4;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-861;3.0;J;Escola Pública;Veterano;Ametista;7.724;9.2;8.3;7.5;7.7;7.7;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;7.9;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-862;1.0;J;Escola Pública;Veterano;Ametista;7.99;9.0;9.6;7.5;6.5;8.1;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Sim;9.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-865;0.0;T;Escola Pública;Ingressante;Topázio;8.396;9.5;10.0;7.5;7.3;8.1;Promovido de Fase;Promovido de Fase;Não avaliado;Não avaliado;Sim;9.7;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-866;1.0;A;Rede Decisão;Veterano;Topázio;8.846;8.5;10.0;7.5;8.4;7.7;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Sim;9.0;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-867;1.0;E;Escola Pública;Ingressante;Quartzo;4.088;0.0;2.1;8.1;1.7;6.9;Mantido na Fase atual;Não avaliado;Mantido na Fase atual;Não avaliado;Não;6.7;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-868;0.0;Q;Escola Pública;Ingressante;Ametista;8.081;9.0;8.3;7.5;7.0;7.8;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.9;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-871;0.0;P;Escola Pública;Ingressante;Ágata;6.258;8.5;6.7;7.5;2.9;7.5;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.5;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-872;3.0;L;Rede Decisão;Veterano;Quartzo;4.451;6.7;2.2;5.0;2.9;5.2;Alocado em Fase anterior;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;3.7;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-873;1.0;J;Escola Pública;Veterano;Ágata;5.864;10.0;5.8;7.5;1.5;7.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.8;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-874;5.0;L;Rede Decisão;Veterano;Ágata;6.192;7.1;6.7;6.9;2.7;7.2;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;6.1;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-875;0.0;O;Escola Pública;Ingressante;Ametista;8.069;8.0;10.0;7.5;7.1;8.4;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.8;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-877;2.0;M;Escola Pública;Veterano;Ágata;6.379;7.4;7.5;7.5;1.9;8.1;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.5;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-878;0.0;J;Escola Pública;Ingressante;Ametista;7.083;9.0;6.7;7.5;6.7;5.6;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não avaliado;Não;8.5;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-884;5.0;B;Escola Pública;Ingressante;Quartzo;4.511;7.9;3.9;0.0;2.1;7.5;Promovido de Fase;Alocado em Fase anterior;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;6.4;5.0;Nível 7 (3o EM);-2.0;2021
+ALUNO-885;1.0;J;Escola Pública;Ingressante;Ametista;7.772;10.0;8.3;7.5;3.9;8.1;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.8;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-886;0.0;Q;Escola Pública;Veterano;Topázio;8.544;9.5;10.0;7.5;7.1;7.8;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.3;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-889;2.0;D;Escola Pública;Veterano;Ametista;7.933;8.5;8.3;7.5;8.3;7.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-890;3.0;R;Escola Pública;Veterano;Ágata;6.058;10.0;5.3;7.5;2.3;7.2;Promovido de Fase;Promovido de Fase;Não avaliado;Não avaliado;Não;5.4;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-892;1.0;G;Escola Pública;Veterano;Ametista;7.411;7.0;9.6;5.6;6.9;8.3;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;7.6;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-897;3.0;M;Escola Pública;Veterano;Quartzo;5.135;7.9;3.3;6.9;4.3;6.7;Mantido na Fase atual;Alocado em Fase anterior;Mantido na Fase atual;Não avaliado;Não;4.8;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-899;2.0;D;Escola Pública;Veterano;Ametista;8.092;8.0;7.1;7.5;7.9;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Sim;9.0;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-900;3.0;D;Escola Pública;Ingressante;Ágata;5.835;7.9;5.6;7.5;5.4;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.4;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-902;0.0;I;Escola Pública;Veterano;Ametista;7.273;8.5;10.0;7.5;5.4;7.8;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.6;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-903;1.0;M;Rede Decisão;Ingressante;Topázio;9.069;9.0;10.0;7.5;8.3;8.1;Promovido de Fase;Mantido na Fase + Bolsa;Promovido de Fase + Bolsa;Não avaliado;Sim;9.7;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-904;4.0;A;Escola Pública;Veterano;Ametista;7.144;9.2;5.6;7.5;5.9;7.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não;7.2;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-905;0.0;M;Escola Pública;Ingressante;Ágata;6.133;9.5;5.8;7.5;3.5;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.6;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-906;5.0;A;Rede Decisão;Veterano;Topázio;8.632;9.6;9.2;7.5;6.8;7.7;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Sim;9.9;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-907;2.0;P;Escola Pública;Veterano;Quartzo;5.364;0.0;3.8;7.5;3.1;7.3;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.6;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-909;2.0;H;Escola Pública;Veterano;Ágata;6.082;9.5;5.4;7.5;3.1;7.3;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.2;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-910;6.0;C;Escola Pública;Veterano;Ágata;6.772;8.8;7.8;7.5;5.0;7.5;Mantido na Fase atual;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;6.7;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-911;4.0;A;Escola Pública;Veterano;Ágata;6.239;6.7;6.9;5.0;5.1;7.5;Promovido de Fase + Bolsa;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;7.0;5.0;Nível 6 (2o EM);-2.0;2021
+ALUNO-914;2.0;C;Escola Pública;Ingressante;Quartzo;5.061;0.0;2.9;7.5;4.6;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-916;4.0;G;Rede Decisão;Veterano;Topázio;8.866;8.3;9.7;7.5;7.8;9.2;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.3;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-919;6.0;A;Escola Pública;Veterano;Ágata;6.517;7.5;3.9;7.5;5.5;7.8;Mantido na Fase atual;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;6.8;10.0;Nível 6 (2o EM);0.0;2021
+ALUNO-922;2.0;E;Escola Pública;Veterano;Ametista;7.475;8.5;6.7;6.3;5.6;8.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.5;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-923;0.0;M;Escola Pública;Veterano;Ágata;5.91;8.0;8.3;5.0;3.9;6.6;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;5.0;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-926;2.0;I;Escola Pública;Veterano;Ametista;7.219;9.0;7.9;5.0;6.9;7.5;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.1;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-927;1.0;J;Escola Pública;Veterano;Ametista;7.247;7.4;8.8;7.5;4.7;8.1;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-930;5.0;A;Rede Decisão;Veterano;Topázio;8.355;10.0;8.3;7.5;9.0;8.0;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.3;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-931;1.0;G;Escola Pública;Veterano;Ametista;7.757;8.5;9.6;6.9;6.6;8.3;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-932;3.0;B;Escola Pública;Veterano;Ametista;7.289;10.0;5.8;7.5;6.4;7.1;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;6.9;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-937;2.0;G;Escola Pública;Ingressante;Topázio;8.581;10.0;8.3;7.5;8.3;8.1;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.4;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-938;3.0;G;Rede Decisão;Veterano;Ágata;6.883;8.8;7.5;6.3;6.0;7.9;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não avaliado;Não;7.0;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-939;3.0;D;Escola Pública;Ingressante;Ágata;6.469;9.2;5.0;4.4;7.4;9.1;Promovido de Fase + Bolsa;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;6.2;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-940;1.0;C;Escola Pública;Veterano;Ágata;6.557;8.5;8.3;7.5;2.9;7.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-944;3.0;F;Escola Pública;Veterano;Quartzo;4.625;9.2;4.7;5.6;1.3;7.3;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;3.6;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-945;3.0;D;Escola Pública;Ingressante;Ametista;7.747;8.8;6.4;7.5;9.0;8.3;Promovido de Fase;Promovido de Fase;Promovido de Fase + Bolsa;Não avaliado;Não;8.6;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-946;3.0;M;Escola Pública;Ingressante;Ametista;7.542;7.9;6.1;7.5;7.1;7.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.1;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-947;1.0;F;Escola Pública;Ingressante;Ametista;7.31;8.5;8.8;7.5;5.1;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-948;3.0;C;Escola Pública;Veterano;Ametista;6.908;8.3;6.4;7.5;6.2;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.8;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-951;6.0;A;Rede Decisão;Veterano;Ametista;7.233;8.3;7.2;7.5;7.0;8.0;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.6;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-956;0.0;P;Escola Pública;Ingressante;Ametista;7.604;9.0;7.5;7.5;5.9;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.6;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-957;2.0;N;Rede Decisão;Veterano;Ametista;7.44;7.5;7.5;7.5;5.3;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.9;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-958;4.0;G;Rede Decisão;Ingressante;Ametista;7.494;7.1;8.1;6.9;7.6;8.1;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;8.3;5.0;Nível 6 (2o EM);-2.0;2021
+ALUNO-959;1.0;N;Escola Pública;Ingressante;Ametista;8.064;9.0;10.0;7.5;6.1;8.1;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Sim;9.4;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-961;2.0;N;Rede Decisão;Veterano;Ametista;7.261;9.5;7.5;6.3;4.2;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.9;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-963;1.0;G;Escola Pública;Ingressante;Ametista;7.885;7.0;9.6;7.5;7.3;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase + Bolsa;Não avaliado;Não;8.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-964;2.0;G;Escola Pública;Ingressante;Ágata;6.029;0.0;5.4;7.5;6.3;8.3;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.0;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-965;3.0;C;Escola Pública;Veterano;Ametista;7.239;8.8;6.1;7.5;5.0;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.2;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-966;0.0;K;Escola Pública;Ingressante;Quartzo;3.3;8.0;0.0;7.5;0.0;2.5;Não avaliado;Alocado em Fase anterior;Não avaliado;Não avaliado;Não;5.0;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-969;0.0;J;Escola Pública;Ingressante;Topázio;8.596;9.5;10.0;7.5;7.7;8.8;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;9.9;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-972;0.0;R;Escola Pública;Ingressante;Topázio;8.254;9.5;10.0;7.5;6.6;8.1;Promovido de Fase;Promovido de Fase + Bolsa;Não avaliado;Não avaliado;Sim;9.6;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-973;1.0;N;Escola Pública;Veterano;Ágata;5.933;6.3;7.9;6.3;2.7;6.9;Alocado em Fase anterior;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-977;1.0;B;Escola Pública;Ingressante;Ágata;6.249;9.0;7.1;7.5;5.4;5.8;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-983;3.0;L;Rede Decisão;Veterano;Topázio;8.296;7.9;7.5;7.5;7.2;8.5;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Não avaliado;Sim;9.8;10.0;Nível 2 (5o e 6o ano);1.0;2021
+ALUNO-984;1.0;G;Escola Pública;Veterano;Quartzo;4.081;9.5;0.4;7.5;1.1;7.2;Não avaliado;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.3;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-986;4.0;F;Escola Pública;Veterano;Ágata;6.427;8.8;6.4;1.9;6.3;8.3;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não;7.5;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-987;0.0;L;Escola Pública;Ingressante;Ametista;7.965;9.0;8.3;7.5;6.1;7.2;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.6;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-989;2.0;P;Escola Pública;Veterano;Quartzo;5.207;0.0;3.3;7.5;5.8;7.5;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;6.9;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-991;2.0;N;Escola Pública;Veterano;Ametista;7.107;9.0;5.4;7.5;5.2;7.9;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.7;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-993;5.0;F;Rede Decisão;Veterano;Ágata;6.05;5.4;3.6;5.0;6.6;7.0;Mantido na Fase atual;Mantido na Fase + Bolsa;Promovido de Fase;Mantido na Fase atual;Não;6.3;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-994;2.0;H;Escola Pública;Veterano;Ametista;7.604;9.5;7.5;7.5;7.4;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-995;1.0;F;Escola Pública;Veterano;Ágata;5.751;8.0;5.8;7.5;0.9;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.9;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-996;2.0;G;Rede Decisão;Veterano;Ametista;6.892;9.0;5.8;7.5;5.6;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.2;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-997;2.0;A;Rede Decisão;Veterano;Topázio;8.767;8.5;10.0;5.0;8.6;7.9;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Sim;9.5;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-999;3.0;G;Rede Decisão;Veterano;Ágata;6.858;7.9;6.1;4.4;6.4;6.9;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não avaliado;Não;7.2;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1001;0.0;K;Escola Pública;Ingressante;Topázio;8.931;9.5;10.0;7.5;6.9;8.4;Mantido na Fase + Bolsa;Mantido na Fase + Bolsa;Não avaliado;Não avaliado;Sim;10.0;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1002;3.0;J;Escola Pública;Veterano;Ametista;7.693;8.8;8.3;7.5;7.5;7.7;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;8.1;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-1004;0.0;I;Escola Pública;Veterano;Ametista;7.506;10.0;10.0;6.9;6.4;7.8;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.3;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-1007;2.0;P;Escola Pública;Veterano;Quartzo;3.752;0.0;1.7;7.5;0.8;7.2;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não avaliado;Não;6.5;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1009;0.0;S;Escola Pública;Ingressante;Ametista;7.4;7.0;10.0;7.5;6.3;2.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.2;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1010;1.0;B;Escola Pública;Veterano;Ametista;7.449;8.0;10.0;7.5;5.2;7.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1013;2.0;M;Escola Pública;Ingressante;Ametista;7.292;9.0;7.9;7.5;6.1;8.1;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1014;1.0;N;Escola Pública;Veterano;Ametista;7.636;9.0;8.3;7.5;6.3;8.1;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.7;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1015;3.0;J;Rede Decisão;Veterano;Topázio;8.475;9.6;8.9;7.5;6.9;7.9;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.1;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1016;2.0;H;Escola Pública;Veterano;Quartzo;4.946;9.0;0.8;7.5;1.1;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1017;3.0;J;Rede Decisão;Veterano;Ametista;7.844;8.8;7.2;7.5;5.8;7.9;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.2;10.0;Nível 2 (5o e 6o ano);1.0;2021
+ALUNO-1022;1.0;F;Escola Pública;Veterano;Ametista;7.219;9.0;9.2;7.5;1.9;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.9;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-1023;0.0;O;Escola Pública;Ingressante;Ametista;7.896;9.0;10.0;7.5;5.8;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;9.2;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-1026;3.0;B;Escola Pública;Ingressante;Ametista;7.008;9.6;6.1;7.5;5.6;7.1;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.2;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1027;6.0;C;Rede Decisão;Veterano;Ágata;5.672;7.5;3.9;0.0;6.8;7.1;Mantido na Fase atual;Promovido de Fase;Não avaliado;Promovido de Fase;Não;5.4;10.0;Nível 6 (2o EM);0.0;2021
+ALUNO-1028;2.0;D;Escola Pública;Veterano;Ametista;6.917;8.4;5.4;7.5;7.1;7.5;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;7.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1029;2.0;P;Escola Pública;Veterano;Topázio;8.782;9.0;7.9;7.5;8.4;9.2;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não avaliado;Sim;9.7;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1031;1.0;B;Escola Pública;Veterano;Topázio;8.863;9.5;10.0;7.5;8.1;7.5;Promovido de Fase + Bolsa;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Sim;9.0;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-1032;1.0;R;Escola Pública;Ingressante;Ametista;7.451;10.0;8.3;7.5;5.1;8.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-1034;2.0;M;Escola Pública;Veterano;Ametista;7.679;8.0;9.2;7.5;5.8;8.3;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Sim;9.0;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1035;1.0;C;Escola Pública;Veterano;Ametista;7.718;9.5;7.9;6.9;6.0;8.8;Promovido de Fase;Mantido na Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.6;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1038;4.0;F;Escola Pública;Ingressante;Ágata;6.619;8.3;6.1;0.0;6.5;8.0;Promovido de Fase;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não;7.3;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-1043;0.0;M;Escola Pública;Ingressante;Topázio;8.367;9.5;10.0;7.5;6.8;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.8;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1044;0.0;L;Escola Pública;Ingressante;Topázio;8.25;9.0;10.0;7.5;5.5;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.8;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1049;1.0;R;Escola Pública;Ingressante;Ametista;7.457;7.9;8.8;7.5;6.0;8.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.1;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1050;0.0;R;Escola Pública;Ingressante;Topázio;8.788;10.0;10.0;7.5;6.9;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;9.5;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1051;3.0;F;Escola Pública;Veterano;Quartzo;3.599;0.0;1.7;7.5;1.3;6.9;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;2.9;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1055;3.0;F;Escola Pública;Ingressante;Ágata;6.421;7.5;4.7;5.0;4.7;7.7;Promovido de Fase;Promovido de Fase + Bolsa;Mantido na Fase atual;Não avaliado;Não;7.6;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1057;3.0;L;Escola Pública;Ingressante;Ametista;7.494;8.3;5.6;7.5;5.8;8.3;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.0;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1063;0.0;S;Escola Pública;Ingressante;Quartzo;4.9;9.5;0.0;7.5;2.3;7.5;Não avaliado;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.5;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-1064;0.0;N;Escola Pública;Ingressante;Ágata;6.817;10.0;10.0;0.0;6.3;5.0;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.8;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-1065;0.0;R;Escola Pública;Ingressante;Ametista;8.0;9.5;10.0;7.5;7.0;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.3;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-1066;3.0;M;Escola Pública;Ingressante;Ágata;6.54;6.7;4.7;7.5;5.8;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.5;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1067;1.0;E;Escola Pública;Veterano;Topázio;8.544;9.5;10.0;7.5;8.1;8.8;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Sim;9.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1068;6.0;A;Escola Pública;Ingressante;Ametista;7.501;9.2;8.6;7.5;6.8;8.1;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;7.2;5.0;Nível 7 (3o EM);-1.0;2021
+ALUNO-1070;1.0;E;Escola Pública;Veterano;Ametista;7.758;9.5;9.6;7.5;5.4;8.3;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.7;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1071;2.0;A;Escola Pública;Ingressante;Ametista;7.194;9.5;7.1;7.5;5.7;7.3;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.6;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1072;3.0;C;Escola Pública;Veterano;Ametista;7.033;9.2;5.3;7.5;4.6;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.2;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1073;1.0;B;Escola Pública;Ingressante;Ametista;6.914;8.5;8.3;7.5;5.4;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.6;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1075;5.0;A;Rede Decisão;Veterano;Ametista;7.859;7.5;7.2;7.5;6.3;7.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Sim;9.4;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-1078;2.0;R;Escola Pública;Veterano;Quartzo;4.45;9.0;1.7;8.1;0.0;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1083;2.0;E;Escola Pública;Ingressante;Quartzo;3.498;0.0;2.9;5.0;0.0;7.8;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;5.7;5.0;Nível 4 (9o ano);-2.0;2021
+ALUNO-1084;1.0;F;Escola Pública;Veterano;Ametista;7.954;8.0;9.6;6.9;5.6;7.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.2;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-1085;4.0;L;Escola Pública;Ingressante;Ágata;6.234;8.8;7.5;7.5;3.9;7.3;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não;5.5;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-1086;0.0;O;Escola Pública;Ingressante;Ametista;7.746;7.9;10.0;7.5;6.2;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.6;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-1087;2.0;M;Escola Pública;Veterano;Ametista;7.329;8.5;8.8;7.5;5.0;8.1;Mantido na Fase atual;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1089;1.0;G;Escola Pública;Veterano;Ágata;5.653;9.0;2.9;7.5;3.6;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1090;1.0;M;Escola Pública;Veterano;Ametista;7.179;8.5;8.8;7.5;3.7;7.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Sim;9.0;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1093;6.0;A;Rede Decisão;Veterano;Ametista;7.225;7.9;7.2;7.5;5.4;8.0;Promovido de Fase;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;6.8;10.0;Nível 3 (7o e 8o ano);3.0;2021
+ALUNO-1095;1.0;C;Escola Pública;Veterano;Topázio;9.294;10.0;9.2;8.1;8.9;9.2;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.7;10.0;ALFA  (2o e 3o ano);1.0;2021
+ALUNO-1096;3.0;B;Rede Decisão;Veterano;Topázio;8.814;10.0;8.9;7.5;7.5;8.3;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.7;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1098;0.0;L;Escola Pública;Ingressante;Topázio;8.313;10.0;10.0;7.5;5.3;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.8;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1099;1.0;F;Escola Pública;Ingressante;Topázio;8.331;10.0;9.6;6.3;5.9;8.1;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.9;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-1103;2.0;G;Escola Pública;Veterano;Quartzo;4.0;0.0;2.9;5.6;3.3;6.0;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;5.5;5.0;Nível 4 (9o ano);-2.0;2021
+ALUNO-1104;1.0;N;Escola Pública;Ingressante;Ametista;6.889;9.5;7.9;7.5;3.6;7.9;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.9;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1105;2.0;D;Escola Pública;Veterano;Ágata;6.621;9.5;6.3;6.3;5.5;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1107;2.0;B;Escola Pública;Ingressante;Ametista;8.217;10.0;9.6;7.5;8.0;7.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.5;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1110;2.0;A;Escola Pública;Veterano;Ágata;6.871;9.0;5.4;7.5;5.1;6.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.3;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1112;7.0;A;Rede Decisão;Veterano;Ametista;7.242;8.3;7.2;6.3;6.5;7.8;Mantido na Fase atual;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;6.3;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-1114;3.0;M;Escola Pública;Ingressante;Ágata;6.376;7.5;4.4;7.5;6.5;6.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.0;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1115;1.0;E;Escola Pública;Ingressante;Quartzo;3.638;0.0;1.7;6.9;0.4;7.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.7;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-1117;0.0;N;Escola Pública;Ingressante;Ametista;7.129;9.5;8.3;0.0;6.8;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.0;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1119;2.0;A;Escola Pública;Veterano;Ametista;7.383;10.0;5.8;7.5;5.6;7.1;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.2;10.0;Nível 1 (4o ano);1.0;2021
+ALUNO-1122;4.0;L;Escola Pública;Ingressante;Ametista;7.906;8.8;5.8;7.5;8.4;7.8;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Não;8.3;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-1123;4.0;G;Rede Decisão;Ingressante;Ametista;7.634;7.5;8.6;6.3;7.5;8.3;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não;8.5;5.0;Nível 6 (2o EM);-2.0;2021
+ALUNO-1124;4.0;F;Escola Pública;Ingressante;Ametista;7.264;7.9;8.6;5.6;6.0;8.1;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não;8.4;5.0;Nível 6 (2o EM);-2.0;2021
+ALUNO-1126;3.0;G;Escola Pública;Ingressante;Quartzo;5.047;7.1;3.3;7.5;4.0;6.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.8;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-1127;3.0;A;Rede Decisão;Veterano;Ametista;7.547;9.2;7.8;6.3;5.5;7.9;Promovido de Fase;Promovido de Fase + Bolsa;Mantido na Fase atual;Não avaliado;Não;7.8;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1128;4.0;F;Rede Decisão;Veterano;Ametista;7.961;9.2;8.9;5.0;8.1;8.8;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não;8.9;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-1129;2.0;I;Escola Pública;Veterano;Ametista;7.261;6.8;7.9;6.9;4.6;7.7;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.1;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1130;2.0;N;Rede Decisão;Veterano;Topázio;9.107;10.0;10.0;7.5;9.5;9.8;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não avaliado;Sim;9.9;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1131;3.0;M;Escola Pública;Veterano;Ágata;5.774;7.1;5.6;7.5;4.1;6.9;Mantido na Fase atual;Alocado em Fase anterior;Mantido na Fase atual;Não avaliado;Não;6.0;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-1132;7.0;A;Rede Decisão;Veterano;Ametista;7.584;7.1;8.6;7.5;8.0;8.3;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não;7.4;5.0;Nível 8 (Universitários);-1.0;2021
+ALUNO-1136;4.0;E;Escola Pública;Veterano;Topázio;8.292;8.8;9.2;7.5;8.2;8.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Sim;9.1;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-1139;3.0;C;Escola Pública;Veterano;Ágata;6.497;8.8;5.8;7.5;5.0;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.3;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-1140;5.0;B;Escola Pública;Ingressante;Ágata;6.545;7.5;6.1;7.5;5.5;7.8;Promovido de Fase + Bolsa;Alocado em Fase anterior;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;7.2;5.0;Nível 7 (3o EM);-2.0;2021
+ALUNO-1141;2.0;P;Escola Pública;Veterano;Ametista;6.969;7.4;5.0;7.5;6.9;8.1;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.9;5.0;Nível 4 (9o ano);-2.0;2021
+ALUNO-1143;0.0;O;Escola Pública;Ingressante;Ametista;7.154;8.5;10.0;3.8;6.3;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.1;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-1146;3.0;A;Escola Pública;Ingressante;Ametista;7.775;9.6;7.2;7.5;6.1;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.3;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1147;5.0;L;Escola Pública;Ingressante;Ametista;8.181;9.6;8.1;7.5;8.9;8.8;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não;8.6;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-1149;0.0;P;Escola Pública;Veterano;Ágata;5.825;9.0;4.2;7.5;5.4;5.0;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.3;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-1150;1.0;G;Escola Pública;Veterano;Ametista;7.318;8.0;8.8;7.5;5.8;8.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.6;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1151;3.0;L;Escola Pública;Ingressante;Ágata;5.931;0.0;5.3;7.5;7.8;7.9;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;6.3;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-1155;0.0;R;Escola Pública;Ingressante;Topázio;9.048;9.5;10.0;7.5;7.7;8.4;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não avaliado;Não avaliado;Sim;9.8;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1156;4.0;A;Escola Pública;Ingressante;Ágata;6.73;8.8;5.3;5.6;6.5;7.0;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;6.2;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-1157;0.0;R;Escola Pública;Ingressante;Ametista;7.629;7.5;6.7;7.5;7.1;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.2;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1159;5.0;L;Rede Decisão;Veterano;Ametista;8.014;8.8;8.3;7.5;8.6;8.3;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;8.4;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-1160;4.0;A;Escola Pública;Ingressante;Ametista;7.13;7.9;5.8;7.5;5.8;8.0;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;7.4;10.0;Nível 4 (9o ano);0.0;2021
+ALUNO-1161;3.0;L;Escola Pública;Veterano;Ágata;6.458;7.9;6.1;3.8;6.9;5.8;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.1;5.0;Nível 5 (1o EM);-2.0;2021
+ALUNO-1164;0.0;S;Escola Pública;Ingressante;Ágata;6.571;9.0;5.0;7.5;6.2;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.2;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-1165;3.0;F;Escola Pública;Veterano;Ametista;7.765;7.9;8.6;7.5;7.2;7.7;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;8.9;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-1166;2.0;E;Escola Pública;Veterano;Quartzo;3.979;0.0;2.1;6.9;3.5;5.4;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.7;5.0;Nível 4 (9o ano);-2.0;2021
+ALUNO-1167;2.0;G;Escola Pública;Veterano;Ágata;6.294;10.0;6.3;7.5;1.8;6.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.2;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1168;1.0;M;Escola Pública;Veterano;Ametista;8.104;9.5;9.6;7.5;6.9;8.1;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Sim;9.0;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-1170;1.0;E;Escola Pública;Veterano;Quartzo;4.275;9.5;1.3;8.1;0.0;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1171;3.0;F;Rede Decisão;Veterano;Topázio;9.025;8.8;8.9;6.3;9.2;9.2;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.9;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1174;6.0;C;Rede Decisão;Veterano;Ágata;6.775;8.3;7.2;3.8;6.0;6.7;Mantido na Fase atual;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não;6.3;10.0;Nível 6 (2o EM);0.0;2021
+ALUNO-1175;1.0;J;Escola Pública;Veterano;Ágata;5.915;8.0;6.3;7.5;2.2;8.4;Não avaliado;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.7;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1176;5.0;B;Rede Decisão;Veterano;Ametista;8.003;9.2;6.9;8.1;8.5;8.4;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Sim;9.3;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-1181;1.0;F;Escola Pública;Veterano;Ametista;7.961;9.0;9.6;5.6;7.6;8.1;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.7;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1182;0.0;L;Escola Pública;Ingressante;Ametista;7.006;7.4;8.3;7.5;4.4;6.6;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.6;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1183;1.0;B;Escola Pública;Ingressante;Ametista;7.614;8.5;9.2;7.5;6.4;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.3;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1190;2.0;M;Escola Pública;Veterano;Ametista;7.554;8.5;8.8;7.5;6.1;8.1;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;8.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1191;3.0;A;Rede Decisão;Ingressante;Quartzo;4.615;7.5;2.5;4.4;1.9;7.1;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;4.2;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1195;3.0;B;Escola Pública;Veterano;Topázio;8.322;9.2;8.6;7.5;7.4;7.9;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;8.3;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1196;7.0;A;Escola Pública;Ingressante;Ametista;7.892;9.2;6.9;7.5;6.1;8.3;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não;9.0;10.0;ERRO;0.0;2021
+ALUNO-1197;7.0;A;Rede Decisão;Veterano;Ametista;8.04;8.3;8.3;7.5;7.8;7.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não;7.3;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-1198;2.0;J;Escola Pública;Veterano;Quartzo;4.814;9.5;3.3;5.0;2.4;6.7;Alocado em Fase anterior;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.3;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1199;0.0;S;Escola Pública;Ingressante;Ametista;7.025;8.5;8.3;7.5;4.9;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.7;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-1201;7.0;A;Rede Decisão;Veterano;Ametista;7.031;7.1;6.1;5.6;6.5;8.1;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não;7.1;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-1204;1.0;G;Escola Pública;Ingressante;Topázio;8.797;10.0;9.6;7.5;6.9;8.3;Promovido de Fase;Mantido na Fase atual;Mantido na Fase + Bolsa;Não avaliado;Sim;9.6;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-1205;2.0;A;Escola Pública;Veterano;Ametista;8.04;8.5;9.2;7.5;5.5;7.3;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.9;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1206;0.0;T;Escola Pública;Ingressante;Topázio;8.871;8.5;10.0;7.5;7.6;8.1;Promovido de Fase;Promovido de Fase;Não avaliado;Não avaliado;Sim;9.7;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1210;0.0;L;Escola Pública;Ingressante;Topázio;8.25;8.0;10.0;7.5;6.8;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.0;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1211;0.0;L;Escola Pública;Ingressante;Ágata;6.748;8.4;6.7;7.5;4.8;6.6;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.1;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1212;1.0;G;Escola Pública;Ingressante;Ágata;5.703;9.0;4.2;6.3;3.3;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1214;1.0;M;Escola Pública;Ingressante;Ametista;7.496;10.0;10.0;7.5;3.0;8.1;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Sim;9.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1215;1.0;B;Escola Pública;Ingressante;Ametista;7.401;9.5;10.0;2.5;6.3;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.4;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1217;3.0;A;Rede Decisão;Veterano;Ametista;8.181;8.8;8.6;7.5;7.6;9.2;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.5;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-1219;5.0;B;Rede Decisão;Veterano;Ametista;8.201;7.9;7.5;7.5;7.9;8.6;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;8.6;10.0;Nível 4 (9o ano);1.0;2021
+ALUNO-1221;2.0;N;Escola Pública;Ingressante;Topázio;8.618;9.0;10.0;7.5;8.0;9.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Sim;9.4;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1223;2.0;R;Escola Pública;Veterano;Ágata;6.779;6.8;8.3;8.1;4.7;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1226;2.0;R;Escola Pública;Veterano;Ágata;6.621;5.3;8.3;8.1;4.7;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.8;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1228;3.0;L;Escola Pública;Veterano;Quartzo;3.603;0.0;0.6;7.5;3.1;6.3;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;2.5;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1229;1.0;J;Escola Pública;Veterano;Ágata;5.588;9.5;5.8;4.4;0.7;8.1;Não avaliado;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.9;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1230;4.0;G;Rede Decisão;Veterano;Ametista;7.714;7.1;8.6;6.9;5.8;8.1;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não;8.1;10.0;Nível 3 (7o e 8o ano);1.0;2021
+ALUNO-1231;2.0;E;Escola Pública;Veterano;Quartzo;4.133;0.0;1.7;6.3;3.1;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.5;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1232;2.0;H;Escola Pública;Veterano;Quartzo;2.717;0.0;0.8;7.5;0.9;6.3;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;2.5;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1233;5.0;F;Rede Decisão;Veterano;Ametista;7.416;9.6;6.7;5.0;7.8;7.7;Mantido na Fase atual;Mantido na Fase + Bolsa;Promovido de Fase;Promovido de Fase;Não;6.5;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-1234;0.0;L;Escola Pública;Ingressante;Ametista;7.229;8.5;6.7;7.5;5.6;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.2;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1237;3.0;F;Escola Pública;Ingressante;Quartzo;4.372;6.7;2.2;7.5;2.3;7.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.2;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-1239;1.0;R;Escola Pública;Ingressante;Ágata;5.574;8.5;5.8;7.5;2.0;7.3;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.9;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1240;2.0;K;Escola Pública;Ingressante;Ametista;6.917;7.4;7.9;7.5;4.3;7.9;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.5;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1242;1.0;G;Escola Pública;Ingressante;Quartzo;5.507;7.4;4.6;7.5;2.4;8.1;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;6.6;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1244;1.0;B;Escola Pública;Veterano;Ametista;7.389;10.0;8.8;7.5;5.8;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.4;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1248;3.0;G;Rede Decisão;Veterano;Ágata;6.047;9.2;3.9;5.6;6.5;7.7;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;6.1;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-1250;3.0;R;Escola Pública;Veterano;Ágata;6.343;6.7;5.8;6.9;5.8;7.5;Promovido de Fase;Promovido de Fase;Promovido de Fase;Não avaliado;Não;7.1;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-1251;3.0;M;Escola Pública;Veterano;Ametista;7.789;8.8;7.2;6.3;8.1;7.5;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;7.4;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1254;3.0;C;Escola Pública;Veterano;Ametista;7.379;9.2;5.8;7.5;6.8;7.5;Promovido de Fase;Mantido na Fase + Bolsa;Mantido na Fase atual;Não avaliado;Não;7.2;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1256;5.0;A;Escola Pública;Veterano;Ágata;6.541;9.2;7.5;7.5;3.6;7.7;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Mantido na Fase atual;Não;6.9;5.0;Nível 6 (2o EM);-1.0;2021
+ALUNO-1260;1.0;C;Escola Pública;Veterano;Ágata;6.163;9.0;5.0;7.5;3.9;7.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.3;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1264;2.0;E;Escola Pública;Veterano;Ágata;6.254;8.0;4.2;8.1;3.1;7.3;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.3;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1266;3.0;R;Escola Pública;Ingressante;Quartzo;4.817;10.0;3.3;5.6;1.8;6.9;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não avaliado;Não;2.8;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1268;1.0;A;Escola Pública;Ingressante;Ametista;6.978;8.0;7.5;7.5;5.0;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;8.4;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1275;1.0;G;Escola Pública;Veterano;Topázio;8.468;9.5;9.6;7.5;7.8;8.3;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Sim;9.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1278;0.0;P;Escola Pública;Veterano;Ágata;5.671;8.0;4.2;7.5;4.6;6.3;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;6.2;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-1279;5.0;L;Escola Pública;Ingressante;Quartzo;4.729;8.3;1.9;0.0;3.8;7.3;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;5.1;10.0;Nível 5 (1o EM);0.0;2021
+ALUNO-1285;1.0;J;Escola Pública;Veterano;Topázio;8.407;9.0;10.0;7.5;5.9;7.7;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Sim;9.1;10.0;Nível 1 (4o ano);0.0;2021
+ALUNO-1286;0.0;K;Escola Pública;Ingressante;Ametista;8.015;10.0;8.3;7.5;6.5;7.8;Mantido na Fase atual;Mantido na Fase + Bolsa;Não avaliado;Não avaliado;Não;7.6;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1287;0.0;J;Escola Pública;Veterano;Ametista;7.546;8.0;10.0;7.5;5.3;7.5;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não avaliado;Não;8.4;5.0;Nível 2 (5o e 6o ano);-2.0;2021
+ALUNO-1288;7.0;A;Rede Decisão;Veterano;Ágata;6.787;8.8;7.2;5.6;5.8;6.7;Mantido na Fase atual;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não;5.4;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-1289;2.0;L;Escola Pública;Veterano;Ágata;6.86;8.5;7.9;7.5;4.8;7.9;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.1;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1292;3.0;A;Rede Decisão;Veterano;Topázio;8.614;9.6;9.7;7.5;6.7;8.8;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;8.7;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1296;1.0;G;Escola Pública;Veterano;Ágata;6.844;9.5;8.8;7.5;3.5;7.5;Promovido de Fase;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.2;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1298;0.0;O;Escola Pública;Veterano;Ametista;7.521;10.0;8.3;7.5;6.4;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.8;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-1299;7.0;A;Rede Decisão;Veterano;Ametista;7.936;7.1;8.3;7.5;7.2;8.3;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Promovido de Fase + Bolsa;Não;7.8;10.0;Nível 7 (3o EM);0.0;2021
+ALUNO-1300;1.0;J;Escola Pública;Ingressante;Ametista;7.297;9.0;8.8;7.5;5.3;7.9;Mantido na Fase atual;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;7.8;5.0;Nível 2 (5o e 6o ano);-1.0;2021
+ALUNO-1301;3.0;D;Escola Pública;Ingressante;Ametista;7.983;9.6;7.5;7.5;6.0;8.3;Promovido de Fase;Mantido na Fase atual;Promovido de Fase;Não avaliado;Não;8.7;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1302;1.0;R;Escola Pública;Veterano;Quartzo;3.827;0.0;3.3;7.5;0.6;7.2;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.3;5.0;Nível 3 (7o e 8o ano);-2.0;2021
+ALUNO-1307;2.0;B;Escola Pública;Ingressante;Ametista;6.917;7.0;6.7;7.5;4.8;7.5;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.2;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1308;3.0;D;Escola Pública;Ingressante;Quartzo;4.892;7.1;3.3;2.5;2.3;7.5;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.8;5.0;Nível 4 (9o ano);-1.0;2021
+ALUNO-1310;3.0;A;Escola Pública;Ingressante;Ágata;6.625;9.2;5.3;7.5;3.5;7.5;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.2;10.0;Nível 3 (7o e 8o ano);0.0;2021
+ALUNO-1315;2.0;B;Rede Decisão;Veterano;Quartzo;5.075;8.9;3.8;4.4;4.3;5.0;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;5.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1319;2.0;R;Escola Pública;Veterano;Ametista;7.572;6.4;8.3;5.0;6.3;8.1;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.4;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1323;2.0;N;Escola Pública;Veterano;Ametista;7.518;8.0;8.8;5.6;5.1;7.9;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.9;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1324;2.0;J;Escola Pública;Veterano;Ametista;7.186;8.5;8.8;7.5;3.4;7.5;Alocado em Fase anterior;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;7.1;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1326;2.0;K;Escola Pública;Veterano;Quartzo;4.396;9.0;3.8;5.6;1.3;6.9;Mantido na Fase atual;Não avaliado;Mantido na Fase atual;Não avaliado;Não;3.7;5.0;Nível 4 (9o ano);-2.0;2021
+ALUNO-1330;4.0;E;Escola Pública;Veterano;Ametista;7.117;8.8;8.3;7.5;5.5;7.5;Promovido de Fase + Bolsa;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não;7.3;5.0;Nível 5 (1o EM);-1.0;2021
+ALUNO-1332;0.0;R;Escola Pública;Ingressante;Topázio;8.775;10.0;10.0;7.5;6.6;7.5;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Sim;9.8;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1334;0.0;T;Escola Pública;Ingressante;Topázio;8.821;8.5;10.0;7.5;7.4;8.1;Promovido de Fase;Promovido de Fase;Não avaliado;Não avaliado;Sim;9.7;10.0;ALFA  (2o e 3o ano);0.0;2021
+ALUNO-1335;2.0;G;Rede Decisão;Ingressante;Quartzo;4.831;0.0;3.8;7.5;3.4;6.7;Mantido na Fase atual;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não;4.9;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1338;2.0;C;Escola Pública;Veterano;Ágata;6.511;7.9;2.1;7.5;5.2;7.7;Promovido de Fase;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;8.7;10.0;Nível 2 (5o e 6o ano);0.0;2021
+ALUNO-1343;2.0;K;Escola Pública;Veterano;Quartzo;3.996;10.0;1.3;5.6;1.3;6.9;Mantido na Fase atual;Não avaliado;Mantido na Fase atual;Não avaliado;Não;3.7;5.0;Nível 3 (7o e 8o ano);-1.0;2021
+ALUNO-1344;2.0;R;Escola Pública;Veterano;Ágata;5.664;9.5;5.8;5.6;2.0;8.1;Mantido na Fase atual;Promovido de Fase;Mantido na Fase atual;Não avaliado;Não;7.6;2.5;Nível 5 (1o EM);-3.0;2021
+ALUNO-1345;0.0;L;Escola Pública;Ingressante;Ágata;6.606;9.0;6.7;7.5;4.9;7.2;Mantido na Fase atual;Mantido na Fase atual;Não avaliado;Não avaliado;Não;7.1;5.0;Nível 1 (4o ano);-1.0;2021
+ALUNO-1348;3.0;J;Rede Decisão;Veterano;Ametista;7.422;7.5;8.6;6.3;6.9;7.5;Promovido de Fase;Promovido de Fase + Bolsa;Promovido de Fase;Não avaliado;Não;8.5;5.0;Nível 4 (9o ano);-1.0;2021
