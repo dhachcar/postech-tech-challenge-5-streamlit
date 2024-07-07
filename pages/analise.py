@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.figure_factory as ff
 import plotly.graph_objs as go
+from tabs.analise.demograficos_tab import AnaliseDemograficosTab
+from tabs.analise.indicadores_tab import AnaliseIndicadoresTab
 from util.constantes import TITULO_ANALISE_EXPLORATORIA, TITULO_PRINCIPAL
 from util.layout import output_layout, format_number
 
@@ -16,6 +18,11 @@ output_layout()
 
 with st.container():
     st.header(f":orange[{TITULO_ANALISE_EXPLORATORIA}]")
+
+    tab0, tab1 = st.tabs(tabs=["Demografia dos alunos", "Indicadores de performance"])
+
+    AnaliseDemograficosTab(tab0)
+    AnaliseIndicadoresTab(tab1)
 
 #     st.markdown(
 #         """

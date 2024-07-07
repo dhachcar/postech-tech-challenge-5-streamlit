@@ -55,6 +55,7 @@ class ModelosAnaliseSentimentoImagemTab(TabInterface):
 
             # TODO: deixar blocos pre prontos com os resultados e exemplos (utilizar imgs da pagina facebook)
             # TODO: colocar o resultado da accuracy_score (mesma função das aulas, verificar qual é)
+            # TODO: explicar que foi utilizado uma rede concorrente para gerar imagens de treino
 
             st.markdown(
                 """

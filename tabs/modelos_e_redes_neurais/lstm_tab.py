@@ -24,6 +24,7 @@ class ModelosLstmTab(TabInterface):
 
             st.markdown(
                 ":red[TODO: criar modelo LSTM para identificar se um aluno irá atingir ou não seu ponto de virada (IPV)]"
+                ":red[TODO: criar modelo LSTM para identificar se um aluno deve receber bolsa]"
             )
 
             # TODO: qual a ideia para esse LSTM?

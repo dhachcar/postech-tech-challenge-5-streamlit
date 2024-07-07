@@ -56,6 +56,7 @@ class PassosMagicosBaseDadosTab(TabInterface):
                 | IPP_2020 | Indicador Psicopedagógico – Média das Notas Psico Pedagógicas do Aluno em 2020 |
                 | IPV_2020 | Indicador de Ponto de Virada – Média das Notas de Ponto de Virada do Aluno em 2020 |
                 | IAN_2020 | Indicador de Adequação ao Nível – Média das Notas de Adequação do Aluno ao nível atual em 2020 |
+                | INDE_2020 | Índice do Desenvolvimento Educacional – Métrica de Processo Avaliativo Geral do Aluno, dado pela ponderação dos indicadores: IAN, IDA, IEG, IAA, IPS, IPP e IPV em 2020.
                 | PEDRA_2021 | Classificação do Aluno baseado no nu mero do INDE (2021), o conceito de classificaça o e dado por: Quartzo – 2,405 a 5,506 / Ágata – 5,506 a 6,868 / Ametista – 6,868 a 8,230 / Topázio – 8,230 a 9,294 |
                 | IAA_2021 | Indicador de Auto Avaliação – Média das Notas de Auto Avaliação do Aluno em 2021 |
                 | IEG_2021 | Indicador de Engajamento – Média das Notas de Engajamento do Aluno em 2021 |
@@ -64,6 +65,7 @@ class PassosMagicosBaseDadosTab(TabInterface):
                 | IPP_2021 | Indicador Psicopedagógico – Média das Notas Psico Pedagógicas do Aluno em 2021 |
                 | IPV_2021 | Indicador de Ponto de Virada – Média das Notas de Ponto de Virada do Aluno em 2021 |
                 | IAN_2021 | Indicador de Adequação ao Nível – Média das Notas de Adequação do Aluno ao nível atual em 2021 |
+                | INDE_2021 | Índice do Desenvolvimento Educacional – Métrica de Processo Avaliativo Geral do Aluno, dado pela ponderação dos indicadores: IAN, IDA, IEG, IAA, IPS, IPP e IPV em 2021.
                 | PEDRA_2022 | Classificação do Aluno baseado no nu mero do INDE (2022), o conceito de classificaça o e dado por: Quartzo – 2,405 a 5,506 / Ágata – 5,506 a 6,868 / Ametista – 6,868 a 8,230 / Topázio – 8,230 a 9,294 |
                 | IAA_2022 | Indicador de Auto Avaliação – Média das Notas de Auto Avaliação do Aluno em 2022 |
                 | IEG_2022 | Indicador de Engajamento – Média das Notas de Engajamento do Aluno em 2022 |
@@ -72,5 +74,6 @@ class PassosMagicosBaseDadosTab(TabInterface):
                 | IPP_2022 | Indicador Psicopedagógico – Média das Notas Psico Pedagógicas do Aluno em 2022 |
                 | IPV_2022 | Indicador de Ponto de Virada – Média das Notas de Ponto de Virada do Aluno em 2022 |
                 | IAN_2022 | Indicador de Adequação ao Nível – Média das Notas de Adequação do Aluno ao nível atual em 2022 |
+                | INDE_2022 | Índice do Desenvolvimento Educacional – Métrica de Processo Avaliativo Geral do Aluno, dado pela ponderação dos indicadores: IAN, IDA, IEG, IAA, IPS, IPP e IPV em 2022.
             ''')
              
