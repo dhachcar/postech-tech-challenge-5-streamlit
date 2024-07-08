@@ -79,7 +79,8 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
 
             # TODO: deixar blocos pre prontos com os resultados e exemplos (utilizar textos/reviews/comentarios da pagina facebook)
             # TODO: colocar o resultado da accuracy_score (mesma função das aulas, verificar qual é)
-            # TODO: explicar que foi utilizado ChatGPT para gerar frases para treino
+            # TODO: explicar que foi utilizado ChatGPT para gerar frases para treino, colocar um seção expclicando isso
+            # TODO: treinar o modelo tbm com os reviews do dataset!!! e colcoar uma seção explicando isso
 
             st.markdown(
                 """

@@ -32,7 +32,7 @@ class PassosMagicosBaseDadosTab(TabInterface):
                     mime="application/pdf",
                 )
 
-            with open("assets/csv/dataset_passos_magicos.csv", "rb") as file:
+            with open("assets/csv/original_dataset_passos_magicos.csv", "rb") as file:
                 btn = st.download_button(
                     label="Base de dados anonimizada",
                     data=file,
