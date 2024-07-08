@@ -1,4 +1,5 @@
 from tabs.analise.indicadores.indicador_tab import AnaliseIndicadorTab
+import streamlit as st
 
 
 class AnaliseIndicadorIPPTab(AnaliseIndicadorTab):
@@ -13,5 +14,9 @@ class AnaliseIndicadorIPPTab(AnaliseIndicadorTab):
         self.comentario_2_2022 = "TODO: redigir"
         self.comentario_1_comparacao = "TODO: redigir"
         self.comentario_2_comparacao = "TODO: redigir"
+
+        # TODO: melhorar estilo e texto introdutorio
+        with tab:
+            st.markdown('Indicador Psicopedagógico – Média das Notas Psico Pedagógicas do Aluno')
 
         super().__init__(tab)
