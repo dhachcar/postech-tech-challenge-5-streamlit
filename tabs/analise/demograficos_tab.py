@@ -1,9 +1,9 @@
-import pandas as pd
 from tabs.analise.demografico.demografico_idade_tab import AnaliseDemograficoIdadeTab
 from tabs.analise.demografico.demografico_instituicao_tab import (
     AnaliseDemograficoInstituicaoTab,
 )
 from tabs.tab import TabInterface
+from util.storage import storage_singleton
 import streamlit as st
 
 
@@ -11,10 +11,10 @@ class AnaliseDemograficosTab(TabInterface):
     def __init__(self, tab):
         self.tab = tab
 
-        self.df_2020 = pd.read_csv("assets/csv/processado_base_2020.csv", sep=";")
-        self.df_2021 = pd.read_csv("assets/csv/processado_base_2021.csv", sep=";")
-        self.df_2022 = pd.read_csv("assets/csv/processado_base_2022.csv", sep=";")
-        self.df_full = pd.read_csv("assets/csv/processado_base_full.csv", sep=";")
+        self.df_2020 = storage_singleton.df_2020
+        self.df_2021 = storage_singleton.df_2021
+        self.df_2022 = storage_singleton.df_2022
+        self.df_full = storage_singleton.df_full
 
         self.render()
 

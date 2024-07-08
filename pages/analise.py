@@ -14,8 +14,6 @@ st.set_page_config(
 )
 output_layout()
 
-# df = pd.read_csv("assets/csv/timeseries-petroleo-brent.csv")
-
 with st.container():
     st.header(f":orange[{TITULO_ANALISE_EXPLORATORIA}]")
 

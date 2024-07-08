@@ -1,7 +1,6 @@
-import pandas as pd
 from tabs.tab import TabInterface
 import streamlit as st
-
+from util.storage import storage_singleton
 from util.charts import (
     plot_boxplot,
     plot_boxplot_comparativo,
@@ -14,10 +13,10 @@ class AnaliseIndicadorTab(TabInterface):
     def __init__(self, tab):
         self.tab = tab
 
-        self.df_2020 = pd.read_csv("assets/csv/processado_base_2020.csv", sep=";")
-        self.df_2021 = pd.read_csv("assets/csv/processado_base_2021.csv", sep=";")
-        self.df_2022 = pd.read_csv("assets/csv/processado_base_2022.csv", sep=";")
-        self.df_full = pd.read_csv("assets/csv/processado_base_full.csv", sep=";")
+        self.df_2020 = storage_singleton.df_2020
+        self.df_2021 = storage_singleton.df_2021
+        self.df_2022 = storage_singleton.df_2022
+        self.df_full = storage_singleton.df_full
 
         self.render()
 
@@ -80,7 +79,9 @@ class AnaliseIndicadorTab(TabInterface):
             st.markdown(self.comentario_2_2022)
 
     def render_comparacao_ano_a_ano(self):
-        st.subheader(f":blue[{self.col}: comparativo entre todos os anos]", divider="blue")
+        st.subheader(
+            f":blue[{self.col}: comparativo entre todos os anos]", divider="blue"
+        )
 
         fig = plot_histograma_comparativo(self.df_full, self.col)
         st.plotly_chart(fig, use_container_width=True)

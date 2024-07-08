@@ -1,7 +1,7 @@
 import pandas as pd
 from tabs.tab import TabInterface
 import streamlit as st
-
+from util.storage import storage_singleton
 from util.charts import plot_bar, plot_boxplot, plot_histograma
 
 
@@ -9,7 +9,7 @@ class AnaliseDemograficoIdadeTab(TabInterface):
     def __init__(self, tab):
         self.tab = tab
 
-        self.df_2020 = pd.read_csv("assets/csv/processado_base_2020.csv", sep=";")
+        self.df_2020 = storage_singleton.df_2020
 
         self.render()
 
