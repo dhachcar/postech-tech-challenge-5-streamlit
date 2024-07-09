@@ -7,7 +7,9 @@ import locale
 
 warnings.filterwarnings("ignore")
 locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
-st.set_page_config(page_title=TITULO_PRINCIPAL, layout="wide", page_icon="assets/imgs/favicon.ico")
+st.set_page_config(
+    page_title=TITULO_PRINCIPAL, layout="wide", page_icon="assets/imgs/favicon.ico"
+)
 output_layout()
 
 _, col0, _ = st.columns([1, 1, 1])

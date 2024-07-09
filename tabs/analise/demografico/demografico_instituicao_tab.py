@@ -25,14 +25,14 @@ class AnaliseDemograficoInstituicaoTab(TabInterface):
             fig = plot_bar(self.df_2020, 'INSTITUICAO_ENSINO_ALUNO', 'Instituições de ensino dos alunos em 2020', xaxis='Instituição de ensino')
             st.plotly_chart(fig, use_container_width=True)
 
-            with st.expander(":red[Comentários]", expanded=True):
+            with st.expander(":blue[Comentários]", expanded=True):
                 st.markdown("TODO: redigir")
 
             st.subheader(f":blue[2021]", divider="blue")
             fig = plot_bar(self.df_2021, 'INSTITUICAO_ENSINO_ALUNO', 'Instituições de ensino dos alunos em 2021', xaxis='Instituição de ensino')
             st.plotly_chart(fig, use_container_width=True)
 
-            with st.expander(":red[Comentários]", expanded=True):
+            with st.expander(":blue[Comentários]", expanded=True):
                 st.markdown("TODO: redigir")
 
             st.markdown('**:red[Não há dados disponiveis a respeito das instituições de ensino em 2022 na Passos Mágicos]**')

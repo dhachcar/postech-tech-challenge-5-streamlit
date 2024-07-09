@@ -14,7 +14,7 @@ class PassosMagicosPEDERelatoriosTab(TabInterface):
             st.markdown(':red[TODO: revisar texto]')
             st.markdown(':red[TODO: rever layout]')
 
-            st.subheader(':blue[PEDE]')
+            st.subheader(':blue[PEDE]', divider="blue")
             st.markdown(
                 """
                     O PEDE ou Pesquisa Extensiva do Desenvolvimento Educacional é um estudo produzido pela ONG Passos Mágicos e abrange uma análise detalhada de diversos aspectos educacionais, incluindo avaliações e indicadores relacionados ao desenvolvimento educacional dos jovens que fazem parte de seu programa de ensino.<br/><br/>
@@ -38,10 +38,10 @@ class PassosMagicosPEDERelatoriosTab(TabInterface):
                 unsafe_allow_html=True,
             )
 
-            st.subheader(':blue[Metodologia de cálculo]')
+            st.subheader(':blue[Metodologia de cálculo]', divider="blue")
             st.markdown('Para calcular o INDE, os dados são coletados através de questionários e avaliações aplicadas aos alunos, e os resultados são ponderados de acordo com a importância de cada indicador. Cada indicador contribui para uma pontuação final que é utilizada para determinar o INDE geral e suas variações (universitário, escolar, etc.).')
             
-            st.subheader(':blue[Relatórios]')
+            st.subheader(':blue[Relatórios]', divider="blue")
             st.markdown('Até o momento, foram criados 3 relatórios PEDE. O primeiro foi apresentado em 2021 e era referente aos dados de 2020. O segundo foi apresentado em 2022 e tinha como base o ano de 2021. Por fim, o relatório mais recente foi criado em 2023 com o ano base de 2022. À seguir, são apresentados links para download de cada relatório:')
 
             with open("assets/materiais/relatorio-pede-2020.pdf", "rb") as file:

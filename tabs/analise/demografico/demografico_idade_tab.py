@@ -28,13 +28,13 @@ class AnaliseDemograficoIdadeTab(TabInterface):
             total_por_idade = self.df_2020["IDADE_ALUNO"].value_counts().sort_index()
             st.dataframe(total_por_idade)
 
-            with st.expander(":red[Comentários]", expanded=True):
+            with st.expander(":blue[Comentários]", expanded=True):
                 st.markdown("TODO: redigir")
 
             descritivo_idade = self.df_2020["IDADE_ALUNO"].describe()
             st.dataframe(descritivo_idade)
 
-            with st.expander(":red[Comentários]", expanded=True):
+            with st.expander(":blue[Comentários]", expanded=True):
                 st.markdown("TODO: redigir")
 
             fig = plot_bar(
@@ -42,7 +42,7 @@ class AnaliseDemograficoIdadeTab(TabInterface):
             )
             st.plotly_chart(fig, use_container_width=True)
 
-            with st.expander(":red[Comentários]", expanded=True):
+            with st.expander(":blue[Comentários]", expanded=True):
                 st.markdown("TODO: redigir")
 
             fig = plot_histograma(
@@ -53,7 +53,7 @@ class AnaliseDemograficoIdadeTab(TabInterface):
             )
             st.plotly_chart(fig, use_container_width=True)
 
-            with st.expander(":red[Comentários]", expanded=True):
+            with st.expander(":blue[Comentários]", expanded=True):
                 st.markdown("TODO: redigir")
 
             fig = plot_boxplot(
@@ -61,5 +61,5 @@ class AnaliseDemograficoIdadeTab(TabInterface):
             )
             st.plotly_chart(fig, use_container_width=True)
 
-            with st.expander(":red[Comentários]", expanded=True):
+            with st.expander(":blue[Comentários]", expanded=True):
                 st.markdown("TODO: redigir")

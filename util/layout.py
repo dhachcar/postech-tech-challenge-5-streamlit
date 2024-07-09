@@ -16,6 +16,10 @@ def format_number(number, format="%0.0f"):
 
 
 def output_layout():
+    # TODO: e se eu colocasse o particles.js aqui??
+    # TODO: criar um tabelão dos alunos, por ano, ao clicar, mostra um grafico de radar (tipo fifa com os indicadores dele)
+    # TODO: da mesma forma, o nlp, podemos clicar numa tabela e ele avaliar todos os comentários daquele aluno, naquele ano
+
     show_pages(
         [
             Page("./main.py", "Tech Challenge 5", ":house:", use_relative_hash=True),
