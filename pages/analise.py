@@ -6,7 +6,7 @@ from tabs.analise.alunos_tab import AnaliseAlunosTab
 from tabs.analise.demograficos_tab import AnaliseDemograficosTab
 from tabs.analise.indicadores_tab import AnaliseIndicadoresTab
 from util.constantes import TITULO_ANALISE_EXPLORATORIA, TITULO_PRINCIPAL
-from util.layout import output_layout, format_number
+from util.layout import output_layout
 
 
 st.set_page_config(
