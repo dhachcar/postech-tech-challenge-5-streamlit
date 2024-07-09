@@ -68,7 +68,7 @@ def output_layout():
 
         st.subheader("Aluno")
         st.text("Danilo Henrique Achcar")
-        st.text("RM 351516 | 2DTAT")
+        st.text("RM 351516 | 2DTAT", help='oi')
 
         st.divider()
 

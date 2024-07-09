@@ -1,5 +1,5 @@
 absl-py==2.1.0
-altair==5.2.0
+altair==4.2.2
 astunparse==1.6.3
 attrs==23.2.0
 blinker==1.7.0
@@ -11,6 +11,7 @@ cmdstanpy==1.2.2
 colorama==0.4.6
 contourpy==1.2.1
 cycler==0.12.1
+entrypoints==0.4
 flatbuffers==24.3.25
 fonttools==4.51.0
 gast==0.5.4
@@ -57,6 +58,7 @@ pydeck==0.8.1b0
 Pygments==2.17.2
 pyparsing==3.1.2
 python-dateutil==2.8.2
+python-decouple==3.8
 pytz==2024.1
 referencing==0.33.0
 regex==2024.5.15
@@ -72,6 +74,7 @@ smmap==5.0.1
 st-pages==0.4.5
 stanio==0.5.0
 streamlit==1.31.1
+streamlit-aggrid==1.0.5
 tenacity==8.2.3
 tensorboard==2.15.2
 tensorboard-data-server==0.7.2
