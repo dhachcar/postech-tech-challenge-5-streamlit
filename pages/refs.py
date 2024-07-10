@@ -20,6 +20,7 @@ with st.container():
         * https://www.deeplearningbook.com.br/as-10-principais-arquiteturas-de-redes-neurais/
         * https://paperswithcode.com/method/mobilenetv2
         * https://docs.streamlit.io/develop/api-reference
+        * https://docs.streamlit.io/develop/quick-reference/release-notes
         * https://www.datageeks.com.br/xgboost/
         * https://plotly.com/python/distplot/
         * ONU, ODG. https://brasil.un.org/pt-br/sdgs Acesso em: 12/06/2024.

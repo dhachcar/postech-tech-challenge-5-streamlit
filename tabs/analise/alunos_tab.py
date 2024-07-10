@@ -11,9 +11,14 @@ class AnaliseAlunosTab(TabInterface):
     def __init__(self, tab):
         self.tab = tab
 
-        self.page = 1
-        self.indicadores = ["IAA", "IEG", "IPS", "IDA", "IPP", "IPV", "IAN"]
+        if "page" not in st.session_state:
+            st.session_state["page"] = 1
+
+        if "ano_filtrado" not in st.session_state:
+            st.session_state["ano_filtrado"] = 0
+
         self.pag_rows_per_page = 50
+        self.indicadores = ["IAA", "IEG", "IPS", "IDA", "IPP", "IPV", "IAN"]
         self.df = storage_singleton.df_full[
             ["NOME", "ANO", "INDE", "IAA", "IEG", "IPS", "IDA", "IPP", "IPV", "IAN"]
         ]
@@ -51,34 +56,30 @@ class AnaliseAlunosTab(TabInterface):
             time.sleep(1)
 
             # linhas por pagina
-            rows_per_page = 50
-
-            st.write(self.page)
+            page = st.session_state["page"]
+            ano_filtrado = st.session_state["ano_filtrado"]
 
             # determina o df para filtro
             df_para_filtro = (
-                self.df.query(f"ANO == {self.filtro_ano}")
-                if self.filtro_ano != 0
+                self.df.query(f"ANO == {ano_filtrado}")
+                if ano_filtrado != 0
                 else self.df
             )
 
             # faz o cálculo da qtd total de páginas
-            total_pages = len(df_para_filtro) // rows_per_page + (
-                len(df_para_filtro) % rows_per_page > 0
+            total_pages = len(df_para_filtro) // self.pag_rows_per_page + (
+                len(df_para_filtro) % self.pag_rows_per_page > 0
             )
 
             # faz o cálculo da janela paginada
-            start_idx = (self.page - 1) * rows_per_page
-            end_idx = start_idx + rows_per_page
+            start_idx = (page - 1) * self.pag_rows_per_page
+            end_idx = start_idx + self.pag_rows_per_page
 
             # processa o df considerando a paginação
             df_paginado = df_para_filtro.iloc[start_idx:end_idx]
 
             st.markdown(
-                f"""
-                <span style='float: left'>Página :blue[{self.page}] de :blue[{total_pages}]</span>
-                <small style='float: right'>Para **:blue[navegar entre as abas]**, posicione o mouse em cima das abas e segure a tecla **:blue[[SHIFT]]** e utilize botão central de scroll do mouse :three_button_mouse:</small>
-                """,
+                f"Página :blue[{page}] de :blue[{total_pages}]",
                 unsafe_allow_html=True,
             )
 
@@ -90,25 +91,44 @@ class AnaliseAlunosTab(TabInterface):
                 lambda x: format_number(x, "%0.0f")
             )
 
-            df_paginado_output[self.indicadores] = df_paginado[self.indicadores].applymap(
-                lambda x: format_number(x, "%0.2f")
-            )
+            df_paginado_output[self.indicadores] = df_paginado[
+                self.indicadores
+            ].applymap(lambda x: format_number(x, "%0.2f"))
 
-            # output do df
-            df_index_selecionado = st.dataframe(
-                df_paginado_output,
-                hide_index=True,
-                use_container_width=True,
-                on_select="rerun",
-                selection_mode="single-row",
-            )
-            index_selecionado = df_index_selecionado.selection.rows[0] if len(df_index_selecionado.selection.rows) > 0 else None
+            col0, col1 = st.columns([7, 3])
 
-            # plot do gráfico de radar
-            if index_selecionado != None:
-                selecionado = df_paginado.iloc[index_selecionado]
-                fig = self.plot_radar(aluno=selecionado["NOME"], indicadores=selecionado[self.indicadores])
-                st.plotly_chart(fig)
+            with col0:
+                # output do df
+                df_index_selecionado = st.dataframe(
+                    df_paginado_output,
+                    hide_index=True,
+                    use_container_width=True,
+                    on_select="rerun",
+                    selection_mode="single-row",
+                )
+
+                st.markdown(
+                    """<small>**:blue[Clique na primeira coluna (vazia)]** :three_button_mouse: na tabela acima para **:blue[selecionar um aluno]** e visualizar o seu respectivo gráfico de performance dos indicadores</small>""",
+                    unsafe_allow_html=True,
+                )
+
+                st.image('assets/imgs/aluno-selecao-exemplo.png')
+
+                index_selecionado = (
+                    df_index_selecionado.selection.rows[0]
+                    if len(df_index_selecionado.selection.rows) > 0
+                    else None
+                )
+
+            with col1:
+                # plot do gráfico de radar
+                if index_selecionado != None:
+                    selecionado = df_paginado.iloc[index_selecionado]
+                    fig = self.plot_radar(
+                        aluno=selecionado["NOME"],
+                        indicadores=selecionado[self.indicadores],
+                    )
+                    st.plotly_chart(fig)
 
             st.success("Processamento concluído! :white_check_mark:")
 
@@ -119,11 +139,12 @@ class AnaliseAlunosTab(TabInterface):
             col0, col1, _ = st.columns([2, 2, 6])
 
             with col0:
-                self.page = st.number_input(
+                st.session_state["page"] = st.number_input(
                     "Página",
                     min_value=1,
                     max_value=self.pag_total_pages,
-                    value=self.page,
+                    value=st.session_state["page"],
+                    help="Selecione a página que deseja visualizar",
                 )
 
             with col1:
@@ -133,11 +154,17 @@ class AnaliseAlunosTab(TabInterface):
                     anos[i] = i
 
                 # selectbox
-                self.filtro_ano = st.selectbox(
+                st.session_state["ano_filtrado"] = st.selectbox(
                     "Ano",
                     key="filtro_ano",
                     options=list(anos),
                     format_func=(lambda x: anos[x]),
+                    on_change=self.teste,
+                    help="Selecione o ano de filtro do dataset",
                 )
 
             self.output_dataframe()
+
+    def teste(self):
+        del st.session_state["page"]
+        # st.session_state["page"] = 1
