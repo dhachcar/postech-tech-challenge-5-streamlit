@@ -56,8 +56,8 @@ class AnaliseAlunosTab(TabInterface):
             time.sleep(1)
 
             # linhas por pagina
-            page = st.session_state["page"]
-            ano_filtrado = st.session_state["ano_filtrado"]
+            page = int(st.session_state["page"])
+            ano_filtrado = int(st.session_state["ano_filtrado"])
 
             # determina o df para filtro
             df_para_filtro = (
@@ -112,7 +112,9 @@ class AnaliseAlunosTab(TabInterface):
                     unsafe_allow_html=True,
                 )
 
-                st.image('assets/imgs/aluno-selecao-exemplo.png')
+                st.image("assets/imgs/aluno-selecao-exemplo.png")
+
+                st.divider()
 
                 index_selecionado = (
                     df_index_selecionado.selection.rows[0]
@@ -139,13 +141,17 @@ class AnaliseAlunosTab(TabInterface):
             col0, col1, _ = st.columns([2, 2, 6])
 
             with col0:
-                st.session_state["page"] = st.number_input(
+                page = st.number_input(
                     "Página",
                     min_value=1,
                     max_value=self.pag_total_pages,
-                    value=st.session_state["page"],
+                    step=1,
+                    key="input_page",
+                    value=int(st.session_state["page"]),
                     help="Selecione a página que deseja visualizar",
                 )
+
+                st.session_state["page"] = page
 
             with col1:
                 # constroi a lista de anos, com a opção 'Todos'
@@ -156,15 +162,17 @@ class AnaliseAlunosTab(TabInterface):
                 # selectbox
                 st.session_state["ano_filtrado"] = st.selectbox(
                     "Ano",
-                    key="filtro_ano",
+                    key="input_ano",
                     options=list(anos),
                     format_func=(lambda x: anos[x]),
-                    on_change=self.teste,
+                    on_change=self.reset_paginacao,
                     help="Selecione o ano de filtro do dataset",
                 )
 
             self.output_dataframe()
 
-    def teste(self):
-        del st.session_state["page"]
+    # TODO: tem um bug nesse reset... em alguns momentos ele redefine a pagina para 1 em outros não
+    def reset_paginacao(self):
         # st.session_state["page"] = 1
+        if "page" in st.session_state:
+            st.session_state.update({'page': 1})

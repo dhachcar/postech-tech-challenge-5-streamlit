@@ -20,7 +20,7 @@ with st.container():
 
     st.markdown(
         """
-        Nas próximas seções, vamos explorar conceitos e tecnologias fundamentais que ajudarão a entender o trabalho realizado. Falaremos sobre tópicos como Redes Neurais, Processamento de Linguagem Natural (NLP), Redes Neurais Convolucionais (CNNs), Redes Neurais Recorrentes (RNNs), Redes Long Short-term Memory (LSTM) e alguns modelos de Machine Learning.
+        Nas próximas seções, vamos explorar conceitos e tecnologias fundamentais que ajudarão a entender o trabalho realizado. Falaremos sobre tópicos como **:blue[Redes Neurais]**, **:blue[Processamento de Linguagem Natural (NLP)]**, **:blue[Redes Neurais Convolucionais (CNNs)]**, **:blue[Redes Neurais Recorrentes (RNNs)]**, **:blue[Redes Long Short-term Memory (LSTM)]** e alguns modelos de **:blue[Machine Learning]**.
     """
     )
 

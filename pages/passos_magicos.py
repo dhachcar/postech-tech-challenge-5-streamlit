@@ -18,8 +18,13 @@ output_layout()
 
 
 with st.container():
-    st.header(f":orange[{TITULO_PASSOS_MAGICOS}]")
-    st.image("assets/imgs/logo-passos-magicos.png")
+    col0, col1 = st.columns([7, 3])
+
+    with col0:
+        st.header(f":orange[{TITULO_PASSOS_MAGICOS}]")
+
+    with col1:
+        st.image("assets/imgs/logo-passos-magicos.png")
 
     tab0, tab1, tab2, tab3 = st.tabs(
         tabs=["Sobre", "ONU & ODS", "PEDE & Relatórios", "Base de dados"]

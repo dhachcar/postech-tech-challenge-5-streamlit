@@ -20,7 +20,6 @@ class IntroNLPTab(TabInterface):
 
             st.subheader(':blue[Aplicação no projeto]')
 
-            st.markdown('''TODO: redigir
-                        ''')
+            st.markdown('''TODO: redigir''')
 
-            st.image('assets/imgs/nlp.jpg', caption='O que é NLP, fonte: https://amazinum.com/insights/what-is-nlp-and-how-it-is-implemented-in-our-lives/')
+            st.image('assets/imgs/nlp.jpg', caption='Esquema de um NLP. Fonte: https://amazinum.com/insights/what-is-nlp-and-how-it-is-implemented-in-our-lives/', width=640)

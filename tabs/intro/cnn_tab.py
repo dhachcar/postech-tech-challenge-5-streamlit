@@ -19,7 +19,6 @@ class IntroCNNTab(TabInterface):
 
             st.subheader(':blue[Aplicação no projeto]')
 
-            st.markdown('''TODO: redigir
-                        ''')
+            st.markdown("""TODO: redigir""")
 
-            st.image('assets/imgs/cnn.png', caption="Redes neurais convolucionais, fonte: https://medium.com/itau-data/redes-neurais-convolucionais-2206a089c715")
+            st.image('assets/imgs/cnn.png', caption="Esquema de uma Rede Neural Convolucional (CNN). Fonte: https://medium.com/itau-data/redes-neurais-convolucionais-2206a089c715", width=860)

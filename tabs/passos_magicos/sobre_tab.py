@@ -33,7 +33,6 @@ class PassosMagicosSobreTab(TabInterface):
                         unsafe_allow_html=True,
                     )
 
-                with col1:
                     st.subheader(":blue[Visão]", divider="blue")
                     st.markdown(
                         """
@@ -43,21 +42,21 @@ class PassosMagicosSobreTab(TabInterface):
                         unsafe_allow_html=True,
                     )
 
-            with st.container():
-                st.subheader(":blue[Valores]", divider="blue")
-                st.markdown(
+                with col1:
+                    st.subheader(":blue[Valores]", divider="blue")
+                    st.markdown(
+                        """
+                        - Empatia
+                        - Amor ao aprendizado
+                        - Poder em acreditar em si e no próximo
+                        - Pertencimento
+                        - Gratidão
+                        - Busca pelo saber
+                        - Educação que transforma e ajuda a transformar
+                        - Aprender a aprender
                     """
-                    - Empatia
-                    - Amor ao aprendizado
-                    - Poder em acreditar em si e no próximo
-                    - Pertencimento
-                    - Gratidão
-                    - Busca pelo saber
-                    - Educação que transforma e ajuda a transformar
-                    - Aprender a aprender
-                """
-                )
-
+                    )
+                    
             with st.container():
                 st.subheader(":blue[Impacto social em 2023]", divider="blue")
                 st.markdown(

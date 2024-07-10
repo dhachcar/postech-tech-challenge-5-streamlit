@@ -19,10 +19,10 @@ class IntroRNNTab(TabInterface):
 
             st.subheader(':blue[Aplicação no projeto]')
 
-            st.markdown('''TODO: redigir
-                        ''')
+            st.markdown("""TODO: redigir""")
 
             st.image(
                 "assets/imgs/rnn.jpg",
-                caption="Fonte: Data Science Academy (https://www.deeplearningbook.com.br/as-10-principais-arquiteturas-de-redes-neurais/)",
+                caption="Esquema de uma Rede Neural Recorrente (RNN). Fonte: Data Science Academy (https://www.deeplearningbook.com.br/as-10-principais-arquiteturas-de-redes-neurais/)",
+                width=480
             )
