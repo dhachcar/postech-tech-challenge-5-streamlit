@@ -16,8 +16,8 @@ class PassosMagicosBaseDadosTab(TabInterface):
             st.subheader(":blue[Base de dados]", divider="blue")
             st.markdown(
                 """
-                    O trabalho utiliza uma base de dados disponibilizada pela ONG Passos Mágicos, composta por 1349 linhas e 69 colunas. Esta base de dados oferece uma rica variedade de informações detalhadas, com cada linha representando uma entrada única e cada coluna abrangendo uma característica específica dos dados. É importante destacar que todos os dados dos alunos estão devidamente anonimizados, garantindo a privacidade e a proteção das informações pessoais.<br/><br/>
-                    Para facilitar a compreensão e a utilização dessa base de dados, a Passos Mágicos disponibiliza um dicionário de dados para download. Este dicionário de dados serve como um guia essencial, descrevendo de maneira objetiva o propósito de cada coluna, os tipos de dados presentes e as possíveis categorias ou valores esperados. À seguir, é possível realizar o donwload da base de dados original e do dicionário de dados em sua íntegra:<br/>
+                    O trabalho utiliza uma base de dados disponibilizada pela **:blue[ONG Passos Mágicos]**, composta por **:blue[1349]** linhas e **:blue[69]** colunas. Esta base de dados oferece uma rica variedade de informações detalhadas, com cada linha representando uma entrada única e cada coluna abrangendo uma característica específica dos dados. É importante destacar que todos os dados dos alunos estão devidamente anonimizados, garantindo a privacidade e a proteção das informações pessoais.<br/><br/>
+                    Para facilitar a compreensão e a utilização dessa base de dados, a **:blue[Passos Mágicos]** disponibiliza um dicionário de dados para download. Este dicionário de dados serve como um guia essencial, descrevendo de maneira objetiva o propósito de cada coluna, os tipos de dados presentes e as possíveis categorias ou valores esperados. À seguir, é possível realizar o donwload da base de dados original e do dicionário de dados em sua íntegra:<br/>
                 """,
                 unsafe_allow_html=True,
             )
@@ -41,22 +41,21 @@ class PassosMagicosBaseDadosTab(TabInterface):
             st.subheader(":blue[Features utilizadas por este projeto]", divider="blue")
             st.markdown(
                 """
-                    Este trabalho utiliza as colunas do dicionário de dados para desenvolver redes neurais e modelos de machine learning avançados. As colunas selecionadas são fundamentais para a construção, treinamento e validação dos modelos, permitindo a análise precisa e a previsão baseada nos dados disponíveis. Através da aplicação de técnicas de machine learning, o trabalho visa extrair padrões e insights valiosos, contribuindo para a tomada de decisões informadas e a otimização de processos.<br/><br/>
-                    À seguir, são apresentadas todas as colunas (ou features) que são utilizadas no decorrer deste trabalho (seja para o treino e validação de um NLP ou para a predição de determinadas características sobre a base):
+                    À seguir, são apresentadas todas as colunas (ou features) que são utilizadas no decorrer deste trabalho. Tais colunas são utilizadas para a criação de modelos de **:blue[Machine Learning]** e **:blue[Redes Neurais]**. A descrição e explicação de cada coluna foi retirada diretamente do dicionário de dados.
                 """,
                 unsafe_allow_html=True,
             )
 
-            tag_eda = ":green[EDA]"  # análise estatística
-            tag_nlp = ":red[NLP]"  # NLP
-            tag_ml = ":blue[ML]"  # machine learning ou redes neurais
+            tag_eda = "**:green[EDA]**" # análise estatística
+            tag_nlp = "**:red[NLP]**" # NLP
+            tag_ml = "**:blue[ML]**" # machine learning ou redes neurais
 
             st.subheader(":blue[Legenda]")
             st.markdown(
                 f"""
                 - {tag_eda}: Coluna utilizada para fins de **:green[Análise Exploratória]**
                 - {tag_nlp}: Coluna utilizada para fins de treino / validação / consumo de um **:red[NLP]**
-                - {tag_ml}: Coluna utilizada para fins de treino / validação / consumo de **:blue[algoritmos de Machine Learning ou Redes Neurais]**
+                - {tag_ml}: Coluna utilizada para fins de treino / validação / consumo de **:blue[algoritmos de Machine Learning e/ou Redes Neurais]**
             """
             )
 
