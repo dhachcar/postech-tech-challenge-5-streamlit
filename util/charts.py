@@ -4,14 +4,28 @@ from scipy.stats import gaussian_kde
 import numpy as np
 import plotly.graph_objs as go
 import plotly.express as px
+from typing import List
 
 
 def plot_bar(
-    df: pd.DataFrame, col: str, titulo: str, xaxis: str, yaxis: str = "Quantidade"
+    df: pd.DataFrame,
+    col: str,
+    titulo: str,
+    xaxis: str,
+    yaxis: str = "Quantidade",
+    cores: List[str] = None,
 ) -> pd.DataFrame:
     grupos = df[col].value_counts()
 
-    fig = go.Figure(go.Bar(x=grupos.index, y=grupos, text=grupos, textposition="auto"))
+    fig = go.Figure(
+        go.Bar(
+            x=grupos.index,
+            y=grupos,
+            text=grupos,
+            textposition="auto",
+            marker_color=cores,
+        )
+    )
 
     fig.update_layout(
         title=titulo,
@@ -94,6 +108,10 @@ def plot_histograma_comparativo(df: pd.DataFrame, col: str) -> pd.DataFrame:
         nbins=50,
         marginal="rug",
         histnorm="probability density",
+    )
+
+    fig.update_traces(
+        texttemplate="%{y:.2}", textposition="outside", selector=dict(type="histogram")
     )
 
     # TODO: não ficou legal... se der tempo, melhorar esse KDE

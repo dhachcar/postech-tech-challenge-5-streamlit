@@ -66,7 +66,7 @@ class PassosMagicosBaseDadosTab(TabInterface):
                 | INSTITUICAO_ENSINO_ALUNO_2020 | {tag_eda} | Mostra instituiça o de Ensino do Aluno em 2020 |
                 | NOME | {tag_eda} | Nome do Aluno (dados estão anonimizados) |
                 | IDADE_ALUNO_2020 | {tag_eda} | Idade do Aluno em 2020 |
-                | PEDRA_2020 | {tag_eda} | Classificação do Aluno baseado no nu mero do INDE (2020), o conceito de classificaça o e dado por: Quartzo – 2,405 a 5,506 / Ágata – 5,506 a 6,868 / Ametista – 6,868 a 8,230 / Topázio – 8,230 a 9,294 |
+                | PEDRA_2020 | {tag_eda} | Classificação do Aluno baseado no número do INDE (2020), o conceito de classificação é dado por: Quartzo – 2,405 a 5,506 / Ágata – 5,506 a 6,868 / Ametista – 6,868 a 8,230 / Topázio – 8,230 a 9,294 |
                 | IAA_2020 | {tag_eda} / {tag_ml} | Indicador de Auto Avaliação – Média das Notas de Auto Avaliação do Aluno em 2020 |
                 | IEG_2020 | {tag_eda} / {tag_ml} | Indicador de Engajamento – Média das Notas de Engajamento do Aluno em 2020 |
                 | IPS_2020 | {tag_eda} / {tag_ml} | Indicador Psicossocial – Média das Notas Psicossociais do Aluno em 2020 |
@@ -79,7 +79,7 @@ class PassosMagicosBaseDadosTab(TabInterface):
                 | DESTAQUE_IDA_2020 | {tag_nlp} | Observações dos Avaliadores Sobre o Aluno referente ao “Indicador de Aprendizagem” em 2020 |
                 | DESTAQUE_IPV_2020 | {tag_nlp} | Observações dos Avaliadores Sobre o Aluno referente ao “Indicador de Ponto de Virada” em 2020 |
                 | PONTO_VIRADA_2020 | {tag_nlp} | Campo do Tipo Booleano que sinaliza se o Aluno atingiu o “Ponto de Virada” em 2020 |
-                | PEDRA_2021 | {tag_eda} | Classificação do Aluno baseado no nu mero do INDE (2021), o conceito de classificaça o e dado por: Quartzo – 2,405 a 5,506 / Ágata – 5,506 a 6,868 / Ametista – 6,868 a 8,230 / Topázio – 8,230 a 9,294 |
+                | PEDRA_2021 | {tag_eda} | Classificação do Aluno baseado no número do INDE (2021), o conceito de classificação é dado por: Quartzo – 2,405 a 5,506 / Ágata – 5,506 a 6,868 / Ametista – 6,868 a 8,230 / Topázio – 8,230 a 9,294 |
                 | IAA_2021 | {tag_eda} / {tag_ml} | Indicador de Auto Avaliação – Média das Notas de Auto Avaliação do Aluno em 2021 |
                 | IEG_2021 | {tag_eda} / {tag_ml} | Indicador de Engajamento – Média das Notas de Engajamento do Aluno em 2021 |
                 | IPS_2021 | {tag_eda} / {tag_ml} | Indicador Psicossocial – Média das Notas Psicossociais do Aluno em 2021 |
@@ -94,7 +94,7 @@ class PassosMagicosBaseDadosTab(TabInterface):
                 | REC_EQUIPE_4_2021 | {tag_nlp} | Recomendação: da Equipe de Avalição: 3 em 2021 |
                 | REC_PSICO_2021 | {tag_nlp} | Mostra qual a recomendação da equipe de psicologia sobre o Aluno em 2021
                 | PONTO_VIRADA_2021 | {tag_ml} | Campo do Tipo Booleano que sinaliza se o Aluno atingiu o “Ponto de Virada” em 2021 |
-                | PEDRA_2022 | {tag_eda}| Classificação do Aluno baseado no nu mero do INDE (2022), o conceito de classificaça o e dado por: Quartzo – 2,405 a 5,506 / Ágata – 5,506 a 6,868 / Ametista – 6,868 a 8,230 / Topázio – 8,230 a 9,294 |
+                | PEDRA_2022 | {tag_eda}| Classificação do Aluno baseado no número do INDE (2022), o conceito de classificação é dado por: Quartzo – 2,405 a 5,506 / Ágata – 5,506 a 6,868 / Ametista – 6,868 a 8,230 / Topázio – 8,230 a 9,294 |
                 | IAA_2022 | {tag_eda} / {tag_ml}| Indicador de Auto Avaliação – Média das Notas de Auto Avaliação do Aluno em 2022 |
                 | IEG_2022 | {tag_eda} / {tag_ml}| Indicador de Engajamento – Média das Notas de Engajamento do Aluno em 2022 |
                 | IPS_2022 | {tag_eda} / {tag_ml}| Indicador Psicossocial – Média das Notas Psicossociais do Aluno em 2022 |

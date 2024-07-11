@@ -7,6 +7,7 @@ from tabs.analise.indicadores.indicador_inde_tab import AnaliseIndicadorINDETab
 from tabs.analise.indicadores.indicador_ipp_tab import AnaliseIndicadorIPPTab
 from tabs.analise.indicadores.indicador_ips_tab import AnaliseIndicadorIPSTab
 from tabs.analise.indicadores.indicador_ipv_tab import AnaliseIndicadorIPVTab
+from tabs.analise.indicadores.pedras_tab import AnalisePedraTab
 from tabs.tab import TabInterface
 import streamlit as st
 
@@ -20,15 +21,16 @@ class AnaliseIndicadoresTab(TabInterface):
         with self.tab:
             st.subheader(":blue[Indicadores]")
 
-            tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(
-                tabs=["INDE", "IAA", "IEG", "IPS", "IDA", "IPP", "IPV", "IAN"]
+            tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(
+                tabs=["Pedra", "INDE", "IAA", "IEG", "IPS", "IDA", "IPP", "IPV", "IAN"]
             )
 
-            AnaliseIndicadorINDETab(tab0)
-            AnaliseIndicadorIAATab(tab1)
-            AnaliseIndicadorIEGTab(tab2)
-            AnaliseIndicadorIPSTab(tab3)
-            AnaliseIndicadorIDATab(tab4)
-            AnaliseIndicadorIPPTab(tab5)
-            AnaliseIndicadorIPVTab(tab6)
-            AnaliseIndicadorIANTab(tab7)
+            AnalisePedraTab(tab0)
+            AnaliseIndicadorINDETab(tab1)
+            AnaliseIndicadorIAATab(tab2)
+            AnaliseIndicadorIEGTab(tab3)
+            AnaliseIndicadorIPSTab(tab4)
+            AnaliseIndicadorIDATab(tab5)
+            AnaliseIndicadorIPPTab(tab6)
+            AnaliseIndicadorIPVTab(tab7)
+            AnaliseIndicadorIANTab(tab8)

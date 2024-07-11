@@ -24,6 +24,11 @@ with st.container():
     """
     )
 
+    st.markdown(
+        "<small>Para **:blue[navegar entre as abas]**, posicione o mouse em cima das abas e segure a tecla **:blue[[SHIFT]]** e utilize botão central de scroll do mouse :three_button_mouse:</small>",
+        unsafe_allow_html=True,
+    )
+    
     tab0, tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
         tabs=[
             "Redes Neurais",
