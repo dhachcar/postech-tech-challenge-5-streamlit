@@ -5,7 +5,12 @@ from tabs.modelos_e_redes_neurais.analise_sentimento_imagem_tab import (
 from tabs.modelos_e_redes_neurais.analise_sentimento_texto_tab import (
     ModelosAnaliseSentimentoTextoTab,
 )
-from tabs.modelos_e_redes_neurais.lstm_tab import ModelosLstmTab
+from tabs.modelos_e_redes_neurais.previsao_indicacao_bolsa_tab import (
+    ModelosPrevisaoIndicacaoBolsaTab,
+)
+from tabs.modelos_e_redes_neurais.previsao_ponto_virada_tab import (
+    ModelosPrevisaoPontoViradaTab,
+)
 from util.constantes import TITULO_MODELO_E_REDES_NEURAIS, TITULO_PRINCIPAL
 from util.layout import output_layout
 
@@ -25,10 +30,16 @@ with st.container():
     #     """
     #     )
 
-    tab0, tab1, tab2 = st.tabs(
-        tabs=["LSTM", "Análise de sentimentos: Imagem", "Análise de sentimentos: Texto"]
+    tab0, tab1, tab2, tab3 = st.tabs(
+        tabs=[
+            "Modelo A: Sugestão de indicação de bolsas",
+            "Modelo B: Previsão de ponto de virada dos alunos",
+            "Análise de sentimentos: Imagem",
+            "Análise de sentimentos: Texto",
+        ]
     )
 
-    ModelosLstmTab(tab0)
-    ModelosAnaliseSentimentoImagemTab(tab1)
-    ModelosAnaliseSentimentoTextoTab(tab2)
+    ModelosPrevisaoIndicacaoBolsaTab(tab0)
+    ModelosPrevisaoPontoViradaTab(tab1)
+    ModelosAnaliseSentimentoImagemTab(tab2)
+    ModelosAnaliseSentimentoTextoTab(tab3)

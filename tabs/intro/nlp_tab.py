@@ -18,8 +18,12 @@ class IntroNLPTab(TabInterface):
                 unsafe_allow_html=True,
             )
 
-            st.subheader(':blue[Aplicação no projeto]')
+            st.subheader(":blue[Aplicação no projeto]")
 
-            st.markdown('''TODO: redigir''')
+            st.markdown("""TODO: redigir - utilizando junto do SVM""")
 
-            st.image('assets/imgs/nlp.jpg', caption='Esquema de um NLP. Fonte: https://amazinum.com/insights/what-is-nlp-and-how-it-is-implemented-in-our-lives/', width=640)
+            st.image(
+                "assets/imgs/nlp.jpg",
+                caption="Esquema de um NLP. Fonte: https://amazinum.com/insights/what-is-nlp-and-how-it-is-implemented-in-our-lives/",
+                width=640,
+            )

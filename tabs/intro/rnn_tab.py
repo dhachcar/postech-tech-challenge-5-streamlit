@@ -19,7 +19,7 @@ class IntroRNNTab(TabInterface):
 
             st.subheader(':blue[Aplicação no projeto]')
 
-            st.markdown("""TODO: redigir""")
+            st.markdown("""TODO: redigir - utilizado para prever o ponto de virada (sim ou não) com uma LSTM""")
 
             st.image(
                 "assets/imgs/rnn.jpg",

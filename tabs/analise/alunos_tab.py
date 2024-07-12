@@ -108,7 +108,7 @@ class AnaliseAlunosTab(TabInterface):
                 )
 
                 st.markdown(
-                    """<small>**:blue[Clique na primeira coluna (vazia)]** :three_button_mouse: na tabela acima para **:blue[selecionar um aluno]** e visualizar o seu respectivo gráfico de performance dos indicadores</small>""",
+                    """<small>**:blue[Clique na primeira coluna (vazia)]** :three_button_mouse: na tabela acima para **:blue[selecionar um aluno]** e visualizar o seu respectivo gráfico de performance dos indicadores. Exemplo à seguir:</small>""",
                     unsafe_allow_html=True,
                 )
 

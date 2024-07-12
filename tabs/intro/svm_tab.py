@@ -19,7 +19,7 @@ class IntroSVMTab(TabInterface):
 
             st.subheader(":blue[Aplicação no projeto]")
 
-            st.markdown("""TODO: redigir""")
+            st.markdown("""TODO: redigir - utilizado junto do NLP""")
 
             st.image(
                 "assets/imgs/svm.png",

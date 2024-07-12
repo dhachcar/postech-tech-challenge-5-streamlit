@@ -1,6 +1,4 @@
 import streamlit as st
-import pandas as pd
-import plotly.graph_objs as go
 from tabs.passos_magicos.base_dados_tab import PassosMagicosBaseDadosTab
 from tabs.passos_magicos.onu_ods_tab import PassosMagicosONUODSTab
 from tabs.passos_magicos.relatorios_tab import (
