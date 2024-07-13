@@ -14,7 +14,7 @@ def plot_bar(
     xaxis: str,
     yaxis: str = "Quantidade",
     cores: List[str] = None,
-) -> pd.DataFrame:
+):
     grupos = df[col].value_counts()
 
     fig = go.Figure(
@@ -39,7 +39,7 @@ def plot_bar(
 
 def plot_histograma(
     df: pd.DataFrame, col: str, titulo: str, rug: bool = True
-) -> pd.DataFrame:
+):
     # faz o cálculo do KDE com o scipy
     data = df[col].values
     kde = gaussian_kde(data)
@@ -99,7 +99,7 @@ def plot_histograma(
     return fig
 
 
-def plot_histograma_comparativo(df: pd.DataFrame, col: str) -> pd.DataFrame:
+def plot_histograma_comparativo(df: pd.DataFrame, col: str):
     fig = px.histogram(
         data_frame=df,
         x=col,
@@ -129,7 +129,7 @@ def plot_histograma_comparativo(df: pd.DataFrame, col: str) -> pd.DataFrame:
     return fig
 
 
-def plot_boxplot(df: pd.DataFrame, col: str, titulo: str) -> pd.DataFrame:
+def plot_boxplot(df: pd.DataFrame, col: str, titulo: str):
     fig = px.box(y=df[col], points="all", title=titulo)
 
     fig.update_layout(yaxis_title="Valor")
@@ -139,7 +139,7 @@ def plot_boxplot(df: pd.DataFrame, col: str, titulo: str) -> pd.DataFrame:
     return fig
 
 
-def plot_boxplot_comparativo(df: pd.DataFrame, col: str) -> pd.DataFrame:
+def plot_boxplot_comparativo(df: pd.DataFrame, col: str):
     fig = px.box(
         data_frame=df,
         x="ANO",

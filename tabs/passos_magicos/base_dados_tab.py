@@ -11,8 +11,6 @@ class PassosMagicosBaseDadosTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.markdown(":red[TODO: rever texto]")
-
             st.subheader(":blue[Base de dados]", divider="blue")
             st.markdown(
                 """

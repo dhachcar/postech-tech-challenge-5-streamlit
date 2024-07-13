@@ -19,7 +19,7 @@ class AnaliseIndicadoresTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.subheader(":blue[Indicadores]")
+            st.subheader(":blue[Indicadores de performance dos alunos]")
 
             tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(
                 tabs=["Pedra", "INDE", "IAA", "IEG", "IPS", "IDA", "IPP", "IPV", "IAN"]
