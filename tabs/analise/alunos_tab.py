@@ -20,7 +20,19 @@ class AnaliseAlunosTab(TabInterface):
         self.pag_rows_per_page = 50
         self.indicadores = ["IAA", "IEG", "IPS", "IDA", "IPP", "IPV", "IAN"]
         self.df = storage_singleton.df_full[
-            ["NOME", "ANO", "INDE", "IAA", "IEG", "IPS", "IDA", "IPP", "IPV", "IAN"]
+            [
+                "NOME",
+                "ANO",
+                "PEDRA",
+                "INDE",
+                "IAA",
+                "IEG",
+                "IPS",
+                "IDA",
+                "IPP",
+                "IPV",
+                "IAN",
+            ]
         ]
         self.pag_total_pages = len(self.df) // self.pag_rows_per_page + (
             len(self.df) % self.pag_rows_per_page > 0
@@ -126,10 +138,12 @@ class AnaliseAlunosTab(TabInterface):
                 # plot do gráfico de radar
                 if index_selecionado != None:
                     selecionado = df_paginado.iloc[index_selecionado]
+
                     fig = self.plot_radar(
                         aluno=selecionado["NOME"],
                         indicadores=selecionado[self.indicadores],
                     )
+
                     st.plotly_chart(fig)
 
             st.success("Processamento concluído! :white_check_mark:")
@@ -137,6 +151,9 @@ class AnaliseAlunosTab(TabInterface):
     def render(self):
         with self.tab:
             st.subheader(":blue[Alunos]")
+            st.markdown(
+                """Nesta página, apresentamos uma listagem paginada de todos os registros de alunos considerados na análise. **:red[É possível clicar na linha (checkbox da primeira coluna)]** para mostrar um gráfico de radar com todos os indicadores do aluno selecionado."""
+            )
 
             col0, col1, _ = st.columns([2, 2, 6])
 
@@ -175,4 +192,4 @@ class AnaliseAlunosTab(TabInterface):
     def reset_paginacao(self):
         # st.session_state["page"] = 1
         if "page" in st.session_state:
-            st.session_state.update({'page': 1})
+            st.session_state.update({"page": 1})
