@@ -15,8 +15,13 @@ class AnaliseIndicadorIANTab(AnaliseIndicadorTab):
         self.comentario_1_comparacao = "TODO: redigir"
         self.comentario_2_comparacao = "TODO: redigir"
 
-        # TODO: melhorar estilo e texto introdutorio
         with tab:
-            st.markdown('Indicador de Adequação ao Nível – Média das Notas de Adequação do Aluno ao nível atual')
+            st.markdown(
+                "Nesta seção serão discutidos os dados anuais dos alunos considerando o indicador **:blue[IAN]**."
+            )
+            st.info(
+                "**Indicador de Adequação ao Nível (IAN)**: Segundo o dicionário de dados, é a métrica de Média das Notas de Adequação do Aluno ao nível atual.",
+                icon=":material/help:",
+            )
 
         super().__init__(tab)

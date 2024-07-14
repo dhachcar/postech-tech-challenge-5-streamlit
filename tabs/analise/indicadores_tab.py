@@ -21,16 +21,27 @@ class AnaliseIndicadoresTab(TabInterface):
         with self.tab:
             st.subheader(":blue[Indicadores de performance dos alunos]")
 
+            st.markdown(
+                """ 
+                    Nesta página serão apresentados as análises anuais de todos os indicadores utilizados pela **:blue[Passos Mágicos]** para compor o índice **:blue[INDE]** (também incluso na análise).<br/>
+                    Além disso, conforme apresentado anteriormente, ao todo são **:blue[7]** indicadores individuais que compõem o índice, dentre eles: **:blue[IAN]**, **:blue[IDA]**, **:blue[IEG]**, **:blue[IAA]**, **:blue[IPS]**, **:blue[IPP]** e **:blue[IPV]**. Eles estão divididos em 3 grupos (ou dimensões) principais, conforme abaixo:
+                    1. **:blue[Dimensão acadêmica:]** englobando os indicadores **:blue[IAN]**, **:blue[IDA]** e **:blue[IEG]**;
+                    1. **:blue[Dimensão psicossocial:]** englobando os indicadores **:blue[IAA]** e **:blue[IPS]**;
+                    1. **:blue[Dimensão psicopedagógica:]** englobando os indicadores **:blue[IPP]** e **:blue[IPV]**;
+            """,
+                unsafe_allow_html=True,
+            )
+
             tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(
-                tabs=["Pedra", "INDE", "IAA", "IEG", "IPS", "IDA", "IPP", "IPV", "IAN"]
+                tabs=["Pedra", "INDE", "IAN", "IDA", "IEG", "IAA", "IPS", "IPP", "IPV"]
             )
 
             AnalisePedraTab(tab0)
             AnaliseIndicadorINDETab(tab1)
-            AnaliseIndicadorIAATab(tab2)
-            AnaliseIndicadorIEGTab(tab3)
-            AnaliseIndicadorIPSTab(tab4)
-            AnaliseIndicadorIDATab(tab5)
-            AnaliseIndicadorIPPTab(tab6)
-            AnaliseIndicadorIPVTab(tab7)
-            AnaliseIndicadorIANTab(tab8)
+            AnaliseIndicadorIANTab(tab2)
+            AnaliseIndicadorIDATab(tab3)
+            AnaliseIndicadorIEGTab(tab4)
+            AnaliseIndicadorIAATab(tab5)
+            AnaliseIndicadorIPSTab(tab6)
+            AnaliseIndicadorIPPTab(tab7)
+            AnaliseIndicadorIPVTab(tab8)

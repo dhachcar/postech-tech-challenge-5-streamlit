@@ -15,8 +15,13 @@ class AnaliseIndicadorIAATab(AnaliseIndicadorTab):
         self.comentario_1_comparacao = "TODO: redigir"
         self.comentario_2_comparacao = "TODO: redigir"
 
-        # TODO: melhorar estilo e texto introdutorio
         with tab:
-            st.markdown('Indicador de Auto Avaliação – Média das Notas de Auto Avaliação do Aluno')
+            st.markdown(
+                "Nesta seção serão discutidos os dados anuais dos alunos considerando o indicador **:blue[IAA]**."
+            )
+            st.info(
+                "**Indicador de Auto Avaliação (IAA)**: Segundo o dicionário de dados, é a métrica de Média das Notas de Auto Avaliação do Aluno.",
+                icon=":material/help:",
+            )
 
         super().__init__(tab)

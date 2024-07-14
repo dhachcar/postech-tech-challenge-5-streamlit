@@ -29,7 +29,7 @@ class AnalisePedraTab(AnaliseIndicadorTab):
         with self.tab:
             st.markdown(
                 """
-                O indicador INDE relaciona a performance do aluno a pedras preciosas, tornando a avaliação algo mais significativo e motivador. Cada pedra representa uma faixa específica de desempenho, trazendo um elemento de valor e prestígio ao progresso acadêmico. Aqui estão as faixas de desempenho e as pedras correspondentes:
+                O indicador **:blue[INDE]** relaciona a performance do aluno a pedras preciosas, tornando a avaliação algo mais significativo e motivador. Cada pedra representa uma faixa específica de desempenho, trazendo um elemento de valor e prestígio ao progresso acadêmico. Aqui estão as faixas de desempenho e as pedras correspondentes:
             """
             )
 
@@ -65,15 +65,15 @@ class AnalisePedraTab(AnaliseIndicadorTab):
                     )
 
             st.markdown(
-                """Ao usar essas pedras preciosas como indicadores de desempenho, o INDE não só mede o sucesso acadêmico de maneira clara, mas também inspira os alunos a buscarem níveis mais altos de realização, associando seu progresso a símbolos tangíveis de valor e beleza."""
+                """Ao usar essas pedras preciosas como indicadores de desempenho, o **:blue[INDE]** não só mede o sucesso acadêmico de maneira clara, mas também inspira os alunos a buscarem níveis mais altos de realização, associando seu progresso a símbolos tangíveis de valor e beleza."""
             )
 
             with st.container():
                 st.subheader(":blue[2020]", divider="blue")
                 st.markdown(
                     """
-                        Em **:blue[2020]**, muitos alunos conquistaram a pedra de **:blue[Ametista]**, representando um nível elevado de realização acadêmica. Isto demonstra que estes alunos possui uma ótima média de INDE, girando em torno de **:blue[7]** à **:blue[8]**. Entretanto, poucos alunos conseguiram atingir a pedra de **:blue[Tópazio]** (acima de **:blue[8,2]**), o que **:blue[não]** representa algo ruim necessariamente, mas apenas que tal pedra é reservada apenas para os alunos que superarem todas as expectativas em seus estudos.<br/><br/>
-                        Se levarmos em consideração que em 2020 o mundo estava enfrentando a pandemia de COVID-19 e todas as criaças estavam sendo afastadas do convívio social (incluindo das escolas), a quantidade de alunos com ótimas índices de INDE impressiona.
+                        Em **:blue[2020]**, muitos alunos conquistaram a pedra de **:blue[Ametista]**, representando um nível elevado de realização acadêmica. Isto demonstra que estes alunos possui uma ótima média de **:blue[INDE]**, girando em torno de **:blue[7]** à **:blue[8]**. Entretanto, poucos alunos conseguiram atingir a pedra de **:blue[Tópazio]** (acima de **:blue[8,2]**), o que **:blue[não]** representa algo ruim necessariamente, mas apenas que tal pedra é reservada apenas para os alunos que superarem todas as expectativas em seus estudos.<br/><br/>
+                        Se levarmos em consideração que em **:blue[2020]** o mundo estava enfrentando a pandemia de COVID-19 e todas as criaças estavam sendo afastadas do convívio social (incluindo das escolas), a quantidade de alunos com ótimos índices no **:blue[INDE]** é impressionante!
                     """,
                     unsafe_allow_html=True,
                 )

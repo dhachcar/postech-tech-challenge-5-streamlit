@@ -15,8 +15,13 @@ class AnaliseIndicadorINDETab(AnaliseIndicadorTab):
         self.comentario_1_comparacao = "TODO: redigir"
         self.comentario_2_comparacao = "TODO: redigir"
 
-        # TODO: melhorar estilo e texto introdutorio
         with tab:
-            st.markdown('Índice do Desenvolvimento Educacional – Métrica de Processo Avaliativo Geral do Aluno, dado pela ponderação dos indicadores: IAN, IDA, IEG, IAA, IPS, IPP e IPV')
+            st.markdown(
+                "Nesta seção serão discutidos os dados anuais dos alunos considerando o indicador **:blue[INDE]**."
+            )
+            st.info(
+                "**Índice do Desenvolvimento Educacional (INDE)**: Segundo o dicionário de dados, é a métrica de Processo Avaliativo Geral do Aluno, dado pela ponderação dos indicadores IAN, IDA, IEG, IAA, IPS, IPP e IPV.",
+                icon=":material/help:",
+            )
 
         super().__init__(tab)

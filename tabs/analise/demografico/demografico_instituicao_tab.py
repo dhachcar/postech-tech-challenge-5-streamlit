@@ -44,6 +44,7 @@ class AnaliseDemograficoInstituicaoTab(TabInterface):
             with st.expander(":blue[Comentários]", expanded=True):
                 st.markdown("TODO: redigir")
 
-            st.markdown(
-                "**:red[Não há dados disponiveis a respeito das instituições de ensino em 2022 na Passos Mágicos]**"
+            st.error(
+                "**Não há dados disponiveis a respeito das instituições de ensino em 2022 na Passos Mágicos**",
+                icon=":material/help:",
             )

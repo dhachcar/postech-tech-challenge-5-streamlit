@@ -15,8 +15,13 @@ class AnaliseIndicadorIDATab(AnaliseIndicadorTab):
         self.comentario_1_comparacao = "TODO: redigir"
         self.comentario_2_comparacao = "TODO: redigir"
 
-        # TODO: melhorar estilo e texto introdutorio
         with tab:
-            st.markdown('Indicador de Aprendizagem - Média das Notas do Indicador de Aprendizagem')
+            st.markdown(
+                "Nesta seção serão discutidos os dados anuais dos alunos considerando o indicador **:blue[IDA]**."
+            )
+            st.info(
+                "**Indicador de Aprendizagem (IDA)**: Segundo o dicionário de dados, é a métrica de Média das Notas do Indicador de Aprendizagem.",
+                icon=":material/help:",
+            )
 
         super().__init__(tab)

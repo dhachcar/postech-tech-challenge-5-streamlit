@@ -37,9 +37,7 @@ def plot_bar(
     return fig
 
 
-def plot_histograma(
-    df: pd.DataFrame, col: str, titulo: str, rug: bool = True
-):
+def plot_histograma(df: pd.DataFrame, col: str, titulo: str, rug: bool = True):
     # faz o cálculo do KDE com o scipy
     data = df[col].values
     kde = gaussian_kde(data)
@@ -75,7 +73,9 @@ def plot_histograma(
     fig.add_trace(histogram)
     fig.add_trace(kde_line)
     fig.update_traces(
-        texttemplate="%{y:.2%}", textposition="outside", selector=dict(type="histogram")
+        texttemplate="%{y:.2%}",
+        textposition="outside",
+        selector=dict(type="histogram"),
     )
 
     # configs
@@ -83,7 +83,7 @@ def plot_histograma(
         title=titulo,
         xaxis_title="Valor",
         yaxis_title="Frequência",
-        yaxis=dict(range=[0, max(kde_vals) + 0.1]),
+        yaxis=dict(range=[0, max(kde_vals) + 1]),
         bargap=0.015,
         uniformtext_mode="hide",
     )
@@ -91,7 +91,7 @@ def plot_histograma(
     # configs com rug
     if rug:
         fig.add_trace(rug_plot)
-        fig.update_layout(yaxis=dict(range=[-0.02, max(kde_vals) + 0.1]))
+        fig.update_layout(yaxis=dict(range=[-0.02, None]))
     # configs sem rug
     else:
         fig.update_layout(xaxis=dict(tickmode="linear"))

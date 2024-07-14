@@ -15,8 +15,13 @@ class AnaliseIndicadorIPPTab(AnaliseIndicadorTab):
         self.comentario_1_comparacao = "TODO: redigir"
         self.comentario_2_comparacao = "TODO: redigir"
 
-        # TODO: melhorar estilo e texto introdutorio
         with tab:
-            st.markdown('Indicador Psicopedagógico – Média das Notas Psico Pedagógicas do Aluno')
+            st.markdown(
+                "Nesta seção serão discutidos os dados anuais dos alunos considerando o indicador **:blue[IPP]**."
+            )
+            st.info(
+                "**Indicador Psicopedagógico (IPP)**: Segundo o dicionário de dados, é a métrica de Média das Notas Psico Pedagógicas do Aluno.",
+                icon=":material/help:",
+            )
 
         super().__init__(tab)

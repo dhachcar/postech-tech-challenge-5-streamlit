@@ -15,8 +15,13 @@ class AnaliseIndicadorIPSTab(AnaliseIndicadorTab):
         self.comentario_1_comparacao = "TODO: redigir"
         self.comentario_2_comparacao = "TODO: redigir"
 
-        # TODO: melhorar estilo e texto introdutorio
         with tab:
-            st.markdown('Indicador Psicossocial – Média das Notas Psicossociais do Aluno')
+            st.markdown(
+                "Nesta seção serão discutidos os dados anuais dos alunos considerando o indicador **:blue[IPS]**."
+            )
+            st.info(
+                "**Indicador Psicossocial (IPS)**: Segundo o dicionário de dados, é a métrica de Média das Notas Psicossociais do Aluno.",
+                icon=":material/help:",
+            )
 
         super().__init__(tab)
