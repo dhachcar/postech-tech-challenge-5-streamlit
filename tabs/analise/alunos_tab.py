@@ -55,6 +55,8 @@ class AnaliseAlunosTab(TabInterface):
         )
 
         fig.update_layout(
+            title=f'Performance do {aluno}',
+            title_x=0.28,
             polar=dict(
                 radialaxis=dict(visible=True, range=[0, 10]),
                 bgcolor="rgba(255, 255, 255, 0)",
@@ -138,6 +140,8 @@ class AnaliseAlunosTab(TabInterface):
                 # plot do gráfico de radar
                 if index_selecionado != None:
                     selecionado = df_paginado.iloc[index_selecionado]
+
+                    # st.subheader("**:blue[Performance]**", divider="blue")
 
                     fig = self.plot_radar(
                         aluno=selecionado["NOME"],

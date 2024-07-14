@@ -35,7 +35,10 @@ class AnaliseIndicadorTab(TabInterface):
         st.markdown(self.comentario_1_2020)
 
         fig = plot_boxplot(
-            self.df_2020, self.col, f"Distribuição do {self.col} para o ano de 2020"
+            self.df_2020,
+            self.col,
+            f"Distribuição do {self.col} para o ano de 2020",
+            calcular_media=True,
         )
         st.plotly_chart(fig, use_container_width=True)
         st.markdown(self.comentario_2_2020)
@@ -48,7 +51,10 @@ class AnaliseIndicadorTab(TabInterface):
         st.markdown(self.comentario_1_2021)
 
         fig = plot_boxplot(
-            self.df_2021, self.col, f"Distribuição do {self.col} para o ano de 2021"
+            self.df_2021,
+            self.col,
+            f"Distribuição do {self.col} para o ano de 2021",
+            calcular_media=True,
         )
         st.plotly_chart(fig, use_container_width=True)
         st.markdown(self.comentario_2_2021)
@@ -61,7 +67,10 @@ class AnaliseIndicadorTab(TabInterface):
         st.markdown(self.comentario_1_2022)
 
         fig = plot_boxplot(
-            self.df_2022, self.col, f"Distribuição do {self.col} para o ano de 2022"
+            self.df_2022,
+            self.col,
+            f"Distribuição do {self.col} para o ano de 2022",
+            calcular_media=True,
         )
         st.plotly_chart(fig, use_container_width=True)
         st.markdown(self.comentario_2_2022)

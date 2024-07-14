@@ -142,7 +142,7 @@ def plot_histograma(
             borderwidth=1,
             bordercolor="black",
             borderpad=2,
-            height=15
+            height=15,
         )
 
     # 6. configs
@@ -150,7 +150,7 @@ def plot_histograma(
         title=titulo,
         xaxis_title="Valor",
         yaxis_title="Frequência",
-        yaxis=dict(range=[0, max(kde_vals) + 1]),
+        yaxis=dict(range=[-0.02, None]),
         bargap=0.015,
         uniformtext_mode="hide",
     )
@@ -196,12 +196,34 @@ def plot_histograma_comparativo(df: pd.DataFrame, col: str):
     return fig
 
 
-def plot_boxplot(df: pd.DataFrame, col: str, titulo: str):
+def plot_boxplot(df: pd.DataFrame, col: str, titulo: str, calcular_media: bool = False):
     fig = px.box(y=df[col], points="all", title=titulo)
 
     fig.update_layout(yaxis_title="Valor")
 
     fig.update_yaxes(dtick=1)
+
+    if calcular_media:
+        media = df[col].mean()
+
+        fig.add_shape(
+            type="line",
+            x0=-0.5,
+            x1=0.5,
+            y0=media,
+            y1=media,
+            line=dict(color="red", width=2),
+        )
+
+        fig.add_annotation(
+            x=0.45,
+            y=media,
+            text=f"Média: {media:.2f}",
+            font=dict(color="red", size=14),
+            showarrow=False,
+            yshift=10,
+            align="right",
+        )
 
     return fig
 

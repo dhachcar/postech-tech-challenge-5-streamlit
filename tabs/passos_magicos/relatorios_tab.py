@@ -22,7 +22,6 @@ class PassosMagicosPEDERelatoriosTab(TabInterface):
                     3. **:blue[Dimensão psicopedagógica:]** englobando os indicadores **:blue[IPP]** e **:blue[IPV]**;
 
                     O cálculo do **:blue[INDE]** é realizado através da agregação de diversos indicadores que avaliam diferentes aspectos do desenvolvimento educacional. Cada um desses indicadores possui uma ponderação específica, e juntos eles formam a pontuação geral do índice. A respeito das dimensões e indicadores utilizados no cálculo do **:blue[INDE]**, temos o seguinte:
-
                     * **:blue[Indicador de Adequação de Nível (IAN):]** Avalia se o aluno está no nível adequado de ensino para sua idade;
                     * **:blue[Indicador de Desempenho Acadêmico (IDA):]** Mede o desempenho acadêmico dos alunos em diversas disciplinas;
                     * **:blue[Indicador de Engajamento (IEG):]** Analisa o nível de engajamento dos alunos nas atividades escolares;
@@ -30,6 +29,19 @@ class PassosMagicosPEDERelatoriosTab(TabInterface):
                     * **:blue[Indicador Psicossocial (IPS):]** Examina aspectos psicossociais dos alunos, incluindo bem-estar emocional e social;
                     * **:blue[Indicador Psicopedagógico (IPP):]** Foca em aspectos psicopedagógicos que podem influenciar o aprendizado dos alunos;
                     * **:blue[Indicador do Ponto de Virada (IPV):]** Identifica momentos críticos no desenvolvimento educacional dos alunos que podem determinar mudanças significativas em seu percurso acadêmico;
+
+                    Além disso, cada indicador também possui uma forma de coleta ou fonte, conforme a seguir:
+                    * **:blue[Indicador de Adequação de Nível (IAN):]** Coletado através de registros administrativos;
+                    * **:blue[Indicador de Desempenho Acadêmico (IDA):]** Coletado através de provas aplicadas aos alunos;
+                    * **:blue[Indicador de Engajamento (IEG):]** Coletado através dos registros de entrega das lições de casa e voluntariado;
+                    * **:blue[Indicador de Autoavaliação (IAA):]** Coletado através de um questionário de autoavaliação individual realizado pelos próprios alunos;
+                    * **:blue[Indicador Psicossocial (IPS):]** Coletado através de um questionário de avaliação individual por aluno, aplicado aos psicólogos que atendem a ONG;
+                    * **:blue[Indicador Psicopedagógico (IPP):]** Coletado através de um questionário de avaliação individual por aluno, aplicado aos pedagogos e professores que atendem a ONG;
+                    * **:blue[Indicador do Ponto de Virada (IPV):]** Coletado através de um questionário de avaliação individual por aluno, aplicado aos pedagogos e professores que atendem a ONG (mesmo processo do IPP, mas com outro objetivo);
+
+                    Por fim, a jornada dos alunos dentro da ONG **:blue[Passos Mágicos]** é dividida em :eight: Fases, sendo a última delas, a Fase :eight:, exclusiva para a etapa do ensino superior (faculdades, universidades, etc). Os indicadores utilizados por fase também são ligeiramente diferentes< conforme a seguir:
+                    * Fase :zero: até a Fase :seven:: considera todos os indicadores disponíveis **:blue[IAN]**, **:blue[IDA]**, **:blue[IEG]**, **:blue[IAA]**, **:blue[IPS]**, **:blue[IPP]** e **:blue[IPV]**;
+                    * Fase :eight:: considera os indicadores **:blue[IAN]**, **:blue[IDA]**, **:blue[IEG]**, **:blue[IAA]** e **:blue[IPS]**;
                 """,
                 unsafe_allow_html=True,
             )
