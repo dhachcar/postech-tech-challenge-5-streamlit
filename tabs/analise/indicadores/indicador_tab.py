@@ -30,53 +30,41 @@ class AnaliseIndicadorTab(TabInterface):
     def render_2020(self):
         st.subheader(f":blue[{self.col}: 2020]", divider="blue")
 
-        fig = plot_histograma(self.df_2020, self.col, 2020)
+        fig = plot_histograma(self.df_2020, self.col, 2020, analise=True)
         st.plotly_chart(fig, use_container_width=True)
-
-        with st.expander(":blue[Comentários]", expanded=True):
-            st.markdown(self.comentario_1_2020)
+        st.markdown(self.comentario_1_2020)
 
         fig = plot_boxplot(
             self.df_2020, self.col, f"Distribuição do {self.col} para o ano de 2020"
         )
         st.plotly_chart(fig, use_container_width=True)
-
-        with st.expander(":blue[Comentários]", expanded=True):
-            st.markdown(self.comentario_2_2020)
+        st.markdown(self.comentario_2_2020)
 
     def render_2021(self):
         st.subheader(f":blue[{self.col}: 2021]", divider="blue")
 
-        fig = plot_histograma(self.df_2021, self.col, 2021)
+        fig = plot_histograma(self.df_2021, self.col, 2021, analise=True)
         st.plotly_chart(fig, use_container_width=True)
-
-        with st.expander(":blue[Comentários]", expanded=True):
-            st.markdown(self.comentario_1_2021)
+        st.markdown(self.comentario_1_2021)
 
         fig = plot_boxplot(
             self.df_2021, self.col, f"Distribuição do {self.col} para o ano de 2021"
         )
         st.plotly_chart(fig, use_container_width=True)
-
-        with st.expander(":blue[Comentários]", expanded=True):
-            st.markdown(self.comentario_2_2021)
+        st.markdown(self.comentario_2_2021)
 
     def render_2022(self):
         st.subheader(f":blue[{self.col}: 2022]", divider="blue")
 
-        fig = plot_histograma(self.df_2022, self.col, 2022)
+        fig = plot_histograma(self.df_2022, self.col, 2022, analise=True)
         st.plotly_chart(fig, use_container_width=True)
-
-        with st.expander(":blue[Comentários]", expanded=True):
-            st.markdown(self.comentario_1_2022)
+        st.markdown(self.comentario_1_2022)
 
         fig = plot_boxplot(
             self.df_2022, self.col, f"Distribuição do {self.col} para o ano de 2022"
         )
         st.plotly_chart(fig, use_container_width=True)
-
-        with st.expander(":blue[Comentários]", expanded=True):
-            st.markdown(self.comentario_2_2022)
+        st.markdown(self.comentario_2_2022)
 
     def render_comparacao_ano_a_ano(self):
         st.subheader(
@@ -85,12 +73,9 @@ class AnaliseIndicadorTab(TabInterface):
 
         fig = plot_histograma_comparativo(self.df_full, self.col)
         st.plotly_chart(fig, use_container_width=True)
-
-        with st.expander(":blue[Comentários]", expanded=True):
-            st.markdown(self.comentario_1_comparacao)
+        st.markdown(self.comentario_1_comparacao)
 
         fig = plot_boxplot_comparativo(self.df_full, self.col)
 
         st.plotly_chart(fig, use_container_width=True)
-        with st.expander(":blue[Comentários]", expanded=True):
-            st.markdown(self.comentario_2_comparacao)
+        st.markdown(self.comentario_2_comparacao)

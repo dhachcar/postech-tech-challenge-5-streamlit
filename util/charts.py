@@ -1,10 +1,56 @@
 from typing import Tuple
 import pandas as pd
-from scipy.stats import gaussian_kde
+from scipy.stats import skew, kurtosis, gaussian_kde
 import numpy as np
 import plotly.graph_objs as go
 import plotly.express as px
 from typing import List
+
+
+def classificar_distribuicao_histograma(data):
+    kde = gaussian_kde(data)
+    diff = np.diff(kde(data))
+
+    modes = data[np.where(diff[:-1] * diff[1:] < 0)[0] + 1]
+    skewness = skew(data)
+    kurt = kurtosis(data)
+
+    if skewness > 0 and kurt > 3:
+        return "Distribuição Assimétrica Positiva e Leptocúrtica"
+    elif skewness < 0 and kurt > 3:
+        return "Distribuição Assimétrica Negativa e Leptocúrtica"
+    elif skewness > 0 and kurt < 3:
+        if len(modes) == 2:
+            return "Distribuição Bimodal e Platicúrtica"
+        elif len(modes) > 2:
+            return "Distribuição Multimodal e Platicúrtica"
+        else:
+            return "Distribuição Assimétrica Positiva e Platicúrtica"
+    elif skewness < 0 and kurt < 3:
+        if len(modes) == 2:
+            return "Distribuição Bimodal e Platicúrtica"
+        elif len(modes) > 2:
+            return "Distribuição Multimodal e Platicúrtica"
+        else:
+            return "Distribuição Assimétrica Negativa e Platicúrtica"
+    elif skewness == 0 and kurt > 3:
+        if len(modes) == 2:
+            return "Distribuição Bimodal e Leptocúrtica"
+        elif len(modes) > 2:
+            return "Distribuição Multimodal e Leptocúrtica"
+        else:
+            return "Distribuição Simétrica e Leptocúrtica"
+    elif skewness == 0 and kurt < 3:
+        if len(modes) == 2:
+            return "Distribuição Bimodal e Platicúrtica"
+        elif len(modes) > 2:
+            return "Distribuição Multimodal e Platicúrtica"
+        else:
+            return "Distribuição Simétrica e Platicúrtica"
+    elif skewness > -0.5 and skewness < 0.5 and kurt > 2 and kurt < 3:
+        return "Distribuição Mesocúrtica"
+    else:
+        return "Distribuição com características não convencionais"
 
 
 def plot_bar(
@@ -37,7 +83,9 @@ def plot_bar(
     return fig
 
 
-def plot_histograma(df: pd.DataFrame, col: str, titulo: str, rug: bool = True):
+def plot_histograma(
+    df: pd.DataFrame, col: str, titulo: str, rug: bool = True, analise: bool = False
+):
     # faz o cálculo do KDE com o scipy
     data = df[col].values
     kde = gaussian_kde(data)
@@ -68,7 +116,7 @@ def plot_histograma(df: pd.DataFrame, col: str, titulo: str, rug: bool = True):
             marker=dict(color="orange", symbol="line-ns-open", size=10),
         )
 
-    # figura principal
+    # 4. figura principal
     fig = go.Figure()
     fig.add_trace(histogram)
     fig.add_trace(kde_line)
@@ -78,7 +126,26 @@ def plot_histograma(df: pd.DataFrame, col: str, titulo: str, rug: bool = True):
         selector=dict(type="histogram"),
     )
 
-    # configs
+    # 5. faz o cálculo da curtose (achatamento), assimétria, e modos da distribuição
+    if analise:
+        classificacao = classificar_distribuicao_histograma(data)
+
+        fig.add_annotation(
+            x=0,
+            y=-0.2,
+            xref="paper",
+            yref="paper",
+            text=f"<b>&nbsp;&nbsp;{classificacao}&nbsp;&nbsp;</b>",
+            showarrow=False,
+            font=dict(color="black", size=12),
+            bgcolor="white",
+            borderwidth=1,
+            bordercolor="black",
+            borderpad=2,
+            height=15
+        )
+
+    # 6. configs
     fig.update_layout(
         title=titulo,
         xaxis_title="Valor",
