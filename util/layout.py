@@ -17,7 +17,6 @@ def format_number(number, format="%0.0f"):
 
 def output_layout():
     # TODO: e se eu colocasse o particles.js aqui??
-    # TODO: criar um tabelão dos alunos, por ano, ao clicar, mostra um grafico de radar (tipo fifa com os indicadores dele)
     # TODO: da mesma forma, o nlp, podemos clicar numa tabela e ele avaliar todos os comentários daquele aluno, naquele ano
 
     show_pages(
@@ -56,19 +55,19 @@ def output_layout():
     with st.sidebar:
         st.markdown("#")
 
-        col0, col1 = st.columns([1, 1])
+        _, col0, _ = st.columns([1, 8, 1])
 
         with col0:
-            st.image("assets/imgs/logo-fiap.png", width=150)
-
-        with col1:
-            st.image("assets/imgs/logo-postech.png", width=150)
+            st.image("assets/imgs/logo-fiap.png", width=150, use_column_width=True)
+            st.image("assets/imgs/logo-postech.png", width=200, use_column_width=True)
 
         st.divider()
 
-        st.subheader("Aluno")
-        st.text("Danilo Henrique Achcar")
-        st.text("RM 351516 | 2DTAT", help='oi')
+        st.subheader(":blue[Aluno]")
+        st.text(
+            "Danilo Henrique Achcar", help="LinkedIn: https://www.linkedin.com/in/danilo-henrique-achcar"
+        )
+        st.text("RM 351516 | 2DTAT")
 
         st.divider()
 
