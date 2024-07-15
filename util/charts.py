@@ -6,6 +6,8 @@ import plotly.graph_objs as go
 import plotly.express as px
 from typing import List
 
+from util.layout import format_number
+
 
 def classificar_distribuicao_histograma(data):
     kde = gaussian_kde(data)
@@ -84,7 +86,12 @@ def plot_bar(
 
 
 def plot_histograma(
-    df: pd.DataFrame, col: str, titulo: str, rug: bool = True, analise: bool = False
+    df: pd.DataFrame,
+    col: str,
+    titulo: str,
+    bins: int = None,
+    rug: bool = True,
+    analise: bool = False,
 ):
     # faz o cálculo do KDE com o scipy
     data = df[col].values
@@ -93,7 +100,7 @@ def plot_histograma(
     kde_vals = kde(x_vals)
 
     # faz o cálculo da quantidade "ótima" de bins (assim evitamos grupos de classificação desnecessários)
-    bins = len(np.histogram_bin_edges(data, bins="auto"))
+    bins = len(np.histogram_bin_edges(data, bins="auto")) if bins == None else bins
 
     # cria os plots separados (histograma + kde + rug)
     # 1. histograma
@@ -158,7 +165,6 @@ def plot_histograma(
     # configs com rug
     if rug:
         fig.add_trace(rug_plot)
-        fig.update_layout(yaxis=dict(range=[-0.02, None]))
     # configs sem rug
     else:
         fig.update_layout(xaxis=dict(tickmode="linear"))
@@ -166,20 +172,38 @@ def plot_histograma(
     return fig
 
 
-def plot_histograma_comparativo(df: pd.DataFrame, col: str):
+def plot_histograma_comparativo(
+    df: pd.DataFrame, col: str, barnorm_percent: bool = False
+):
+    bins = len(np.histogram_bin_edges(df[col], bins="auto"))
+
     fig = px.histogram(
         data_frame=df,
-        x=col,
+        x=df[col],
         color="ANO",
-        title=f"Distribuição do indicador {col} comparativo",
-        nbins=50,
+        title=f"Distribuição do indicador {col} comparativo e cumulativo",
+        nbins=bins,
         marginal="rug",
         histnorm="probability density",
+        barnorm=None if not barnorm_percent else "percent",
+        cumulative=True,
     )
 
     fig.update_traces(
-        texttemplate="%{y:.2}", textposition="outside", selector=dict(type="histogram")
+        texttemplate="%{y:0.4}",
+        textposition="outside",
+        selector=dict(type="histogram"),
     )
+
+    # modo específico de output, altera o título
+    if barnorm_percent:
+        fig.update_traces(
+            texttemplate="%{y:0.4}%",
+            selector=dict(type="histogram"),
+        )
+        fig.update_layout(
+            title=f"Distribuição do indicador {col} comparativo e cumulativo com as colunas normalizadas",
+        )
 
     # TODO: não ficou legal... se der tempo, melhorar esse KDE
     # for ano in df['ANO'].unique():
@@ -191,7 +215,13 @@ def plot_histograma_comparativo(df: pd.DataFrame, col: str):
 
     #     fig.add_trace(go.Scatter(x=x_vals, y=kde_vals, mode='lines', name=f'KDE {ano}'))
 
-    fig.update_layout(xaxis_title="Valor", yaxis_title="Frequência", height=600)
+    fig.update_layout(
+        xaxis_title="Valor",
+        yaxis_title="Frequência",
+        height=600,
+        yaxis=dict(range=[-0.02, None]),
+        bargap=0.015,
+    )
 
     return fig
 
@@ -218,7 +248,7 @@ def plot_boxplot(df: pd.DataFrame, col: str, titulo: str, calcular_media: bool =
         fig.add_annotation(
             x=0.45,
             y=media,
-            text=f"Média: {media:.2f}",
+            text=f"Média: <b>{format_number(media, '%0.2f')}</b>",
             font=dict(color="red", size=14),
             showarrow=False,
             yshift=10,
