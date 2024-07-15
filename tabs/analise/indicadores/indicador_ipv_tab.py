@@ -29,6 +29,7 @@ class AnaliseIndicadorIPVTab(AnaliseIndicadorTab):
         q3_2022 = format_number(desc_2022.loc["75%"], "%0.2f")
 
         self.comentario_1_2020 = f"""Para o ano de **:blue[2020]** podemos observar que a grande maioria dos alunos obteve uma nota que ficou entre **:blue[{q1_2020}]** (Q1) e **:blue[{q3_2020}]** (Q3), o que demonstra notas acima da média de forma geral."""
+        
         self.comentario_2_2020 = f"""Nesta seção, apresentamos um boxplot dos dados contendo a análise descritiva. A métrica que mais chama a atenção é a mediana, que gira em torno de **:blue[{median_2020}]**, um valor bem alto se considerarmos toda a distribuição, o que indica que os professores dos alunos de fato veem o impacto positivo da ONG na vida das crianças e jovens com aumento de sua performance acadêmica. Já para a média, o valor atingido foi de **:blue[{mean_2020}]**"""
 
         self.comentario_1_2021 = f"""Para o ano de **:blue[2021]** a mediana (e consequentemente a média) geral foi superior à **:blue[2020]**. Portanto, podemos concluir que neste ano os alunos tiveram uma performance melhor que no ano anterior. A maior parte das notas ficou dentro do intervalo de **:blue[{q1_2021}]** (Q1) e **:blue[{q3_2021}]** (Q3). Também vale notar que o Q1 do indicador neste ano foi levemente menor que no ano anterior, mas em contrapartida o Q3 também acabou sendo maior, "alongando" o intervalo de valores."""
