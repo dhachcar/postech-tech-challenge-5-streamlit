@@ -20,7 +20,7 @@ class IntroLSTMTab(TabInterface):
 
             st.subheader(":blue[Aplicação no projeto]")
 
-            st.markdown("""TODO: redigir - utilizado para prever o ponto de virada (sim ou não) com uma LSTM (que é uma rnn)""")
+            st.markdown("""TODO: redigir - utilizado para prever quais alunos podem ser indicados para receber uma bolsa de estudos com uma LSTM (que é uma rnn)... talvez dê p utilizar outro tipo de rede""")
 
             st.image(
                 "assets/imgs/lstm.png",

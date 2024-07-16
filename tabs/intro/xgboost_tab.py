@@ -21,7 +21,7 @@ class IntroXGBoostTab(TabInterface):
 
             st.subheader(":blue[Aplicação no projeto]")
 
-            st.markdown("""TODO: redigir - utilizado para prever quais alunos podem ser indicados para receber uma bolsa de estudos""")
+            st.markdown("""TODO: redigir - utilizar NLP para avaliar as descriçoes dos alunos e prever com base nos comentarios se o aluno vai atingir o PV (ponto de virada)""")
 
             st.image(
                 "assets/imgs/xgboost.webp",
