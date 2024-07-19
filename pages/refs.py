@@ -31,6 +31,8 @@ with st.container():
         * https://amazinum.com/insights/what-is-nlp-and-how-it-is-implemented-in-our-lives/
         * https://www.alura.com.br/artigos/o-que-e-um-histograma
         * https://www.uel.br/pessoal/lscunha/pages/arquivos/uel/Economia%20Noturno/Aula%206%20-%20Assimetria%20e%20Curtose(1).pdf
+        * https://www.statlect.com/glossary/probability-density-function
+        * https://towardsdatascience.com/kernel-density-estimation-explained-step-by-step-7cc5b5bc4517
         * SILVA, Dario Rodrigues da. Pesquisa do Desenvolvimento Educaional - PEDE 2020. Associação Passos Mágicos. São Paulo, p.XXX-YYYY. 2021.
         * SILVA, Dario Rodrigues da. Pesquisa do Desenvolvimento Educaional - PEDE 2021. Associação Passos Mágicos. São Paulo, p.XXX-YYYY. 2022.
         * SILVA, Dario Rodrigues da. Pesquisa do Desenvolvimento Educaional - PEDE 2022. Associação Passos Mágicos. São Paulo, p.XXX-YYYY. 2023.

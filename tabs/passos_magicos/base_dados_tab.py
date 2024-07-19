@@ -36,6 +36,11 @@ class PassosMagicosBaseDadosTab(TabInterface):
                     mime="text/csv",
                 )
 
+            st.error(
+                "**ATENÇÃO:** este trabalho utiliza exclusivamente a base de dados ***V1*** fornecida pela **Passos Mágicos**. Quando a ***V2*** foi disponibilizada, o trabalho já estava em estágios avançados de construção e sua mudança poderia trazer dificuldades para a entrega deste projeto.",
+                icon=":material/help:",
+            )
+
             st.subheader(":blue[Features utilizadas por este projeto]", divider="blue")
             st.markdown(
                 """
@@ -44,9 +49,9 @@ class PassosMagicosBaseDadosTab(TabInterface):
                 unsafe_allow_html=True,
             )
 
-            tag_eda = "**:green[EDA]**" # análise estatística
-            tag_nlp = "**:red[NLP]**" # NLP
-            tag_ml = "**:blue[ML]**" # machine learning ou redes neurais
+            tag_eda = "**:green[EDA]**"  # análise estatística
+            tag_nlp = "**:red[NLP]**"  # NLP
+            tag_ml = "**:blue[ML]**"  # machine learning ou redes neurais
 
             st.subheader(":blue[Legenda]")
             st.markdown(

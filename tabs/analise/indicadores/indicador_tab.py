@@ -32,7 +32,7 @@ class AnaliseIndicadorTab(TabInterface):
 
         fig = plot_histograma(self.df_2020, self.col, 2020, bins=30, analise=True)
         st.plotly_chart(fig, use_container_width=True)
-        st.markdown(self.comentario_1_2020)
+        st.markdown(self.comentario_1_2020, unsafe_allow_html=True)
 
         fig = plot_boxplot(
             self.df_2020,
@@ -41,7 +41,7 @@ class AnaliseIndicadorTab(TabInterface):
             calcular_media=True,
         )
         st.plotly_chart(fig, use_container_width=True)
-        st.markdown(self.comentario_2_2020)
+        st.markdown(self.comentario_2_2020, unsafe_allow_html=True)
 
     def render_2021(self):
         st.subheader(f":blue[{self.col}: 2021]", divider="blue")
