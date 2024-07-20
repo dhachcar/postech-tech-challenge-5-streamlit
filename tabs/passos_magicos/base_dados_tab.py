@@ -74,7 +74,7 @@ class PassosMagicosBaseDadosTab(TabInterface):
                 | IEG_2020 | {tag_eda} / {tag_ml} | Indicador de Engajamento – Média das Notas de Engajamento do Aluno em 2020 |
                 | IPS_2020 | {tag_eda} / {tag_ml} | Indicador Psicossocial – Média das Notas Psicossociais do Aluno em 2020 |
                 | IDA_2020 | {tag_eda} / {tag_ml} | Indicador de Aprendizagem - Média das Notas do Indicador de Aprendizagem 2020 |
-                | IPP_2020 | {tag_eda} / {tag_ml} | Indicador Psicopedagógico – Média das Notas Psico Pedagógicas do Aluno em 2020 |
+                | IPP_2020 | {tag_eda} / {tag_ml} | Indicador Psicopedagógico – Média das Notas Psicopedagógicas do Aluno em 2020 |
                 | IPV_2020 | {tag_eda} / {tag_ml} | Indicador de Ponto de Virada – Média das Notas de Ponto de Virada do Aluno em 2020 |
                 | IAN_2020 | {tag_eda} / {tag_ml} | Indicador de Adequação ao Nível – Média das Notas de Adequação do Aluno ao nível atual em 2020 |
                 | INDE_2020 | {tag_eda} / {tag_ml} | Índice do Desenvolvimento Educacional – Métrica de Processo Avaliativo Geral do Aluno, dado pela ponderação dos indicadores: IAN, IDA, IEG, IAA, IPS, IPP e IPV em 2020.
@@ -87,7 +87,7 @@ class PassosMagicosBaseDadosTab(TabInterface):
                 | IEG_2021 | {tag_eda} / {tag_ml} | Indicador de Engajamento – Média das Notas de Engajamento do Aluno em 2021 |
                 | IPS_2021 | {tag_eda} / {tag_ml} | Indicador Psicossocial – Média das Notas Psicossociais do Aluno em 2021 |
                 | IDA_2021 | {tag_eda} / {tag_ml} | Indicador de Aprendizagem - Média das Notas do Indicador de Aprendizagem 2021 |
-                | IPP_2021 | {tag_eda} / {tag_ml} | Indicador Psicopedagógico – Média das Notas Psico Pedagógicas do Aluno em 2021 |
+                | IPP_2021 | {tag_eda} / {tag_ml} | Indicador Psicopedagógico – Média das Notas Psicopedagógicas do Aluno em 2021 |
                 | IPV_2021 | {tag_eda} / {tag_ml} | Indicador de Ponto de Virada – Média das Notas de Ponto de Virada do Aluno em 2021 |
                 | IAN_2021 | {tag_eda} / {tag_ml} | Indicador de Adequação ao Nível – Média das Notas de Adequação do Aluno ao nível atual em 2021 |
                 | INDE_2021 | {tag_eda} / {tag_ml} | Índice do Desenvolvimento Educacional – Métrica de Processo Avaliativo Geral do Aluno, dado pela ponderação dos indicadores: IAN, IDA, IEG, IAA, IPS, IPP e IPV em 2021.
@@ -102,7 +102,7 @@ class PassosMagicosBaseDadosTab(TabInterface):
                 | IEG_2022 | {tag_eda} / {tag_ml}| Indicador de Engajamento – Média das Notas de Engajamento do Aluno em 2022 |
                 | IPS_2022 | {tag_eda} / {tag_ml}| Indicador Psicossocial – Média das Notas Psicossociais do Aluno em 2022 |
                 | IDA_2022 | {tag_eda} / {tag_ml}| Indicador de Aprendizagem - Média das Notas do Indicador de Aprendizagem 2022 |
-                | IPP_2022 | {tag_eda} / {tag_ml}| Indicador Psicopedagógico – Média das Notas Psico Pedagógicas do Aluno em 2022 |
+                | IPP_2022 | {tag_eda} / {tag_ml}| Indicador Psicopedagógico – Média das Notas Psicopedagógicas do Aluno em 2022 |
                 | IPV_2022 | {tag_eda} / {tag_ml}| Indicador de Ponto de Virada – Média das Notas de Ponto de Virada do Aluno em 2022 |
                 | IAN_2022 | {tag_eda} / {tag_ml}| Indicador de Adequação ao Nível – Média das Notas de Adequação do Aluno ao nível atual em 2022 |
                 | INDE_2022 | {tag_eda} / {tag_ml}| Índice do Desenvolvimento Educacional – Métrica de Processo Avaliativo Geral do Aluno, dado pela ponderação dos indicadores: IAN, IDA, IEG, IAA, IPS, IPP e IPV em 2022. |
