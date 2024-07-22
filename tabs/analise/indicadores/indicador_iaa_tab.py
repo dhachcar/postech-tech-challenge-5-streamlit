@@ -41,7 +41,7 @@ class AnaliseIndicadorIAATab(AnaliseIndicadorTab):
         self.comentario_2_2022 = f"""Por fim temos o boxplot e gráfico de dispersão do ano em questão. A respeito das medidas de análise descritiva, foram calculados conforme à seguir: média de **:blue[{mean_2022}]**, mediana de **:blue[{median_2022}]**, Q1 de **:blue[{q1_2022}]** e Q3 de **:blue[{q3_2022}]**."""
 
         self.comentario_1_comparacao = f"""Nos gráficos apresentados acima, são apresentados os dados dos anos estudados de forma cumulativa. Podemos observar, principalmente no segundo gráfico, a quantidade menor de notas de autoavaliação mais altas, representado pelas barras mais à esquerda e em azul escuro, conforme discutido nas seções anteriores. Apesar disso, na próxima seção iremos observar que a mediana de **:blue[2021]** é maior que as dos demais anos, mesmo tendo a média tomando o sentido inverso (menor que dos demais)."""
-
+ 
         self.comentario_2_comparacao = f"""Aqui temos os boxplots comparativos de cada ano. Podemos observar, que dada as distribuições, as análises descritivas são bem próximas umas das outras (talvez com exceção para **:blue[2020]** que aparente ter a caixa do boxplot um pouco abaixo dos demais). E conforme dito anteriormente, **:blue[2021]** tem uma média menor de notas de autoavaliação, mas possui uma mediana superior aos demais anos de estudo."""
 
         with tab:

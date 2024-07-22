@@ -1,6 +1,6 @@
 import streamlit as st
 from tabs.intro.cnn_tab import IntroCNNTab
-from tabs.intro.lstm_tab import IntroLSTMTab
+from tabs.intro.mlp_tab import IntroMLPTab
 from tabs.intro.nlp_tab import IntroNLPTab
 from tabs.intro.rede_neural_tab import IntroRedeNeuralTab
 from tabs.intro.rnn_tab import IntroRNNTab
@@ -28,14 +28,14 @@ with st.container():
         "<small>Para **:blue[navegar entre as abas]**, posicione o mouse em cima das abas e segure a tecla **:blue[[SHIFT]]** e utilize botão central de scroll do mouse :three_button_mouse:</small>",
         unsafe_allow_html=True,
     )
-    
+
     tab0, tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
         tabs=[
             "Redes Neurais",
             "Processamento de Linguagem Natural (NLP)",
             "Redes Neurais Convolucionais (CNN)",
             "Redes Neurais Recorrentes (RNN)",
-            "Long Short-Term Memory (LSTM)",
+            "Multilayer Perceptron (MLP)",
             "SVM",
             "XGBoost",
         ]
@@ -45,6 +45,6 @@ with st.container():
     IntroNLPTab(tab1)
     IntroCNNTab(tab2)
     IntroRNNTab(tab3)
-    IntroLSTMTab(tab4)
+    IntroMLPTab(tab4)
     IntroSVMTab(tab5)
     IntroXGBoostTab(tab6)

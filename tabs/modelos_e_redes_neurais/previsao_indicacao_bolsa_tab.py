@@ -5,9 +5,11 @@ from tabs.modelos_e_redes_neurais.indicacao_bolsa.correlacao_tab import (
 from tabs.modelos_e_redes_neurais.indicacao_bolsa.modelo_tab import (
     ModelosPrevisaoIndicacaoBolsaModeloTab,
 )
+from tabs.modelos_e_redes_neurais.indicacao_bolsa.sobre import (
+    ModelosPrevisaoIndicacaoBolsaSobreTab,
+)
 from tabs.tab import TabInterface
 import streamlit as st
-import plotly.graph_objs as go
 
 
 class ModelosPrevisaoIndicacaoBolsaTab(TabInterface):
@@ -17,7 +19,8 @@ class ModelosPrevisaoIndicacaoBolsaTab(TabInterface):
 
     def render(self):
         with self.tab:
-            tab0, tab1 = st.tabs(tabs=["Correlação", "Modelo"])
+            tab0, tab1, tab2 = st.tabs(tabs=["Sobre", "Correlação", "Modelo"])
 
-            ModelosPrevisaoIndicacaoBolsaCorrelacaoTab(tab0)
-            ModelosPrevisaoIndicacaoBolsaModeloTab(tab1)
+            ModelosPrevisaoIndicacaoBolsaSobreTab(tab0)
+            ModelosPrevisaoIndicacaoBolsaCorrelacaoTab(tab1)
+            ModelosPrevisaoIndicacaoBolsaModeloTab(tab2)

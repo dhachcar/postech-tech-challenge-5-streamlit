@@ -4,7 +4,7 @@ import streamlit as st
 from util.layout import format_number
 
 
-class IntroLSTMTab(TabInterface):
+class IntroMLPTab(TabInterface):
     def __init__(self, tab):
         self.tab = tab
         self.render()
@@ -13,6 +13,7 @@ class IntroLSTMTab(TabInterface):
         with self.tab:
             st.markdown(
                 """
+                TODO: redigir
                 O **:blue[LSTM (Long Short-Term Memory)]** é um tipo especial de **:blue[Rede Neural Recorrente (RNN)]** (discutida na seção anterior) usada para entender padrões em sequências de dados, como textos ou séries temporais. Ela é especialmente boa em capturar dependências a longo prazo, sem ter perdas notavéis de performance como acontece em **:blue[RNNs]** mais simples. Ela já foi amplamente utilizada em outras Tech Challenges apresentados durante o curso :wink:.
             """,
                 unsafe_allow_html=True,

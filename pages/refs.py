@@ -22,7 +22,7 @@ with st.container():
         * https://docs.streamlit.io/develop/api-reference
         * https://docs.streamlit.io/develop/quick-reference/release-notes
         * https://www.datageeks.com.br/xgboost/
-        14. Plotly. Disponível em: https://plotly.com/python. Acesso em: 23/04/2024.
+        * Plotly. Disponível em: https://plotly.com/python. Acesso em: 23/04/2024.
         * ONU, ODG. https://brasil.un.org/pt-br/sdgs Acesso em: 12/06/2024.
         * ONU, ODG. Inglês. https://www.globalgoals.org/goals/ Acesso em: 16/06/2024.
         * ONU. https://www.un.org/en/about-us Acesso em: 16/06/2024.
@@ -36,6 +36,11 @@ with st.container():
         * SILVA, Dario Rodrigues da. Pesquisa do Desenvolvimento Educaional - PEDE 2020. Associação Passos Mágicos. São Paulo, p.XXX-YYYY. 2021.
         * SILVA, Dario Rodrigues da. Pesquisa do Desenvolvimento Educaional - PEDE 2021. Associação Passos Mágicos. São Paulo, p.XXX-YYYY. 2022.
         * SILVA, Dario Rodrigues da. Pesquisa do Desenvolvimento Educaional - PEDE 2022. Associação Passos Mágicos. São Paulo, p.XXX-YYYY. 2023.
+        * https://www.kaggle.com/discussions/questions-and-answers/279139
+        * https://machinelearningmastery.com/build-multi-layer-perceptron-neural-network-models-keras/
+        * https://medium.com/@artjovianprojects/deep-learning-project-multilayer-perceptron-e34017941918
+        * PDF da prof Ana Raquel
+        * https://medium.com/ensina-ai/rede-neural-perceptron-multicamadas-f9de8471f1a9
     """
     )
 
