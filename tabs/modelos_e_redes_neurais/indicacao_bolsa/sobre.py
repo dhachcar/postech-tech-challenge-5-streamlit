@@ -27,9 +27,7 @@ class ModelosPrevisaoIndicacaoBolsaSobreTab(TabInterface):
                 unsafe_allow_html=True,
             )
 
-            col0, col1 = st.columns(2)
-
-            with col0:
+            with st.container():
                 fig = go.Figure()
 
                 fig.add_trace(
@@ -60,7 +58,7 @@ class ModelosPrevisaoIndicacaoBolsaSobreTab(TabInterface):
 
                 st.plotly_chart(fig, use_container_width=True)
 
-            with col1:
+            with st.container():
                 fig = go.Figure()
 
                 fig.add_trace(

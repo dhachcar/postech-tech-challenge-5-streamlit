@@ -1,0 +1,443 @@
+texto;categoria
+O atendimento foi ok.;neutro
+Produto de qualidade média.;neutro
+Satisfeito com a compra.;neutro
+Entrega dentro do prazo.;neutro
+Produto chegou em bom estado.;neutro
+Pode ser que eu compre de novo.;neutro
+Pode ser uma boa opção.;neutro
+Suporte ao cliente razoável.;neutro
+Experiência de compra comum.;neutro
+Produto conforme descrito.;neutro
+Qualidade adequada ao preço.;neutro
+Recebi um produto novo.;neutro
+Comprei e recebi no prazo.;neutro
+Cumpriu as expectativas básicas.;neutro
+Atendimento normal.;neutro
+Serviço dentro do esperado.;neutro
+Tudo certo com o pedido.;neutro
+Site fácil de usar.;neutro
+Pagamento processado normalmente.;neutro
+Pedido entregue no prazo.;neutro
+Produto em boas condições.;neutro
+Bom custo-benefício.;neutro
+Atendimento ao cliente foi suficiente.;neutro
+Produto em bom estado.;neutro
+Entrega dentro do esperado.;neutro
+Produto conforme o anúncio.;neutro
+Serviço eficiente.;neutro
+Atendimento adequado.;neutro
+Durabilidade dentro do esperado.;neutro
+Satisfeito com o produto.;neutro
+Imagem do produto condizente.;neutro
+Recebi o tamanho correto.;neutro
+Cheiro aceitável no produto.;neutro
+Produto com instruções claras.;neutro
+Material de qualidade média.;neutro
+Serviço de instalação ok.;neutro
+Produto resistente.;neutro
+Chegou sem danos.;neutro
+Atendimento ao cliente adequado.;neutro
+Experiência de compra sem problemas.;neutro
+Produto como descrito.;neutro
+Produto de qualidade média.;neutro
+Funciona conforme o esperado.;neutro
+Produto vale o preço.;neutro
+Defeito corrigido rapidamente.;neutro
+Atendimento atencioso.;neutro
+Pedido completo na entrega.;neutro
+Produto em bom estado.;neutro
+Produto de qualidade suficiente.;neutro
+Produto com bom custo-benefício.;neutro
+Suporte técnico razoável.;neutro
+Produto novo e funcionando.;neutro
+Recomendado com ressalvas.;neutro
+Produto original e funcional.;neutro
+Satisfeito com o serviço.;neutro
+Embalagem chegou sem danos.;neutro
+Problema resolvido.;neutro
+Produto com validade adequada.;neutro
+Recebi o produto certo.;neutro
+Entrega sem grandes problemas.;neutro
+Produto durável.;neutro
+Pedido completo e correto.;neutro
+Atendimento normal.;neutro
+Produto funcionando.;neutro
+Chegou no prazo previsto.;neutro
+Produto novo e em bom estado.;neutro
+Serviço aceitável.;neutro
+Recebi o produto conforme pedido.;neutro
+Produto de boa qualidade.;neutro
+Entrega rápida e sem danos.;neutro
+Produto bem embalado.;neutro
+Boa compra.;neutro
+Produto conforme anunciado.;neutro
+Atendimento amigável.;neutro
+Recebi no prazo previsto.;neutro
+Entrega dentro do esperado.;neutro
+Produto com bom acabamento.;neutro
+Produto atende as expectativas.;neutro
+Produto satisfatório.;neutro
+Produto em bom estado.;neutro
+Produto chegou no prazo.;neutro
+Produto em perfeito estado.;neutro
+Serviço aceitável.;neutro
+Entrega no prazo.;neutro
+Produto igual ao da foto.;neutro
+Produto conforme a descrição.;neutro
+Atendimento profissional.;neutro
+Produto de boa qualidade.;neutro
+Produto conforme esperado.;neutro
+Produto ok.;neutro
+Produto vale o investimento.;neutro
+Recebi o produto correto.;neutro
+Produto durável.;neutro
+Produto chegou sem danos.;neutro
+Produto conforme o descrito.;neutro
+Atendimento rápido e eficiente.;neutro
+Produto em bom estado.;neutro
+Produto com boa resistência.;neutro
+Produto novo e funcionando bem.;neutro
+Bom produto.;neutro
+Recebi o produto novo.;neutro
+Atendimento ok.;neutro
+Entrega rápida.;neutro
+Produto de procedência média.;neutro
+Produto chegou em bom estado.;neutro
+Produto sem defeitos.;neutro
+Produto com boa durabilidade.;neutro
+Atendimento prestativo.;neutro
+Produto chegou intacto.;neutro
+Produto com bom desempenho.;neutro
+Produto novo e funcional.;neutro
+Recebi o produto rapidamente.;neutro
+Produto chegou no prazo.;neutro
+Produto com qualidade adequada.;neutro
+Produto em bom estado.;neutro
+Atendimento adequado.;neutro
+Produto sem problemas.;neutro
+Produto de boa qualidade.;neutro
+Produto conforme a descrição.;neutro
+Produto funciona bem.;neutro
+Recebi o produto certo.;neutro
+Produto de boa procedência.;neutro
+Produto sem defeitos.;neutro
+Produto novo e conforme descrito.;neutro
+Atendimento rápido.;neutro
+Produto vale o preço.;neutro
+Produto de resistência média.;neutro
+Produto com bom desempenho.;neutro
+Recebi o produto sem problemas.;neutro
+Produto conforme anúncio.;neutro
+Produto em bom estado.;neutro
+Produto com bom acabamento.;neutro
+Produto satisfatório.;neutro
+Atendimento eficiente.;neutro
+Produto de qualidade adequada.;neutro
+Produto novo e funcional.;neutro
+Recebi o produto em bom estado.;neutro
+Produto sem falhas.;neutro
+Produto resistente.;neutro
+Produto de boa qualidade.;neutro
+Produto novo e funcionando bem.;neutro
+Atendimento adequado.;neutro
+Entrega no prazo certo.;neutro
+Produto conforme expectativa.;neutro
+Produto novo e sem defeitos.;neutro
+Produto de procedência média.;neutro
+Recebi o produto como esperado.;neutro
+Produto com boa durabilidade.;neutro
+Produto de boa qualidade.;neutro
+Produto bem embalado.;neutro
+Atendimento ok.;neutro
+Produto em bom estado.;neutro
+Produto de qualidade média.;neutro
+Recebi o produto rapidamente.;neutro
+Produto conforme anunciado.;neutro
+Produto sem defeitos.;neutro
+Produto novo e funcional.;neutro
+Atendimento ok.;neutro
+Produto em bom estado.;neutro
+Produto de boa qualidade.;neutro
+Produto conforme o descrito.;neutro
+Produto sem problemas.;neutro
+Recebi o produto intacto.;neutro
+Produto de qualidade adequada.;neutro
+Produto conforme a descrição.;neutro
+Atendimento ok.;neutro
+Produto vale o investimento.;neutro
+Recebi o produto correto.;neutro
+Produto de resistência média.;neutro
+Produto com bom desempenho.;neutro
+Produto novo e funcional.;neutro
+Recebi o produto sem defeitos.;neutro
+Produto conforme anúncio.;neutro
+Produto de boa qualidade.;neutro
+Produto novo e funcional.;neutro
+Atendimento eficiente.;neutro
+Entrega rápida e sem problemas.;neutro
+Produto de resistência média.;neutro
+Produto satisfatório.;neutro
+Recebi o produto em bom estado.;neutro
+Produto de procedência média.;neutro
+Produto sem falhas.;neutro
+Produto de qualidade média.;neutro
+Recebi o produto no prazo.;neutro
+Produto conforme esperado.;neutro
+Produto sem defeitos.;neutro
+Produto em bom estado.;neutro
+Atendimento prestativo.;neutro
+Produto de qualidade adequada.;neutro
+Produto vale o preço.;neutro
+Recebi o produto rapidamente.;neutro
+Produto conforme o anúncio.;neutro
+Produto sem problemas.;neutro
+Produto de qualidade média.;neutro
+Produto conforme descrito.;neutro
+Atendimento rápido e eficiente.;neutro
+O atendimento foi adequado, mas nada de extraordinário. O produto chegou no prazo, sem maiores problemas.;neutro
+O produto atende bem às expectativas básicas, mas não se destaca em nenhum aspecto específico.;neutro
+Recebi o pedido completo e dentro do prazo, mas a qualidade do produto poderia ser um pouco melhor.;neutro
+Entrega foi feita dentro do prazo, mas a embalagem poderia ser mais resistente para proteger melhor o produto.;neutro
+Produto corresponde ao descrito no anúncio, mas a durabilidade ainda precisa ser testada.;neutro
+Comprei o produto e ele chegou em boas condições, mas a funcionalidade é apenas razoável.;neutro
+Recebi o produto conforme descrito, mas o atendimento ao cliente poderia ser mais rápido.;neutro
+Produto chegou no tempo previsto e em bom estado, mas a experiência de compra foi apenas satisfatória.;neutro
+O produto está em boas condições, mas a qualidade do material não é das melhores.;neutro
+Experiência de compra normal, produto conforme o anúncio, sem surpresas positivas ou negativas.;neutro
+Atendimento ao cliente foi eficiente, mas o produto não surpreendeu em termos de qualidade.;neutro
+Recebi o produto no prazo correto, mas a embalagem estava um pouco amassada.;neutro
+O produto atende às expectativas, mas não se destaca em relação a outros similares no mercado.;neutro
+Compra foi concluída sem problemas, mas o produto poderia ter um acabamento melhor.;neutro
+Entrega ocorreu dentro do prazo, mas o produto não apresentou nenhuma característica especial.;neutro
+O produto é funcional, mas a qualidade do material poderia ser melhor.;neutro
+Recebi o produto sem problemas, mas o atendimento ao cliente foi apenas satisfatório.;neutro
+Produto chegou conforme descrito, mas a embalagem poderia ser mais segura.;neutro
+O atendimento foi rápido, mas a qualidade do produto é mediana.;neutro
+Recebi o pedido completo, mas a durabilidade do produto ainda precisa ser testada.;neutro
+Entrega dentro do prazo, produto conforme o anunciado, mas sem grandes destaques.;neutro
+O produto é de qualidade aceitável, mas o suporte ao cliente deixou a desejar.;neutro
+Recebi o produto dentro do prazo esperado, mas a embalagem estava um pouco danificada.;neutro
+Produto atende às expectativas básicas, mas não impressiona pela qualidade.;neutro
+Comprei o produto e recebi conforme anunciado, mas a funcionalidade é apenas mediana.;neutro
+Produto chegou dentro do prazo, mas o atendimento ao cliente foi apenas razoável.;neutro
+Recebi o produto conforme o pedido, mas a qualidade poderia ser melhor.;neutro
+O produto está em bom estado, mas a experiência de compra foi apenas satisfatória.;neutro
+Atendimento eficiente, mas o produto não apresenta nenhuma característica especial.;neutro
+Recebi o produto no prazo, mas a embalagem poderia ser mais resistente.;neutro
+Produto atende bem às necessidades básicas, mas não se destaca entre outros similares.;neutro
+Compra concluída sem problemas, mas a qualidade do produto é apenas razoável.;neutro
+Entrega ocorreu dentro do prazo esperado, mas o produto não surpreendeu.;neutro
+O produto é funcional, mas a qualidade do material deixa um pouco a desejar.;neutro
+Recebi o produto conforme descrito, mas o atendimento foi apenas satisfatório.;neutro
+Produto chegou no prazo, mas a embalagem estava um pouco danificada.;neutro
+Produto corresponde ao anunciado, mas não impressiona em termos de durabilidade.;neutro
+O produto é aceitável, mas o suporte ao cliente não foi dos melhores.;neutro
+Recebi o produto no prazo, mas a embalagem estava um pouco amassada.;neutro
+Produto atende às expectativas básicas, mas não se destaca em nenhum aspecto.;neutro
+Comprei o produto e recebi conforme o anúncio, mas a qualidade é mediana.;neutro
+Produto chegou dentro do prazo esperado, mas o atendimento foi apenas razoável.;neutro
+Recebi o produto conforme o pedido, mas a qualidade poderia ser um pouco melhor.;neutro
+O produto está em boas condições, mas a experiência de compra foi apenas satisfatória.;neutro
+Atendimento foi eficiente, mas o produto não apresenta nenhuma característica especial.;neutro
+Recebi o produto no prazo esperado, mas a embalagem estava um pouco danificada.;neutro
+O produto atende às necessidades básicas, mas não se destaca entre outros similares.;neutro
+Compra foi concluída sem problemas, mas a qualidade do produto é apenas razoável.;neutro
+Entrega ocorreu dentro do prazo esperado, mas o produto não surpreendeu em nada.;neutro
+O produto é funcional, mas a qualidade do material poderia ser um pouco melhor.;neutro
+A ONG realiza um trabalho importante, mas poderia melhorar a comunicação com os voluntários.;neutro
+Participei de algumas atividades da ONG, mas achei a organização um pouco confusa.;neutro
+A ONG tem boas iniciativas, mas poderia oferecer mais informações sobre seus projetos.;neutro
+O trabalho da ONG é relevante, mas a transparência nos relatórios financeiros pode ser melhorada.;neutro
+A ONG faz um bom trabalho, mas a divulgação de resultados poderia ser mais frequente.;neutro
+Os projetos da ONG são interessantes, mas a coordenação dos eventos poderia ser mais eficiente.;neutro
+Contribuo com a ONG há anos, mas sinto falta de mais feedback sobre as ações realizadas.;neutro
+A ONG tem uma boa proposta, mas a gestão dos recursos poderia ser mais clara.;neutro
+Os voluntários da ONG são dedicados, mas a estrutura de apoio poderia ser melhor.;neutro
+Acho importante o trabalho da ONG, mas poderiam melhorar a comunicação com os doadores.;neutro
+A ONG oferece boas oportunidades de voluntariado, mas falta organização em alguns projetos.;neutro
+Participei de um evento da ONG, mas a logística deixou um pouco a desejar.;neutro
+Acho a causa da ONG válida, mas a transparência nas ações ainda pode melhorar.;neutro
+A ONG realiza atividades relevantes, mas a divulgação das ações precisa ser mais clara.;neutro
+O trabalho da ONG é importante, mas a coordenação dos projetos poderia ser mais eficiente.;neutro
+Apoio a ONG, mas gostaria de ver mais relatórios sobre os resultados das ações.;neutro
+A ONG tem projetos interessantes, mas a comunicação com os participantes precisa ser melhorada.;neutro
+O trabalho voluntário na ONG é gratificante, mas a organização dos eventos pode melhorar.;neutro
+A ONG faz um trabalho necessário, mas a transparência financeira pode ser mais evidente.;neutro
+Participei de ações da ONG, mas a falta de informações detalhadas sobre os projetos é um problema.;neutro
+A ONG oferece boas iniciativas, mas a gestão dos recursos poderia ser mais transparente.;neutro
+Os eventos da ONG são interessantes, mas a logística pode ser aprimorada.;neutro
+Apoio a ONG, mas gostaria de mais informações sobre como os recursos são utilizados.;neutro
+A ONG faz um trabalho relevante, mas a comunicação com os doadores precisa ser mais eficiente.;neutro
+Os projetos da ONG são bons, mas a organização dos voluntários poderia ser melhor.;neutro
+Participei de um evento da ONG, mas achei a coordenação um pouco desorganizada.;neutro
+A causa da ONG é importante, mas a transparência nas ações ainda é um ponto fraco.;neutro
+A ONG realiza atividades úteis, mas a divulgação das ações poderia ser mais clara.;neutro
+O trabalho da ONG é necessário, mas a gestão dos projetos pode ser mais eficiente.;neutro
+Apoio a ONG, mas sinto falta de mais relatórios detalhados sobre os resultados.;neutro
+A ONG tem iniciativas válidas, mas a comunicação com os participantes precisa melhorar.;neutro
+O voluntariado na ONG é positivo, mas a organização dos eventos deixa a desejar.;neutro
+A ONG faz um trabalho importante, mas a transparência financeira precisa ser mais clara.;neutro
+Participei de atividades da ONG, mas a falta de informações detalhadas é um problema.;neutro
+A ONG oferece boas ações, mas a gestão dos recursos poderia ser mais transparente.;neutro
+Os eventos da ONG são bons, mas a logística precisa ser melhorada.;neutro
+Apoio a ONG, mas gostaria de mais clareza sobre a utilização dos recursos.;neutro
+A ONG realiza um trabalho relevante, mas a comunicação com os doadores pode ser melhor.;neutro
+Os projetos da ONG são válidos, mas a organização dos voluntários poderia ser melhor.;neutro
+Participei de um evento da ONG, mas a coordenação deixou um pouco a desejar.;neutro
+A causa da ONG é importante, mas a transparência nas ações é um ponto a melhorar.;neutro
+A ONG realiza atividades úteis, mas a divulgação das ações precisa ser mais clara.;neutro
+O trabalho da ONG é necessário, mas a coordenação dos projetos pode ser mais eficiente.;neutro
+Apoio a ONG, mas sinto falta de relatórios detalhados sobre os resultados das ações.;neutro
+A ONG tem iniciativas válidas, mas a comunicação com os participantes precisa melhorar.;neutro
+O voluntariado na ONG é positivo, mas a organização dos eventos poderia ser melhor.;neutro
+A ONG faz um trabalho importante, mas a transparência financeira precisa ser mais evidente.;neutro
+Participei de atividades da ONG, mas a falta de informações detalhadas sobre os projetos é um problema.;neutro
+A ONG oferece boas iniciativas, mas a gestão dos recursos poderia ser mais clara.;neutro
+Os eventos da ONG são interessantes, mas a logística pode ser aprimorada.;neutro
+A ONG realiza projetos importantes, mas poderia haver mais atualizações sobre os resultados.;neutro
+Participei de algumas atividades, mas a organização dos eventos poderia ser melhor.;neutro
+A comunicação da ONG é adequada, mas poderia ser mais clara em alguns pontos.;neutro
+A ONG tem boas intenções, mas a execução dos projetos precisa de ajustes.;neutro
+A transparência financeira da ONG é boa, mas mais detalhes nos relatórios seriam úteis.;neutro
+A organização dos voluntários é razoável, mas pode melhorar para ser mais eficiente.;neutro
+Os projetos são válidos, mas falta divulgação das ações e impactos alcançados.;neutro
+O suporte aos voluntários é satisfatório, mas poderia ser mais consistente.;neutro
+A comunicação com os doadores é boa, mas poderia ser mais frequente.;neutro
+Os eventos são interessantes, mas a logística precisa de melhorias.;neutro
+A gestão dos recursos parece correta, mas mais clareza seria bem-vinda.;neutro
+A causa da ONG é importante, mas a execução dos projetos nem sempre é eficaz.;neutro
+Os relatórios são informativos, mas poderiam ser mais detalhados.;neutro
+A comunicação interna é boa, mas poderia ser mais eficiente.;neutro
+Os líderes da ONG são dedicados, mas poderiam ser mais transparentes.;neutro
+O impacto dos projetos é positivo, mas poderia ser melhor documentado.;neutro
+Participei de um evento e foi bom, mas poderia ser mais bem organizado.;neutro
+A ONG oferece boas oportunidades, mas a estrutura de apoio poderia melhorar.;neutro
+A transparência nas ações é razoável, mas mais clareza seria ideal.;neutro
+A comunicação com os voluntários é adequada, mas poderia ser mais clara.;neutro
+A gestão dos recursos é satisfatória, mas poderia ser mais transparente.;neutro
+Os projetos são bons, mas poderiam ser mais bem divulgados.;neutro
+A ONG faz um bom trabalho, mas a comunicação externa pode melhorar.;neutro
+Os eventos são bem-intencionados, mas a organização pode ser melhorada.;neutro
+Participei de atividades interessantes, mas a logística precisa de ajustes.;neutro
+A comunicação com os doadores é adequada, mas poderia ser mais transparente.;neutro
+A gestão dos recursos parece correta, mas mais transparência seria bem-vinda.;neutro
+A ONG realiza boas ações, mas a divulgação dos resultados é insuficiente.;neutro
+O suporte aos voluntários é razoável, mas poderia ser mais estruturado.;neutro
+A transparência nas ações é boa, mas mais clareza seria ideal.;neutro
+A comunicação interna é satisfatória, mas poderia ser mais eficiente.;neutro
+Os líderes da ONG são dedicados, mas poderiam ser mais transparentes.;neutro
+O impacto dos projetos é positivo, mas poderia ser melhor documentado.;neutro
+Participei de um evento e foi bom, mas poderia ser mais bem organizado.;neutro
+A ONG oferece boas oportunidades, mas a estrutura de apoio poderia melhorar.;neutro
+A transparência nas ações é razoável, mas mais clareza seria ideal.;neutro
+A comunicação com os voluntários é adequada, mas poderia ser mais clara.;neutro
+A gestão dos recursos é satisfatória, mas poderia ser mais transparente.;neutro
+Os projetos são bons, mas poderiam ser mais bem divulgados.;neutro
+A ONG faz um bom trabalho, mas a comunicação externa pode melhorar.;neutro
+Os eventos são bem-intencionados, mas a organização pode ser melhorada.;neutro
+Participei de atividades interessantes, mas a logística precisa de ajustes.;neutro
+A comunicação com os doadores é adequada, mas poderia ser mais transparente.;neutro
+A gestão dos recursos parece correta, mas mais transparência seria bem-vinda.;neutro
+A ONG realiza boas ações, mas a divulgação dos resultados é insuficiente.;neutro
+O suporte aos voluntários é razoável, mas poderia ser mais estruturado.;neutro
+A transparência nas ações é boa, mas mais clareza seria ideal.;neutro
+A comunicação interna é satisfatória, mas poderia ser mais eficiente.;neutro
+Os líderes da ONG são dedicados, mas poderiam ser mais transparentes.;neutro
+O impacto dos projetos é positivo, mas poderia ser melhor documentado.;neutro
+Participei de um evento e foi bom, mas poderia ser mais bem organizado.;neutro
+A ONG oferece boas oportunidades, mas a estrutura de apoio poderia melhorar.;neutro
+A transparência nas ações é razoável, mas mais clareza seria ideal.;neutro
+A comunicação com os voluntários é adequada, mas poderia ser mais clara.;neutro
+A gestão dos recursos é satisfatória, mas poderia ser mais transparente.;neutro
+Os projetos são bons, mas poderiam ser mais bem divulgados.;neutro
+A ONG faz um bom trabalho, mas a comunicação externa pode melhorar.;neutro
+Os eventos são bem-intencionados, mas a organização pode ser melhorada.;neutro
+Participei de atividades interessantes, mas a logística precisa de ajustes.;neutro
+A comunicação com os doadores é adequada, mas poderia ser mais transparente.;neutro
+A gestão dos recursos parece correta, mas mais transparência seria bem-vinda.;neutro
+A ONG realiza boas ações, mas a divulgação dos resultados é insuficiente.;neutro
+O suporte aos voluntários é razoável, mas poderia ser mais estruturado.;neutro
+A transparência nas ações é boa, mas mais clareza seria ideal.;neutro
+A comunicação interna é satisfatória, mas poderia ser mais eficiente.;neutro
+Os líderes da ONG são dedicados, mas poderiam ser mais transparentes.;neutro
+O impacto dos projetos é positivo, mas poderia ser melhor documentado.;neutro
+Participei de um evento e foi bom, mas poderia ser mais bem organizado.;neutro
+A ONG oferece boas oportunidades, mas a estrutura de apoio poderia melhorar.;neutro
+A transparência nas ações é razoável, mas mais clareza seria ideal.;neutro
+A comunicação com os voluntários é adequada, mas poderia ser mais clara.;neutro
+A gestão dos recursos é satisfatória, mas poderia ser mais transparente.;neutro
+Os projetos são bons, mas poderiam ser mais bem divulgados.;neutro
+A ONG faz um bom trabalho, mas a comunicação externa pode melhorar.;neutro
+Os eventos são bem-intencionados, mas a organização pode ser melhorada.;neutro
+Participei de atividades interessantes, mas a logística precisa de ajustes.;neutro
+A comunicação com os doadores é adequada, mas poderia ser mais transparente.;neutro
+A gestão dos recursos parece correta, mas mais transparência seria bem-vinda.;neutro
+A ONG realiza boas ações, mas a divulgação dos resultados é insuficiente.;neutro
+O suporte aos voluntários é razoável, mas poderia ser mais estruturado.;neutro
+A transparência nas ações é boa, mas mais clareza seria ideal.;neutro
+A comunicação interna é satisfatória, mas poderia ser mais eficiente.;neutro
+Os líderes da ONG são dedicados, mas poderiam ser mais transparentes.;neutro
+O impacto dos projetos é positivo, mas poderia ser melhor documentado.;neutro
+Participei de um evento e foi bom, mas poderia ser mais bem organizado.;neutro
+A ONG oferece boas oportunidades, mas a estrutura de apoio poderia melhorar.;neutro
+A transparência nas ações é razoável, mas mais clareza seria ideal.;neutro
+A comunicação com os voluntários é adequada, mas poderia ser mais clara.;neutro
+A gestão dos recursos é satisfatória, mas poderia ser mais transparente.;neutro
+Os projetos são bons, mas poderiam ser mais bem divulgados.;neutro
+A ONG faz um bom trabalho, mas a comunicação externa pode melhorar.;neutro
+Os eventos são bem-intencionados, mas a organização pode ser melhorada.;neutro
+Participei de atividades interessantes, mas a logística precisa de ajustes.;neutro
+A comunicação com os doadores é adequada, mas poderia ser mais transparente.;neutro
+A gestão dos recursos parece correta, mas mais transparência seria bem-vinda.;neutro
+A ONG realiza boas ações, mas a divulgação dos resultados é insuficiente.;neutro
+O suporte aos voluntários é razoável, mas poderia ser mais estruturado.;neutro
+A transparência nas ações é boa, mas mais clareza seria ideal.;neutro
+A comunicação interna é satisfatória, mas poderia ser mais eficiente.;neutro
+Os líderes da ONG são dedicados, mas poderiam ser mais transparentes.;neutro
+O impacto dos projetos é positivo, mas poderia ser melhor documentado.;neutro
+Participei de um evento e foi bom, mas poderia ser mais bem organizado.;neutro
+A ONG oferece boas oportunidades, mas a estrutura de apoio poderia melhorar.;neutro
+A transparência nas ações é razoável, mas mais clareza seria ideal.;neutro
+A ONG parece ter iniciativas interessantes, embora eu gostaria de ver mais detalhes sobre seus projetos.;neutro
+Participei de algumas atividades da ONG e a experiência foi razoável, contudo, poderia ser melhor.;neutro
+Acho importante o trabalho da ONG, porém sinto que poderiam ser mais transparentes em relação aos gastos.;neutro
+Os projetos da ONG parecem ser bem intencionados, entretanto, falta clareza sobre sua eficácia.;neutro
+A ONG oferece oportunidades de voluntariado, ainda assim, a logística dos eventos precisa ser aprimorada.;neutro
+Contribuo com a ONG há algum tempo, no entanto, acho que a comunicação com os doadores poderia ser melhor.;neutro
+Os eventos da ONG têm potencial, contudo, acho que falta engajamento da comunidade local.;neutro
+A ONG realiza um trabalho importante, todavia, seria interessante ver mais diversidade em seus projetos.;neutro
+Participei de uma ação da ONG e achei que faltou um pouco de organização por parte dos voluntários.;neutro
+Apoio a missão da ONG, no entanto, sinto que poderiam alcançar mais pessoas com uma melhor divulgação.;neutro
+Os projetos da ONG são relevantes, entretanto, seria interessante ver mais resultados concretos.;neutro
+Acho louvável o trabalho da ONG, contudo, acho que eles poderiam se concentrar mais em questões locais.;neutro
+Participei de um evento da ONG e achei que faltou um pouco de interação entre os participantes.;neutro
+Embora reconheça o esforço da ONG, ainda acredito que há espaço para melhorias na gestão dos recursos.;neutro
+Os projetos da ONG são variados, porém, acho que falta um pouco de divulgação para atingir mais pessoas.;neutro
+Admiro o compromisso da ONG com sua causa, contudo, acho que poderiam diversificar suas atividades.;neutro
+Participei de uma iniciativa da ONG e observei que, apesar do empenho, houve alguns contratempos.;neutro
+A ONG possui uma equipe dedicada, no entanto, acho que falta um plano de longo prazo para seus projetos.;neutro
+Os projetos da ONG são importantes, entretanto, acredito que a comunicação com os beneficiários pode ser melhorada.;neutro
+Apoio as iniciativas da ONG, todavia, sinto que há um desafio em manter a continuidade de seus projetos.;neutro
+A ONG realiza um trabalho significativo, no entanto, acredito que poderiam explorar novas parcerias.;neutro
+Participei de uma campanha da ONG e notei que, apesar dos esforços, ainda há questões a serem resolvidas.;neutro
+A ONG tem uma equipe comprometida, contudo, sugiro uma avaliação mais detalhada dos resultados de seus projetos.;neutro
+Os projetos da ONG são relevantes, porém, acredito que uma abordagem mais inclusiva poderia ampliar seu impacto.;neutro
+Apoio os objetivos da ONG, todavia, sinto que a falta de recursos pode limitar sua eficácia.;neutro
+Participei de uma iniciativa da ONG e percebi que, apesar dos avanços, ainda há desafios a serem superados.;neutro
+Embora reconheça a importância do trabalho da ONG, sinto que há áreas que podem ser aprimoradas.;neutro
+A ONG tem uma proposta interessante, entretanto, sugiro uma análise mais aprofundada de suas estratégias.;neutro
+Os projetos da ONG são necessários, porém, acredito que uma revisão na gestão dos recursos seria benéfica.;neutro
+Apoio as iniciativas da ONG, no entanto, sugiro uma maior divulgação para alcançar um público mais amplo.;neutro
+Participei de uma ação da ONG e observei que, apesar do compromisso, ainda há espaço para melhorias.;neutro
+A ONG possui uma equipe dedicada, contudo, sugiro uma avaliação mais criteriosa dos resultados de seus projetos.;neutro
+Os projetos da ONG são importantes, no entanto, acredito que a colaboração com outras organizações poderia ser explorada.;neutro
+Apoio os objetivos da ONG, todavia, sinto que a falta de apoio financeiro pode limitar sua atuação.;neutro
+Participei de uma campanha da ONG e percebi que, apesar dos esforços, ainda há desafios a serem superados.;neutro
+Embora reconheça a importância do trabalho da ONG, sinto que há áreas que podem ser aprimoradas.;neutro
+A ONG tem uma proposta interessante, entretanto, sugiro uma análise mais aprofundada de suas estratégias.;neutro
+Os projetos da ONG são necessários, porém, acredito que uma revisão na gestão dos recursos seria benéfica.;neutro
+Apoio as iniciativas da ONG, no entanto, sugiro uma maior divulgação para alcançar um público mais amplo.;neutro
+Participei de uma ação da ONG e observei que, apesar do compromisso, ainda há espaço para melhorias.;neutro
+A ONG possui uma equipe dedicada, contudo, sugiro uma avaliação mais criteriosa dos resultados de seus projetos.;neutro
+Os projetos da ONG são importantes, no entanto, acredito que a colaboração com outras organizações poderia ser explorada.;neutro
