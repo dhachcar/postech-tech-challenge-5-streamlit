@@ -7,7 +7,11 @@ import re
 import string
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-
+from util.constantes import (
+    CLASS_PREDICT_TEXT_NEGATIVO,
+    CLASS_PREDICT_TEXT_NEUTRO,
+    CLASS_PREDICT_TEXT_POSITIVO,
+)
 from util.layout import format_number
 
 
@@ -57,16 +61,16 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
         text_vect = self.vect.transform([texto_tokenizado])
         pred = self.modelo.predict(text_vect)
 
-        if pred == "positivo":
+        if pred == CLASS_PREDICT_TEXT_POSITIVO:
             st.success(
                 ":white_check_mark: Classificação sugerida: **Positivo** :grinning:"
             )
-        elif pred == "neutro":
+        elif pred == CLASS_PREDICT_TEXT_NEUTRO:
             st.warning(":warning: Classificação sugerida: **Neutro** :neutral_face:")
-        elif pred == "negativo":
+        elif pred == CLASS_PREDICT_TEXT_NEGATIVO:
             st.error(":x: Classificação sugerida: **Negativo** :angry:")
         else:
-            st.markdown("Ocorre um erro durante a classificação.")
+            st.error(":x: Ocorre um erro durante a classificação.")
 
     def render(self):
         with self.tab:
@@ -143,9 +147,6 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
             ):
                 with st.spinner("Processando..."):
                     self.predict(txt)
-
-            # TODO: deixar blocos pre prontos com os resultados e exemplos (utilizar textos/reviews/comentarios da pagina facebook)
-            # TODO: colocar o resultado da accuracy_score (mesma função das aulas, verificar qual é)
 
             with st.container():
                 st.subheader(":blue[Validações pré-configuradas]", divider="blue")
