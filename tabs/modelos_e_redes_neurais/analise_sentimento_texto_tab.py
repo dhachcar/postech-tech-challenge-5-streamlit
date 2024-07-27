@@ -1,4 +1,3 @@
-import time
 import unicodedata
 import joblib
 from tabs.tab import TabInterface
@@ -16,8 +15,10 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
         nltk.download("punkt", quiet=True)
 
         self.tab = tab
+
         self.modelo = joblib.load("assets/modelos/nlp/model.pkl")
         self.vect = joblib.load("assets/modelos/nlp/vect.pkl")
+
         self.render()
 
     def normalize_accents(self, text):
@@ -57,33 +58,86 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
         text_vect = self.vect.transform([texto_tokenizado])
         pred = self.modelo.predict(text_vect)
 
-        st.markdown(pred)
+        if pred == "positivo":
+            st.success(
+                ":white_check_mark: Classificação sugerida: **Positivo** :grinning:"
+            )
+        elif pred == "neutro":
+            st.warning(":warning: Classificação sugerida: **Neutro** :neutral_face:")
+        elif pred == "negativo":
+            st.error(":x: Classificação sugerida: **Negativo** :angry:")
+        else:
+            st.markdown("Ocorre um erro durante a classificação.")
 
     def render(self):
         with self.tab:
+            st.subheader(
+                ":blue[Utilização de um NLP para classificação de sentimentos das redes sociais e outros]",
+                divider="blue",
+            )
             st.markdown(
                 """
-                Uma **:blue[Rede Neural Convolucional]** ou **:blue[CNN]** é um tipo de rede neural especialmente eficaz para processar e analisar dados com uma estrutura matricial, como por exemplo, imagens (que são nada mais que uma matriz de bytes). Inspirada pela organização do córtex visual animal, uma **:blue[CNN]** utiliza camadas de convolução para detectar características locais, como bordas, texturas e padrões, em diferentes níveis de abstração. Essas camadas são seguidas por camadas de pooling que reduzem a dimensionalidade dos dados, mantendo as informações mais relevantes. Esse processo de extração hierárquica de características permite que a **:blue[CNN]** aprenda a reconhecer objetos e padrões visuais de forma altamente eficiente, tornando-a amplamente utilizada em tarefas de visão computacional, como classificação de imagens, detecção de objetos e segmentação semântica.
-            """
+                O **:blue[NLP]** do projeto é treinado utilizando dados de comentários e reviews da página do Facebook da **:blue[Passos Mágicos]**, aproveitando a vasta quantidade de interações autênticas e diversificadas dos usuários. Esses dados refletem uma ampla gama de opiniões e sentimentos reais, proporcionando uma base robusta para o treinamento do modelo.<br/><br/>
+                Além dos dados do Facebook, o **:blue[NLP]** do projeto também se beneficia de dados gerados pelo **:blue[ChatGPT]** da **:blue[OpenAI]**, que ajudam a complementar e diversificar o conjunto de treinamento. A geração de dados sintéticos pelo **:blue[ChatGPT]** pode preencher lacunas onde os dados reais são escassos ou desbalanceados<br/><br/>
+                Para completar o treinamento, o **:blue[NLP]** do projeto utiliza um conjunto de dados do **:blue[Kaggle]**, especificamente do repositório **:blue["augustop/portuguese-tweets-for-sentiment-analysis"]**. Esse dataset oferece uma rica coleção de tweets em português, rotulados para análise de sentimento, adicionando uma dimensão valiosa de dados anotados manualmente. Com a integração desses dados, o **:blue[NLP]** do projeto não só se beneficia de exemplos diversificados em termos de formato e origem, mas também de dados de alta qualidade e bem rotulados, essenciais para melhorar a precisão e a confiabilidade das previsões de sentimento e outras tarefas relacionadas à **:blue[NLP]**.<br/><br/>
+            """,
+                unsafe_allow_html=True,
+            )
+
+            st.subheader(
+                ":blue[Categorizando os resultados do NLP com o modelo SVC]",
+                divider="blue",
+            )
+            st.markdown(
+                """
+                O resultado do **:blue[NLP]** do projeto serve de base para o **:blue[SVC]** utilizado pelo projeto categorizar os sentimentos dos textos. Depois que o **:blue[NLP]** processa e interpreta os dados, extraindo nuances e características emocionais dos comentários, reviews e tweets, essas informações são repassadas para o **:blue[SVC]**.<br/><br/>
+                O **:blue[SVC]**, então, usa esses dados para identificar padrões e categorizar o sentimento de cada texto como positivo, negativo ou neutro. Essa integração permite uma análise de sentimentos mais precisa e eficiente, aproveitando a riqueza dos dados linguísticos processados pelo **:blue[NLP]** para melhorar a performance do classificador.
+            """,
+                unsafe_allow_html=True,
             )
 
             txt = st.text_area("Review/comentário")
 
-            # TODO: talvez colocar um botao?
-
-            if txt and txt is not None:
+            if (
+                st.button(
+                    ":crystal_ball: Classificar sentimento",
+                    key="btn_predict_svc",
+                )
+                and txt
+                and txt is not None
+            ):
                 with st.spinner("Processando..."):
-                    time.sleep(3)
-
                     self.predict(txt)
 
             # TODO: deixar blocos pre prontos com os resultados e exemplos (utilizar textos/reviews/comentarios da pagina facebook)
             # TODO: colocar o resultado da accuracy_score (mesma função das aulas, verificar qual é)
-            # TODO: explicar que foi utilizado ChatGPT para gerar frases para treino, colocar um seção expclicando isso
-            # TODO: treinar o modelo tbm com os reviews do dataset!!! e colcoar uma seção explicando isso
+
+            with st.container():
+                st.subheader(":blue[Validações pré-configuradas]", divider="blue")
+                msg = None
+
+                col0, col1, col2 = st.columns(3)
+
+                with col0:
+                    text = "Parece uma boa ONG, contudo poderia ser mais transparente!"
+                    if st.button(f"**Validação** :one:: {text}", use_container_width=True):
+                        msg = text
+
+                with col1:
+                    text = "ONG ótima."
+                    if st.button(f"**Validação** :two:: {text}", use_container_width=True):
+                        msg = text
+
+                with col2:
+                    text = "Péssimos serviços prestados."
+                    if st.button(f"**Validação** :three:: {text}", use_container_width=True):
+                        msg = text
+
+                if msg and msg is not None:
+                    self.predict(msg)
 
             st.markdown(
                 """
-                **:red[IMPORTANTE:] Esta rede neural foi desenvolvida com um conjunto limitado de dados de treinamento e teste, podendo apresentar inconsistências em seus resultados. Um treinamento mais abrangente está fora do escopo deste projeto. Como sugestão para futuros desenvolvimentos, podemos utilizar um conjunto maior de dados de treinamento para aprimorar o resultado final.**
+                **:red[IMPORTANTE:] Este NLP foi desenvolvida com uma combinação de dados de treinamento e teste, podendo apresentar inconsistências em seus resultados. Um treinamento mais abrangente está fora do escopo deste projeto (principalmente pelas necessidades computacionais). Como sugestão para futuros desenvolvimentos, podemos utilizar um conjunto maior de dados de treinamento para aprimorar o resultado final.**
             """
             )

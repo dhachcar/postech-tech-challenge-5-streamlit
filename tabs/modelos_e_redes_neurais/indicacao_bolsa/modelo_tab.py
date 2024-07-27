@@ -132,7 +132,7 @@ class ModelosPrevisaoIndicacaoBolsaModeloTab(TabInterface):
                 }
             )
 
-            if st.button(":crystal_ball: Prever", key="btn_predict_lstm"):
+            if st.button(":crystal_ball: Prever", key="btn_predict_mlp"):
                 with st.spinner("Processando..."):
                     st.subheader(":blue[Matriz de entrada do modelo]", divider="blue")
                     st.dataframe(aluno, hide_index=True)

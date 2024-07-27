@@ -41,6 +41,9 @@ with st.container():
         * https://medium.com/@artjovianprojects/deep-learning-project-multilayer-perceptron-e34017941918
         * PDF da prof Ana Raquel
         * https://medium.com/ensina-ai/rede-neural-perceptron-multicamadas-f9de8471f1a9
+        * https://www.geeksforgeeks.org/naive-bayes-vs-svm-for-text-classification/
+        * https://www.kaggle.com/datasets/augustop/portuguese-tweets-for-sentiment-analysis/data
+        * https://www.alura.com.br/artigos/lemmatization-vs-stemming-quando-usar-cada-uma
     """
     )
 
