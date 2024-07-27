@@ -8,6 +8,8 @@ import string
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
+from util.layout import format_number
+
 
 class ModelosAnaliseSentimentoTextoTab(TabInterface):
     def __init__(self, tab):
@@ -15,9 +17,6 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
         nltk.download("punkt", quiet=True)
 
         self.tab = tab
-
-        self.modelo = joblib.load("assets/modelos/nlp/model.pkl")
-        self.vect = joblib.load("assets/modelos/nlp/vect.pkl")
 
         self.render()
 
@@ -79,7 +78,7 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
                 """
                 O **:blue[NLP]** do projeto é treinado utilizando dados de comentários e reviews da página do Facebook da **:blue[Passos Mágicos]**, aproveitando a vasta quantidade de interações autênticas e diversificadas dos usuários. Esses dados refletem uma ampla gama de opiniões e sentimentos reais, proporcionando uma base robusta para o treinamento do modelo.<br/><br/>
                 Além dos dados do Facebook, o **:blue[NLP]** do projeto também se beneficia de dados gerados pelo **:blue[ChatGPT]** da **:blue[OpenAI]**, que ajudam a complementar e diversificar o conjunto de treinamento. A geração de dados sintéticos pelo **:blue[ChatGPT]** pode preencher lacunas onde os dados reais são escassos ou desbalanceados<br/><br/>
-                Para completar o treinamento, o **:blue[NLP]** do projeto utiliza um conjunto de dados do **:blue[Kaggle]**, especificamente do repositório **:blue["augustop/portuguese-tweets-for-sentiment-analysis"]**. Esse dataset oferece uma rica coleção de tweets em português, rotulados para análise de sentimento, adicionando uma dimensão valiosa de dados anotados manualmente. Com a integração desses dados, o **:blue[NLP]** do projeto não só se beneficia de exemplos diversificados em termos de formato e origem, mas também de dados de alta qualidade e bem rotulados, essenciais para melhorar a precisão e a confiabilidade das previsões de sentimento e outras tarefas relacionadas à **:blue[NLP]**.<br/><br/>
+                Para completar o treinamento, o **:blue[NLP]** do projeto utiliza um conjunto de dados do **:blue[Kaggle]**, especificamente do repositório **:blue["augustop/portuguese-tweets-for-sentiment-analysis"]**. Esse dataset oferece uma rica coleção de tweets em português, rotulados para análise de sentimento, adicionando uma dimensão valiosa de dados anotados manualmente. Com a integração desses dados, o **:blue[NLP]** do projeto não só se beneficia de exemplos diversificados em termos de formato e origem, mas também de dados de alta qualidade e bem rotulados, essenciais para melhorar a precisão e a confiabilidade das previsões de sentimento e outras tarefas relacionadas à **:blue[NLP]**.
             """,
                 unsafe_allow_html=True,
             )
@@ -87,7 +86,6 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
             st.link_button(
                 "Repositório Kaggle",
                 "https://www.kaggle.com/datasets/augustop/portuguese-tweets-for-sentiment-analysis",
-                type="secondary"
             )
 
             st.subheader(
@@ -97,12 +95,43 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
             st.markdown(
                 """
                 O resultado do **:blue[NLP]** do projeto serve de base para o **:blue[SVC]** utilizado pelo projeto categorizar os sentimentos dos textos. Depois que o **:blue[NLP]** processa e interpreta os dados, extraindo nuances e características emocionais dos comentários, reviews e tweets, essas informações são repassadas para o **:blue[SVC]**.<br/><br/>
-                O **:blue[SVC]**, então, usa esses dados para identificar padrões e categorizar o sentimento de cada texto como positivo, negativo ou neutro. Essa integração permite uma análise de sentimentos mais precisa e eficiente, aproveitando a riqueza dos dados linguísticos processados pelo **:blue[NLP]** para melhorar a performance do classificador.
+                O **:blue[SVC]**, então, usa esses dados para identificar padrões e categorizar o sentimento de cada texto como positivo, negativo ou neutro. Essa integração permite uma análise de sentimentos mais precisa e eficiente, aproveitando a riqueza dos dados linguísticos processados pelo **:blue[NLP]** para melhorar a performance do classificador.<br/><br/>
+                Com isso, foram criadas **:blue[2 versões]** do modelo **:blue[NLP]** com **:blue[SVC]**. A **:blue[1ª versão]** parece ser melhor em identificar mensagens com conteúdo mais neutro, enquanto que a **:blue[2ª versão]** aparenta se sobressair em relação à V1 em identificar mensagens positivas ou negativas. À seguir, é possível selecionar a versão desejada do modelo e o texto que deve ser classificado.
             """,
                 unsafe_allow_html=True,
             )
 
-            txt = st.text_area("Review/comentário", placeholder='Digite o texto para ser analisado aqui...')
+            st.divider()
+
+            with st.container():
+                col0, col1, _ = st.columns([2, 2, 8])
+
+                # versão do modelo
+                with col0:
+                    versoes = {1: "V1", 2: "V2"}
+                    versao = st.selectbox(
+                        "Versão",
+                        key="input_versao",
+                        options=list(versoes),
+                        format_func=(lambda x: versoes[x]),
+                        help="Selecione a versão do modelo NLP",
+                    )
+
+                    self.modelo = joblib.load(f"assets/modelos/nlp/v{versao}/model.pkl")
+                    self.vect = joblib.load(f"assets/modelos/nlp/v{versao}/vect.pkl")
+                    st.success(f":white_check_mark: Modelo V{versao} carregado.")
+
+                with col1:
+                    acuracia = format_number(76.81, "%0.2f")
+                    st.metric("Acurácia modelo **:orange[V1]**", value=f"{acuracia}%")
+
+                    acuracia = format_number(78.89, "%0.2f")
+                    st.metric("Acurácia modelo **:orange[V2]**", value=f"{acuracia}%")
+
+            txt = st.text_area(
+                "Review/comentário",
+                placeholder="Digite o texto para ser analisado aqui...",
+            )
 
             if (
                 st.button(
