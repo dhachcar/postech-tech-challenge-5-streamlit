@@ -11,6 +11,7 @@ class IntroRedeNeuralTab(TabInterface):
 
     def render(self):
         with self.tab:
+            st.subheader(":blue[Sobre]", divider="blue")
             st.markdown(
                 """
                 As **:blue[Redes Neurais]** são modelos computacionais inspirados no funcionamento do próprio cérebro humano. Assim como nosso cérebro é composto por neurônios interconectados, uma rede neural é composta por unidades chamadas "neurônios" ou "nós", organizados em camadas. Cada camada recebe dados, realiza cálculos e passa os resultados para a próxima camada. As redes neurais são projetadas para reconhecer padrões e aprender com exemplos, o que as torna muito eficazes em tarefas como reconhecimento de imagem, processamento de linguagem natural e predição de séries temporais.<br/><br/>

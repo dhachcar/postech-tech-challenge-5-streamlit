@@ -31,6 +31,6 @@ class AnaliseDemograficosTab(TabInterface):
             AnaliseDemograficoIdadeTab(tab0)
             AnaliseDemograficoInstituicaoTab(tab1)
 
-            # TODO: (se der tempo) no downloads, tem um Tabelas_panorama.zip com os dados populacionais de embu-guaçu... talvez vale fazer uma analise da regiao? focando tambem no publico jovem que a Passos magicos atende?
+            # TODO: se der tempo, analisar dados da região de embu-guaçu
             # https://censo2022.ibge.gov.br/panorama/
             # https://qedu.org.br/municipio/3515103-embu-guacu/baixar-dados

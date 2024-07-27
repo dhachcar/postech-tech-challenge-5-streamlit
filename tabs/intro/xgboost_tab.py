@@ -11,6 +11,7 @@ class IntroXGBoostTab(TabInterface):
 
     def render(self):
         with self.tab:
+            st.subheader(":blue[Sobre]", divider="blue")
             st.markdown(
                 """
                 O **:blue[XGBoost]**, (também conhecido como eXtreme Gradient Boosting), é um algoritmo avançado de aprendizado de máquina que se destaca por sua eficiência e precisão em tarefas de classificação e regressão. Ele é baseado em árvores de decisão, mas utiliza uma técnica chamada "boosting" para aumentar o desempenho. Em vez de criar uma única árvore de decisão complexa, o **:blue[XGBoost]** constrói várias árvores simples e as combina de forma inteligente. Cada nova árvore é criada para corrigir os erros das árvores anteriores, o que melhora gradualmente a precisão do modelo.<br/>
@@ -19,8 +20,7 @@ class IntroXGBoostTab(TabInterface):
                 unsafe_allow_html=True,
             )
 
-            st.subheader(":blue[Aplicação no projeto]")
-
+            st.subheader(":blue[Aplicação no projeto]", divider="blue")
             st.markdown("""TODO: redigir - utilizar NLP para avaliar as descriçoes dos alunos e prever com base nos comentarios se o aluno vai atingir o PV (ponto de virada)""")
 
             st.image(

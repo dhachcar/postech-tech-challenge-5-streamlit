@@ -11,6 +11,7 @@ class IntroMLPTab(TabInterface):
 
     def render(self):
         with self.tab:
+            st.subheader(":blue[Sobre]", divider="blue")
             st.markdown(
                 """
                 TODO: redigir
@@ -19,8 +20,7 @@ class IntroMLPTab(TabInterface):
                 unsafe_allow_html=True,
             )
 
-            st.subheader(":blue[Aplicação no projeto]")
-
+            st.subheader(":blue[Aplicação no projeto]", divider="blue")
             st.markdown("""TODO: redigir - utilizado para prever quais alunos podem ser indicados para receber uma bolsa de estudos com uma LSTM (que é uma rnn)... talvez dê p utilizar outro tipo de rede""")
 
             st.image(

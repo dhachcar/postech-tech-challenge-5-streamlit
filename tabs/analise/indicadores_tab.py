@@ -36,9 +36,7 @@ class AnaliseIndicadoresTab(TabInterface):
                 tabs=["Pedra", "INDE", "IAN", "IDA", "IEG", "IAA", "IPS", "IPP", "IPV"]
             )
 
-            # TODO: ver Downloads/EXPLICACAO DOS INDICADORES.png lá tem explicações sobre as fases e como cada indicador é coletado (importante para o entendimento)
-            # gerar analises dos indicadores por fase!
-            # FASE_2020, FASE_2021, FASE_2022
+            # TODO: se der tempo, analisar os indicadores por fase
 
             AnalisePedraTab(tab0)
             AnaliseIndicadorINDETab(tab1)
