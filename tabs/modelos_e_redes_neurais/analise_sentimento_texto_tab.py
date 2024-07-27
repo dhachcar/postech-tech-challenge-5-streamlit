@@ -84,6 +84,12 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
                 unsafe_allow_html=True,
             )
 
+            st.link_button(
+                "Repositório Kaggle",
+                "https://www.kaggle.com/datasets/augustop/portuguese-tweets-for-sentiment-analysis",
+                type="secondary"
+            )
+
             st.subheader(
                 ":blue[Categorizando os resultados do NLP com o modelo SVC]",
                 divider="blue",
@@ -96,7 +102,7 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
                 unsafe_allow_html=True,
             )
 
-            txt = st.text_area("Review/comentário")
+            txt = st.text_area("Review/comentário", placeholder='Digite o texto para ser analisado aqui...')
 
             if (
                 st.button(
@@ -120,17 +126,23 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
 
                 with col0:
                     text = "Parece uma boa ONG, contudo poderia ser mais transparente!"
-                    if st.button(f"**Validação** :one:: {text}", use_container_width=True):
+                    if st.button(
+                        f"**Validação** :one:: {text}", use_container_width=True
+                    ):
                         msg = text
 
                 with col1:
                     text = "ONG ótima."
-                    if st.button(f"**Validação** :two:: {text}", use_container_width=True):
+                    if st.button(
+                        f"**Validação** :two:: {text}", use_container_width=True
+                    ):
                         msg = text
 
                 with col2:
                     text = "Péssimos serviços prestados."
-                    if st.button(f"**Validação** :three:: {text}", use_container_width=True):
+                    if st.button(
+                        f"**Validação** :three:: {text}", use_container_width=True
+                    ):
                         msg = text
 
                 if msg and msg is not None:
