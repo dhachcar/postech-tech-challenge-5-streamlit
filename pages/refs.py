@@ -11,6 +11,8 @@ output_layout()
 with st.container():
     st.header(f":orange[{TITULO_REFERENCIAS}]")
 
+    # TODO: colocar data de acesso
+    # TODO: melhorar texto do modelo de bolsa de estudos
     st.markdown(
         """
         * ALVES, I. N. Lemmatization vs. stemming: quando usar cada uma? Alura. 2021. Disponível em: https://www.alura.com.br/artigos/lemmatization-vs-stemming-quando-usar-cada-uma. Acesso em: xx/xx/2024.
