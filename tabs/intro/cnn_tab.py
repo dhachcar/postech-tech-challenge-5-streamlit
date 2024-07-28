@@ -1,8 +1,6 @@
 from tabs.tab import TabInterface
 import streamlit as st
 
-from util.layout import format_number
-
 
 class IntroCNNTab(TabInterface):
     def __init__(self, tab):
@@ -19,6 +17,12 @@ class IntroCNNTab(TabInterface):
             )
 
             st.subheader(":blue[Aplicação no projeto]", divider="blue")
-            st.markdown("""TODO: redigir - utilizado para processar sentimentos das imagens do facebook da Passos Magicos... se der tempo, mecionar e implementar redes concorrentes???""")
+            st.markdown(
+                """Neste projeto, foi criado uma **:blue[CNN]** para analisar o sentimento das imagens encontradas na página do Facebook da **:blue[Passos Mágicos]**. A princípio é apenas uma demonstração do que é possível atingir, mas o modelo poderia eventualmente evoluir para um sistema mais robusto de métricas que consolide o impacto positivo que a ONG tem na vida das pessoas."""
+            )
 
-            st.image('assets/imgs/cnn.png', caption="Esquema de uma Rede Neural Convolucional (CNN). Fonte: https://medium.com/itau-data/redes-neurais-convolucionais-2206a089c715", width=860)
+            st.image(
+                "assets/imgs/cnn.png",
+                caption="Esquema de uma Rede Neural Convolucional (CNN). Fonte: https://medium.com/itau-data/redes-neurais-convolucionais-2206a089c715",
+                width=860,
+            )

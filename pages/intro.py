@@ -3,7 +3,6 @@ from tabs.intro.cnn_tab import IntroCNNTab
 from tabs.intro.mlp_tab import IntroMLPTab
 from tabs.intro.nlp_tab import IntroNLPTab
 from tabs.intro.rede_neural_tab import IntroRedeNeuralTab
-from tabs.intro.rnn_tab import IntroRNNTab
 from tabs.intro.svm_tab import IntroSVMTab
 from tabs.intro.xgboost_tab import IntroXGBoostTab
 from util.constantes import TITULO_INTRODUCAO, TITULO_PRINCIPAL
@@ -24,17 +23,11 @@ with st.container():
     """
     )
 
-    st.markdown(
-        "<small>Para **:blue[navegar entre as abas]**, posicione o mouse em cima das abas e segure a tecla **:blue[[SHIFT]]** e utilize botão central de scroll do mouse :three_button_mouse:</small>",
-        unsafe_allow_html=True,
-    )
-
-    tab0, tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
+    tab0, tab1, tab2, tab3, tab4, tab5 = st.tabs(
         tabs=[
             "Redes Neurais",
             "Processamento de Linguagem Natural (NLP)",
             "Redes Neurais Convolucionais (CNN)",
-            "Redes Neurais Recorrentes (RNN)",
             "Multilayer Perceptron (MLP)",
             "SVM",
             "XGBoost",
@@ -44,7 +37,6 @@ with st.container():
     IntroRedeNeuralTab(tab0)
     IntroNLPTab(tab1)
     IntroCNNTab(tab2)
-    IntroRNNTab(tab3)
-    IntroMLPTab(tab4)
-    IntroSVMTab(tab5)
-    IntroXGBoostTab(tab6)
+    IntroMLPTab(tab3)
+    IntroSVMTab(tab4)
+    IntroXGBoostTab(tab5)

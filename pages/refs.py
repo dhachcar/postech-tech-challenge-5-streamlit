@@ -44,6 +44,7 @@ with st.container():
         * https://www.geeksforgeeks.org/naive-bayes-vs-svm-for-text-classification/
         * https://www.kaggle.com/datasets/augustop/portuguese-tweets-for-sentiment-analysis/data
         * https://www.alura.com.br/artigos/lemmatization-vs-stemming-quando-usar-cada-uma
+        * https://www.geeksforgeeks.org/multi-layer-perceptron-learning-in-tensorflow/
     """
     )
 

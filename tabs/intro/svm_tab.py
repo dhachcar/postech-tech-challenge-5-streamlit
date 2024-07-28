@@ -1,8 +1,6 @@
 from tabs.tab import TabInterface
 import streamlit as st
 
-from util.layout import format_number
-
 
 class IntroSVMTab(TabInterface):
     def __init__(self, tab):

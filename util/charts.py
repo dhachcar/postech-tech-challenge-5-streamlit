@@ -205,16 +205,6 @@ def plot_histograma_comparativo(
             title=f"Distribuição do indicador {col} comparativo e cumulativo com as colunas normalizadas",
         )
 
-    # TODO: não ficou legal... se der tempo, melhorar esse KDE
-    # for ano in df['ANO'].unique():
-    #     data_year = df[df['ANO'] == ano][col]
-
-    #     kde = gaussian_kde(data_year)
-    #     x_vals = np.linspace(min(data_year), max(data_year), 1000)
-    #     kde_vals = kde(x_vals)
-
-    #     fig.add_trace(go.Scatter(x=x_vals, y=kde_vals, mode='lines', name=f'KDE {ano}'))
-
     fig.update_layout(
         xaxis_title="Valor",
         yaxis_title="Frequência",

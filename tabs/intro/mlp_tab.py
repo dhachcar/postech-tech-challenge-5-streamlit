@@ -1,8 +1,6 @@
 from tabs.tab import TabInterface
 import streamlit as st
 
-from util.layout import format_number
-
 
 class IntroMLPTab(TabInterface):
     def __init__(self, tab):
@@ -14,17 +12,18 @@ class IntroMLPTab(TabInterface):
             st.subheader(":blue[Sobre]", divider="blue")
             st.markdown(
                 """
-                TODO: redigir
-                O **:blue[LSTM (Long Short-Term Memory)]** é um tipo especial de **:blue[Rede Neural Recorrente (RNN)]** (discutida na seção anterior) usada para entender padrões em sequências de dados, como textos ou séries temporais. Ela é especialmente boa em capturar dependências a longo prazo, sem ter perdas notavéis de performance como acontece em **:blue[RNNs]** mais simples. Ela já foi amplamente utilizada em outras Tech Challenges apresentados durante o curso :wink:.
+                Um **:blue[MLP Perceptron (Multilayer Perceptron)]** é um tipo de rede neural artificial usada em aprendizado de máquina para resolver problemas complexos. Imagine um grande grupo de neurônios conectados em camadas: a camada de entrada recebe os dados, as camadas ocultas processam esses dados através de muitas conexões ponderadas, e a camada de saída fornece a resposta final. Cada neurônio funciona como um pequeno decisor que combina suas entradas e decide se "dispara" ou não, semelhante a como nosso cérebro processa informações. Esse processo permite que o **:blue[MLP]** aprenda padrões e faça previsões precisas, tornando-o uma ferramenta poderosa para tarefas como reconhecimento de imagem e previsão de séries temporais.
             """,
                 unsafe_allow_html=True,
             )
 
             st.subheader(":blue[Aplicação no projeto]", divider="blue")
-            st.markdown("""TODO: redigir - utilizado para prever quais alunos podem ser indicados para receber uma bolsa de estudos com uma LSTM (que é uma rnn)... talvez dê p utilizar outro tipo de rede""")
+            st.markdown(
+                """Neste projeto, utilizamos um **:blue[MLP]** para identificar se um aluno atendido pela **:blue[Passos Mágicos]** deve ou não receber uma bolsa de estudos. A vantagem aqui está no fato que não precisamos necessariamente fazer um *feature engineering* muito complexo, pois a rede é capaz de identificar padrões por si só. Ainda assim, fazemos alguns tratamentos prévios para facilitar o processo como um todo."""
+            )
 
             st.image(
-                "assets/imgs/lstm.png",
-                caption="Esquema de uma Rede LSTM. Fonte: https://www.deeplearningbook.com.br/as-10-principais-arquiteturas-de-redes-neurais/",
-                width=640
+                "assets/imgs/mlp.jpg",
+                caption="Esquema de um MLP Perceptron. Fonte: https://www.geeksforgeeks.org/multi-layer-perceptron-learning-in-tensorflow/",
+                width=640,
             )

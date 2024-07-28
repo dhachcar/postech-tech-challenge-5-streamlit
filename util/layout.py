@@ -16,9 +16,6 @@ def format_number(number, format="%0.0f"):
 
 
 def output_layout():
-    # TODO: e se eu colocasse o particles.js aqui??
-    # TODO: da mesma forma, o nlp, podemos clicar numa tabela e ele avaliar todos os comentários daquele aluno, naquele ano
-
     show_pages(
         [
             Page("./main.py", "Tech Challenge 5", ":house:", use_relative_hash=True),
@@ -65,7 +62,8 @@ def output_layout():
 
         st.subheader(":blue[Aluno]")
         st.text(
-            "Danilo Henrique Achcar", help="LinkedIn: https://www.linkedin.com/in/danilo-henrique-achcar"
+            "Danilo Henrique Achcar",
+            help="LinkedIn: https://www.linkedin.com/in/danilo-henrique-achcar",
         )
         st.text("RM 351516 | 2DTAT")
 
