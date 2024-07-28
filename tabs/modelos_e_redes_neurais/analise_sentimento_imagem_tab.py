@@ -14,8 +14,8 @@ from util.constantes import (
 
 
 class ModelosAnaliseSentimentoImagemTab(TabInterface):
-    image_size = 256
-    categorias = ["feliz", "neutro", "triste", "bravo"]
+    image_size = 224
+    classes_previsao = ["feliz", "neutro", "bravo", "triste"]
 
     def __init__(self, tab):
         self.tab = tab
@@ -33,25 +33,25 @@ class ModelosAnaliseSentimentoImagemTab(TabInterface):
             / 255.0
         )
         img = np.expand_dims(img, axis=0)
-        pred = self.modelo.predict(img)
-        classes = np.argmax(pred, axis=1)
 
-        # classe prevista
-        classe = self.categorias[classes[0]]
+        pred = self.modelo.predict(img)
+        classe_idx = np.argmax(pred, axis=1)[0]
+        classe_pred = self.classes_previsao[classe_idx]
 
         print("Previsões:", pred)
-        print("Classe prevista:", classe)
+        print("Index:", classe_idx)
+        print("Classe prevista:", classe_pred)
 
         # output da classificação
-        if classe == CLASS_PREDICT_IMG_FELIZ:
+        if classe_pred == CLASS_PREDICT_IMG_FELIZ:
             st.success(
                 ":white_check_mark: Classificação sugerida: **Feliz** :grinning:"
             )
-        elif classe == CLASS_PREDICT_IMG_NEUTRO:
+        elif classe_pred == CLASS_PREDICT_IMG_NEUTRO:
             st.warning(":warning: Classificação sugerida: **Neutro** :neutral_face:")
-        elif classe == CLASS_PREDICT_IMG_BRAVO:
+        elif classe_pred == CLASS_PREDICT_IMG_BRAVO:
             st.error(":x: Classificação sugerida: **Bravo** :angry:")
-        elif classe == CLASS_PREDICT_IMG_TRISTE:
+        elif classe_pred == CLASS_PREDICT_IMG_TRISTE:
             st.error(":x: Classificação sugerida: **Triste** :disappointed:")
         else:
             st.error(":x: Ocorre um erro durante a classificação.")
@@ -71,7 +71,7 @@ class ModelosAnaliseSentimentoImagemTab(TabInterface):
             )
             st.markdown(
                 """
-                A **:blue[CNN]** criada para este projeto tem como objetivo classificar imagens da ONG **:blue[Passos Mágicos]**, identificando quatro sentimentos: feliz, neutro, bravo e triste. Através dessa classificação, a rede neural permite uma análise mais precisa do impacto das ações da ONG na sociedade, fornecendo insights valiosos sobre as reações emocionais dos beneficiários. Além disso, essa abordagem pode ser expandida no futuro para desenvolver um sistema de avaliação de sentimentos mais abrangente, potencializando a capacidade da ONG de medir e aprimorar suas iniciativas com base no feedback emocional da comunidade.<br/><br/>
+                A **:blue[CNN]** criada para este projeto tem como objetivo classificar imagens da ONG **:blue[Passos Mágicos]**, identificando quatro sentimentos: **:orange[feliz]**, **:orange[neutro]**, **:orange[bravo]** e **:orange[triste]**. Através dessa classificação, a rede neural permite uma análise mais precisa do impacto das ações da ONG na sociedade, fornecendo insights valiosos sobre as reações emocionais dos beneficiários. Além disso, essa abordagem pode ser expandida no futuro para desenvolver um sistema de avaliação de sentimentos mais abrangente, potencializando a capacidade da ONG de medir e aprimorar suas iniciativas com base no feedback emocional da comunidade.<br/><br/>
                 Aqui também é importante frisar que dado a complexidade e necessidades computacionais para treinamento de um modelo robusto e abrangente do tipo, a rede neural aqui apresentada utiliza um modelo base em sua criação, no caso o **:blue[MobileNetV2]**. Isso visa encurtar o caminho para a criação de um modelo MVP que permita analisar as imagens das pessoas impactadas pela ONG **:blue[Passos Mágicos]**.
             """,
                 unsafe_allow_html=True,
