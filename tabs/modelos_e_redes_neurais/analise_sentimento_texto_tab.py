@@ -180,6 +180,6 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
 
             st.markdown(
                 """
-                **:red[IMPORTANTE:] Este NLP foi desenvolvida com uma combinação de dados de treinamento e teste, podendo apresentar inconsistências em seus resultados. Um treinamento mais abrangente está fora do escopo deste projeto (principalmente pelas necessidades computacionais). Como sugestão para futuros desenvolvimentos, podemos utilizar um conjunto maior de dados de treinamento para aprimorar o resultado final.**
+                **:red[IMPORTANTE:] Este NLP foi desenvolvida com uma combinação de dados de treinamento e teste, :orange[podendo apresentar inconsistências em seus resultados]. Um treinamento mais abrangente está fora do escopo deste projeto (principalmente pelas necessidades computacionais). Como sugestão para futuros desenvolvimentos, podemos utilizar um conjunto maior de dados de treinamento para aprimorar o resultado final.**
             """
             )
