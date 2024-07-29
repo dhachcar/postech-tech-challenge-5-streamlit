@@ -21,12 +21,20 @@ class ModelosPrevisaoIndicacaoBolsaModeloTab(TabInterface):
 
         if pred.round()[0] > 0:
             st.balloons()
-            st.success(":white_check_mark: **Recomendação:** o aluno **está apto** à receber a bolsa de estudos :grinning:")
+            st.success(
+                ":white_check_mark: **Recomendação:** o aluno **está apto** à receber a bolsa de estudos :grinning:"
+            )
         else:
-            st.error(":x: **Recomendação:** o aluno **não está apto** à receber a bolsa de estudos :disappointed:")
+            st.error(
+                ":x: **Recomendação:** o aluno **não está apto** à receber a bolsa de estudos :disappointed:"
+            )
 
     def render(self):
         with self.tab:
+            st.markdown(
+                """Utilize os controles abaixo para simular os indicadores de performance de um aluno e clique em **:blue[Prever]** para executar o modelo de concessão de bolsas de estudos."""
+            )
+
             col0, col1, col2, col3 = st.columns(4)
 
             with col0:

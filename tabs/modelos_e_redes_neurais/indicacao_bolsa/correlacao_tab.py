@@ -16,6 +16,13 @@ class ModelosPrevisaoIndicacaoBolsaCorrelacaoTab(TabInterface):
 
     def render(self):
         with self.tab:
+            st.markdown(
+                """
+                Nesta seção, apresentamos a correlação das features utilizadas para a criação do modelo. Basicamente foram utilizados os indicadores de performance e podemos observar uma certa correlação entre alguns indicadores com **:blue[INDE]**. Outros indicadores que fazem parte de um mesmo agrupamento (p.ex.: **:blue[IPP]** e **:blue[IPV]**) também possuem uma correlação maior (apesar de correlação não implicar causalidade). Por fim, temos também a correlação com a feature de **:blue[INDICADO_BOLSA]**, o que parece não estabelecer nenhuma relação direta com outras features. Isso demonstra ainda mais a necessidade de um método padronizado para concessão de bolsas para os melhores alunos, método o qual é proposto pelo modelo criado.
+            """,
+                unsafe_allow_html=True,
+            )
+
             # plot do heatmap (correlação)
             fig = go.Figure(
                 data=go.Heatmap(
@@ -23,7 +30,7 @@ class ModelosPrevisaoIndicacaoBolsaCorrelacaoTab(TabInterface):
                     x=self.matriz_correlacao.columns,
                     y=self.matriz_correlacao.columns[::-1],
                     colorbar=dict(title="Correlação"),
-                    colorscale="matter",
+                    colorscale="Viridis",
                     xgap=1,
                     ygap=1,
                 )

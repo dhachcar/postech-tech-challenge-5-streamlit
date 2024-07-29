@@ -114,210 +114,92 @@ class ModelosAnaliseSentimentoImagemTab(TabInterface):
                     "**AVISO**: Algumas das fotos apresentadas abaixo foram retiradas da página pública do Facebook da **Passos Mágicos**. Algumas delas também foram manipuladas para focarem exclusivamente nos rostos das pessoas.",
                     icon=":material/help:",
                 )
+                st.warning(
+                    "**IMPORTANTE:** Esta rede neural foi desenvolvida com um conjunto limitado de dados de treinamento e teste, **:red[podendo apresentar inconsistências em seus resultados]**. Um treinamento mais abrangente está fora do escopo deste projeto. Como sugestão para futuros desenvolvimentos, podemos utilizar um conjunto maior de dados de treinamento para aprimorar o resultado final.",
+                    icon=":material/warning:",
+                )
 
-                to_predict = None
                 width = 150
 
-                with st.container():
-                    col0, col1, col2, col3, col4, col5 = st.columns(6)
+                def output_img_for_prediction(img, idx):
+                    to_predict = None
+                    image = f"assets/modelos/cnn/exemplos/{img}"
 
-                    with col0:
-                        image = "assets/modelos/cnn/exemplos/1.jpg"
+                    if st.button(
+                        ":crystal_ball: Classificar", key=f"btn_cnn_predict_{idx}"
+                    ):
+                        to_predict = image
 
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_1"
-                        ):
-                            to_predict = image
+                    st.image(image, width=width, caption=f"Exemplo {idx}")
 
-                        st.image(image, width=width, caption="Exemplo 1")
+                    if to_predict and to_predict is not None:
+                        image = Image.open(to_predict)
+                        file_bytes = io.BytesIO()
 
-                    with col1:
-                        image = "assets/modelos/cnn/exemplos/2.jpg"
+                        image.save(file_bytes, format=image.format)
+                        file_bytes = np.asarray(bytearray(file_bytes.getvalue()))
 
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_2"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 2")
-
-                    with col2:
-                        image = "assets/modelos/cnn/exemplos/3.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_3"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 3")
-
-                    with col3:
-                        image = "assets/modelos/cnn/exemplos/4.png"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_4"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 4")
-
-                    with col4:
-                        image = "assets/modelos/cnn/exemplos/5.png"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_5"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 5")
-
-                    with col5:
-                        image = "assets/modelos/cnn/exemplos/6.png"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_6"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 6")
+                        self.predict(file_bytes, preview=False)
 
                 with st.container():
                     col0, col1, col2, col3, col4, col5 = st.columns(6)
 
                     with col0:
-                        image = "assets/modelos/cnn/exemplos/7.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_7"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 7")
+                        output_img_for_prediction("1.jpg", 1)
 
                     with col1:
-                        image = "assets/modelos/cnn/exemplos/8.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_8"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 8")
+                        output_img_for_prediction("2.jpg", 2)
 
                     with col2:
-                        image = "assets/modelos/cnn/exemplos/9.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_9"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 9")
+                        output_img_for_prediction("3.jpg", 3)
 
                     with col3:
-                        image = "assets/modelos/cnn/exemplos/10.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_10"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 10")
+                        output_img_for_prediction("4.png", 4)
 
                     with col4:
-                        image = "assets/modelos/cnn/exemplos/11.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_11"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 11")
+                        output_img_for_prediction("5.png", 5)
 
                     with col5:
-                        image = "assets/modelos/cnn/exemplos/12.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_12"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 12")
+                        output_img_for_prediction("6.png", 6)
 
                 with st.container():
                     col0, col1, col2, col3, col4, col5 = st.columns(6)
 
                     with col0:
-                        image = "assets/modelos/cnn/exemplos/13.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_13"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 13")
+                        output_img_for_prediction("7.jpg", 7)
 
                     with col1:
-                        image = "assets/modelos/cnn/exemplos/14.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_14"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 14")
+                        output_img_for_prediction("8.jpg", 8)
 
                     with col2:
-                        image = "assets/modelos/cnn/exemplos/15.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_15"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 15")
+                        output_img_for_prediction("9.jpg", 9)
 
                     with col3:
-                        image = "assets/modelos/cnn/exemplos/16.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_16"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 16")
+                        output_img_for_prediction("10.jpg", 10)
 
                     with col4:
-                        image = "assets/modelos/cnn/exemplos/17.jpg"
-
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_17"
-                        ):
-                            to_predict = image
-
-                        st.image(image, width=width, caption="Exemplo 17")
+                        output_img_for_prediction("11.jpg", 11)
 
                     with col5:
-                        image = "assets/modelos/cnn/exemplos/18.jpg"
+                        output_img_for_prediction("12.jpg", 12)
 
-                        if st.button(
-                            ":crystal_ball: Classificar", key="btn_cnn_predict_18"
-                        ):
-                            to_predict = image
+                with st.container():
+                    col0, col1, col2, col3, col4, col5 = st.columns(6)
 
-                        st.image(image, width=width, caption="Exemplo 18")
+                    with col0:
+                        output_img_for_prediction("13.jpg", 13)
 
-                if to_predict and to_predict is not None:
-                    image = Image.open(to_predict)
-                    file_bytes = io.BytesIO()
+                    with col1:
+                        output_img_for_prediction("14.jpg", 14)
 
-                    image.save(file_bytes, format=image.format)
-                    file_bytes = np.asarray(bytearray(file_bytes.getvalue()))
+                    with col2:
+                        output_img_for_prediction("15.jpg", 15)
 
-                    self.predict(file_bytes, preview=False)
+                    with col3:
+                        output_img_for_prediction("16.jpg", 16)
 
-            st.markdown(
-                """
-                **:red[IMPORTANTE:] Esta rede neural foi desenvolvida com um conjunto limitado de dados de treinamento e teste, :orange[podendo apresentar inconsistências em seus resultados]. Um treinamento mais abrangente está fora do escopo deste projeto. Como sugestão para futuros desenvolvimentos, podemos utilizar um conjunto maior de dados de treinamento para aprimorar o resultado final.**
-            """
-            )
+                    with col4:
+                        output_img_for_prediction("17.jpg", 17)
+
+                    with col5:
+                        output_img_for_prediction("18.jpg", 18)

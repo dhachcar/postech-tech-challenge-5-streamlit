@@ -15,6 +15,7 @@ with st.container():
     # TODO: melhorar texto do modelo de bolsa de estudos
     st.markdown(
         """
+        * Accuracy and Loss. 2020. Disponível em: https://machine-learning.paperspace.com/wiki/accuracy-and-loss. Acesso em: xx/xx/2024.
         * ALVES, I. N. Lemmatization vs. stemming: quando usar cada uma? Alura. 2021. Disponível em: https://www.alura.com.br/artigos/lemmatization-vs-stemming-quando-usar-cada-uma. Acesso em: xx/xx/2024.
         * AUGUSTO. Portuguese Tweets for Sentiment Analysis. Kaggle. 2018. Disponível em: https://www.kaggle.com/datasets/augustop/portuguese-tweets-for-sentiment-analysis/data. Acesso em: xx/xx/2024.
         * BROWNLEE, J. How to Build Multi-Layer Perceptron Neural Network Models with Keras. 2022. Disponível em: https://machinelearningmastery.com/build-multi-layer-perceptron-neural-network-models-keras/. Acesso em: xx/xx/2024.

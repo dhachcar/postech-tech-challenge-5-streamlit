@@ -69,10 +69,10 @@ def output_layout():
 
         st.divider()
 
-        st.subheader("Instalando as dependências do app")
+        st.subheader("Instalando as dependências do app localmente")
         st.code(body="python -m venv venv", language="shell")
         st.code(body="source venv/Scripts/activate", language="shell")
-        st.code(body="pip install -r requirements.txt", language="shell")
+        st.code(body="pip install -r requirements-local.txt", language="shell")
 
         st.divider()
 

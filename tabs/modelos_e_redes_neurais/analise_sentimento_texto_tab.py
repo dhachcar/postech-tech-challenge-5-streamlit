@@ -150,6 +150,11 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
 
             with st.container():
                 st.subheader(":blue[Validações pré-configuradas]", divider="blue")
+                st.warning(
+                    "**IMPORTANTE:** Este NLP foi desenvolvida com uma combinação de dados de treinamento e teste, **:red[podendo apresentar inconsistências em seus resultados]**. Um treinamento mais abrangente está fora do escopo deste projeto. Como sugestão para futuros desenvolvimentos, podemos utilizar um conjunto maior de dados de treinamento para aprimorar o resultado final.",
+                    icon=":material/warning:",
+                )
+
                 msg = None
 
                 col0, col1, col2 = st.columns(3)
@@ -177,9 +182,3 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
 
                 if msg and msg is not None:
                     self.predict(msg)
-
-            st.markdown(
-                """
-                **:red[IMPORTANTE:] Este NLP foi desenvolvida com uma combinação de dados de treinamento e teste, :orange[podendo apresentar inconsistências em seus resultados]. Um treinamento mais abrangente está fora do escopo deste projeto (principalmente pelas necessidades computacionais). Como sugestão para futuros desenvolvimentos, podemos utilizar um conjunto maior de dados de treinamento para aprimorar o resultado final.**
-            """
-            )
