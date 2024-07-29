@@ -3,7 +3,6 @@ from tabs.tab import TabInterface
 import streamlit as st
 from keras.models import load_model
 import pandas as pd
-import numpy as np
 
 
 class ModelosPrevisaoIndicacaoBolsaModeloTab(TabInterface):
@@ -35,109 +34,112 @@ class ModelosPrevisaoIndicacaoBolsaModeloTab(TabInterface):
                 """Utilize os controles abaixo para simular os indicadores de performance de um aluno e clique em **:blue[Prever]** para executar o modelo de concessão de bolsas de estudos."""
             )
 
-            col0, col1, col2, col3 = st.columns(4)
+            with st.container():
+                col0, col1, col2, col3 = st.columns(4)
 
-            with col0:
-                indicador_inde = st.number_input(
-                    label="**:blue[INDE]**",
-                    key="inde",
-                    min_value=0.0,
-                    max_value=10.0,
-                    value=0.0,
-                    step=0.1,
-                    format="%.2f",
-                )
+                with col0:
+                    indicador_inde = st.number_input(
+                        label="**:blue[INDE]**",
+                        key="inde",
+                        min_value=0.0,
+                        max_value=10.0,
+                        value=0.0,
+                        step=0.1,
+                        format="%.2f",
+                    )
 
-            with col1:
-                indicador_ian = st.number_input(
-                    label="**:blue[IAN]**",
-                    key="ian",
-                    min_value=0.0,
-                    max_value=10.0,
-                    value=0.0,
-                    step=0.1,
-                    format="%.2f",
-                )
+                with col1:
+                    indicador_ian = st.number_input(
+                        label="**:blue[IAN]**",
+                        key="ian",
+                        min_value=0.0,
+                        max_value=10.0,
+                        value=0.0,
+                        step=0.1,
+                        format="%.2f",
+                    )
 
-            with col2:
-                indicador_ida = st.number_input(
-                    label="**:blue[IDA]**",
-                    key="ida",
-                    min_value=0.0,
-                    max_value=10.0,
-                    value=0.0,
-                    step=0.1,
-                    format="%.2f",
-                )
+                with col2:
+                    indicador_ida = st.number_input(
+                        label="**:blue[IDA]**",
+                        key="ida",
+                        min_value=0.0,
+                        max_value=10.0,
+                        value=0.0,
+                        step=0.1,
+                        format="%.2f",
+                    )
 
-            with col3:
-                indicador_ieg = st.number_input(
-                    label="**:blue[IEG]**",
-                    key="ieg",
-                    min_value=0.0,
-                    max_value=10.0,
-                    value=0.0,
-                    step=0.1,
-                    format="%.2f",
-                )
+                with col3:
+                    indicador_ieg = st.number_input(
+                        label="**:blue[IEG]**",
+                        key="ieg",
+                        min_value=0.0,
+                        max_value=10.0,
+                        value=0.0,
+                        step=0.1,
+                        format="%.2f",
+                    )
 
-            col0, col1, col2, col3 = st.columns(4)
+            with st.container():
+                col0, col1, col2, col3 = st.columns(4)
 
-            with col0:
-                indicador_iaa = st.number_input(
-                    label="**:blue[IAA]**",
-                    key="iaa",
-                    min_value=0.0,
-                    max_value=10.0,
-                    value=0.0,
-                    step=0.1,
-                    format="%.2f",
-                )
+                with col0:
+                    indicador_iaa = st.number_input(
+                        label="**:blue[IAA]**",
+                        key="iaa",
+                        min_value=0.0,
+                        max_value=10.0,
+                        value=0.0,
+                        step=0.1,
+                        format="%.2f",
+                    )
 
-            with col1:
-                indicador_ips = st.number_input(
-                    label="**:blue[IPS]**",
-                    key="ips",
-                    min_value=0.0,
-                    max_value=10.0,
-                    value=0.0,
-                    step=0.1,
-                    format="%.2f",
-                )
+                with col1:
+                    indicador_ips = st.number_input(
+                        label="**:blue[IPS]**",
+                        key="ips",
+                        min_value=0.0,
+                        max_value=10.0,
+                        value=0.0,
+                        step=0.1,
+                        format="%.2f",
+                    )
 
-            with col2:
-                indicador_ipp = st.number_input(
-                    label="**:blue[IPP]**",
-                    key="ipp",
-                    min_value=0.0,
-                    max_value=10.0,
-                    value=0.0,
-                    step=0.1,
-                    format="%.2f",
-                )
+                with col2:
+                    indicador_ipp = st.number_input(
+                        label="**:blue[IPP]**",
+                        key="ipp",
+                        min_value=0.0,
+                        max_value=10.0,
+                        value=0.0,
+                        step=0.1,
+                        format="%.2f",
+                    )
 
-            with col3:
-                indicador_ipv = st.number_input(
-                    label="**:blue[IPV]**",
-                    key="ipv",
-                    min_value=0.0,
-                    max_value=10.0,
-                    value=0.0,
-                    step=0.1,
-                    format="%.2f",
-                )
+                with col3:
+                    indicador_ipv = st.number_input(
+                        label="**:blue[IPV]**",
+                        key="ipv",
+                        min_value=0.0,
+                        max_value=10.0,
+                        value=0.0,
+                        step=0.1,
+                        format="%.2f",
+                    )
 
             aluno = pd.DataFrame(
                 {
-                    "IAA": [indicador_iaa],
-                    "IAN": [indicador_ian],
-                    "IDA": [indicador_ida],
-                    "IEG": [indicador_ieg],
-                    "INDE": [indicador_inde],
-                    "IPP": [indicador_ipp],
-                    "IPS": [indicador_ips],
-                    "IPV": [indicador_ipv],
-                }
+                    "IAA": indicador_iaa,
+                    "IAN": indicador_ian,
+                    "IDA": indicador_ida,
+                    "IEG": indicador_ieg,
+                    "INDE": indicador_inde,
+                    "IPP": indicador_ipp,
+                    "IPS": indicador_ips,
+                    "IPV": indicador_ipv,
+                },
+                index=[0],
             )
 
             if st.button(":crystal_ball: Prever", key="btn_predict_mlp"):

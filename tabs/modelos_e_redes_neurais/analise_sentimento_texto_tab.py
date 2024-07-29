@@ -24,6 +24,7 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
 
         self.render()
 
+    # TODO: externalizar essas funcoes e o ntlk download tambem... reutilizar na tela de xgboost
     def normalize_accents(self, text):
         return (
             unicodedata.normalize("NFKD", text)
