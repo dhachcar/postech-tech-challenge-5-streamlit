@@ -66,9 +66,6 @@ class ModelosAnaliseSentimentoImagemTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.subheader(
-                ":blue[Utilização de uma CNN para análise de sentimentos em imagens]"
-            )
             st.markdown(
                 """
                 A **:blue[CNN]** criada para este projeto tem como objetivo classificar imagens da ONG **:blue[Passos Mágicos]**, identificando quatro sentimentos: **:orange[feliz]**, **:orange[neutro]**, **:orange[bravo]** e **:orange[triste]**. Através dessa classificação, a rede neural permite uma análise mais precisa do impacto das ações da ONG na sociedade, fornecendo insights valiosos sobre as reações emocionais dos beneficiários. Além disso, essa abordagem pode ser expandida no futuro para desenvolver um sistema de avaliação de sentimentos mais abrangente, potencializando a capacidade da ONG de medir e aprimorar suas iniciativas com base no feedback emocional da comunidade.<br/><br/>

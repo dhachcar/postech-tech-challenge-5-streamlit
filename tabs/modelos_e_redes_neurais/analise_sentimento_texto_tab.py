@@ -1,64 +1,22 @@
-import unicodedata
 import joblib
 from tabs.tab import TabInterface
 import streamlit as st
-import nltk
-import re
-import string
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
 from util.constantes import (
     CLASS_PREDICT_TEXT_NEGATIVO,
     CLASS_PREDICT_TEXT_NEUTRO,
     CLASS_PREDICT_TEXT_POSITIVO,
 )
 from util.layout import format_number
+from util.nlp_utils import tokenizer
 
 
 class ModelosAnaliseSentimentoTextoTab(TabInterface):
     def __init__(self, tab):
-        nltk.download("stopwords", quiet=True)
-        nltk.download("punkt", quiet=True)
-
         self.tab = tab
-
         self.render()
 
-    # TODO: externalizar essas funcoes e o ntlk download tambem... reutilizar na tela de xgboost
-    def normalize_accents(self, text):
-        return (
-            unicodedata.normalize("NFKD", text)
-            .encode("ASCII", "ignore")
-            .decode("utf-8")
-        )
-
-    def remove_punctuation(self, text):
-        punctuations = string.punctuation
-        table = str.maketrans({key: " " for key in punctuations})
-        text = text.translate(table)
-        return text
-
-    def normalize_str(self, text):
-        text = text.lower()
-        text = self.remove_punctuation(text)
-        text = self.normalize_accents(text)
-        text = re.sub(re.compile(r" +"), " ", text)
-        return " ".join([w for w in text.split()])
-
-    def tokenizer(self, text):
-        stop_words = stopwords.words("portuguese")
-        if isinstance(text, str):
-            text = self.normalize_str(text)
-            text = "".join([w for w in text if not w.isdigit()])
-            text = word_tokenize(text)
-            text = [x for x in text if x not in stop_words]
-            text = [y for y in text if len(y) > 2]
-            return " ".join([t for t in text])
-        else:
-            return None
-
     def predict(self, texto):
-        texto_tokenizado = self.tokenizer(texto)
+        texto_tokenizado = tokenizer(texto)
         text_vect = self.vect.transform([texto_tokenizado])
         pred = self.modelo.predict(text_vect)
 
@@ -75,10 +33,6 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.subheader(
-                ":blue[Utilização de um NLP para classificação de sentimentos das redes sociais e outros]",
-                divider="blue",
-            )
             st.markdown(
                 """
                 O **:blue[NLP]** do projeto é treinado utilizando dados de comentários e reviews da página do Facebook da **:blue[Passos Mágicos]**, aproveitando a vasta quantidade de interações autênticas e diversificadas dos usuários. Esses dados refletem uma ampla gama de opiniões e sentimentos reais, proporcionando uma base robusta para o treinamento do modelo.<br/><br/>

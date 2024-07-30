@@ -3,30 +3,112 @@ from tabs.tab import TabInterface
 import streamlit as st
 import joblib
 
+from util.nlp_utils import tokenizer
+
 
 class ModelosPrevisaoPontoViradaModeloTab(TabInterface):
     def __init__(self, tab):
         self.tab = tab
 
-        self.modelo = joblib.load("assets/modelos/xgboost/xgb.pkl")
-        self.onehotencoder = joblib.load("assets/modelos/xgboost/onehotencoder.pkl")
+        self.xgb = joblib.load("assets/modelos/xgboost/xgb.pkl")
+        self.xgb_onehotencoder = joblib.load("assets/modelos/xgboost/onehotencoder.pkl")
+        self.nlp_modelo = joblib.load(f"assets/modelos/nlp/v2/model.pkl")
+        self.nlp_vect = joblib.load(f"assets/modelos/nlp/v2/vect.pkl")
 
         self.render()
 
     def predict(self, aluno):
-        x = 1
+        def predict_nlp_sentiment(texto):
+            texto_teste = tokenizer(texto)
+            text_vect = self.nlp_vect.transform([texto_teste])
+            return self.nlp_modelo.predict(text_vect)[0]
 
-        # TODO: consumir as funcoes NLP externalizadas
-        # df = processar_sentimento_nlp_df(df)
-        # df = aplicar_onehot_encoder(df)
-        # df = df[sorted(df.columns)]
+        def processar_sentimento_nlp_df(df):
+            df["DESTAQUE_IEG_NLP"] = df["DESTAQUE_IEG"].apply(
+                lambda x: predict_nlp_sentiment(x) if pd.notnull(x) else "NA"
+            )
+            df["DESTAQUE_IDA_NLP"] = df["DESTAQUE_IDA"].apply(
+                lambda x: predict_nlp_sentiment(x) if pd.notnull(x) else "NA"
+            )
+            df["DESTAQUE_IPV_NLP"] = df["DESTAQUE_IPV"].apply(
+                lambda x: predict_nlp_sentiment(x) if pd.notnull(x) else "NA"
+            )
+            return df
 
+        def aplicar_onehot_encoder(df):
+            # colunas que vão receber o OneHotEncoder
+            cols_to_encode = [
+                "DESTAQUE_IDA_NLP",
+                "DESTAQUE_IEG_NLP",
+                "DESTAQUE_IPV_NLP",
+            ]
+            df[cols_to_encode] = df[cols_to_encode].astype(str)
 
-        pred = self.modelo.predict(aluno)
+            # dropa as colunas originais que o NLP processou
+            df.drop(
+                ["DESTAQUE_IDA", "DESTAQUE_IEG", "DESTAQUE_IPV"], axis=1, inplace=True
+            )
 
-        # TODO: colcoar st.ballons caso preveja o ponto de virada
+            # aplica o OneHotEncoder
+            codificado = self.xgb_onehotencoder.fit_transform(df[cols_to_encode])
+            colunas_codificadas = self.xgb_onehotencoder.get_feature_names_out(
+                cols_to_encode
+            )
+            df_codificado = pd.DataFrame(codificado, columns=colunas_codificadas)
 
-        st.write(pred)
+            # pode ser que um registro não possua todas as colunas finais do OneHotEncoder (p.ex. quando para a coluna IPV não é classificada como neutra),
+            # entretanto, o NLP ainda pode eventualmente classificar tal feature como neutra, o que quebraria o modelo em tal caso
+            # o código a seguir, garante que todas as linhas do df possuam as variantes geradas pelo NLP
+            colunas_necessarias = [
+                "DESTAQUE_IDA_NLP_NA",
+                "DESTAQUE_IDA_NLP_negativo",
+                "DESTAQUE_IDA_NLP_neutro",
+                "DESTAQUE_IDA_NLP_positivo",
+                "DESTAQUE_IEG_NLP_NA",
+                "DESTAQUE_IEG_NLP_negativo",
+                "DESTAQUE_IEG_NLP_neutro",
+                "DESTAQUE_IEG_NLP_positivo",
+                "DESTAQUE_IPV_NLP_NA",
+                "DESTAQUE_IPV_NLP_negativo",
+                "DESTAQUE_IPV_NLP_neutro",
+                "DESTAQUE_IPV_NLP_positivo",
+            ]
+
+            for col in colunas_necessarias:
+                if col not in df_codificado.columns:
+                    df_codificado[col] = 0
+
+            # reseta o index para o concat
+            df_codificado = df_codificado.reset_index(drop=True)
+            df = df.reset_index(drop=True)
+
+            # concat final das colunas (OneHotEncoder + colunas originais - colunas originais que deveriam ser encodadas)
+            df_final = pd.concat(
+                [df_codificado, df.drop(columns=cols_to_encode)], axis=1
+            )
+
+            return df_final
+
+        # processa os dados
+        df = aluno.copy()
+        df = processar_sentimento_nlp_df(df)  # roda o NLP em cima dos comentários
+        df = aplicar_onehot_encoder(df)  # aplica onehotencoder no resultado do NLP
+        df = df[sorted(df.columns)]
+        pred = self.xgb.predict(df)
+
+        st.subheader(":blue[Matriz de entrada processada para o modelo]", divider="blue")
+        st.dataframe(df, hide_index=True)
+
+        st.subheader(":blue[Previsão do modelo]", divider="blue")
+        if pred > 0:
+            st.balloons()
+            st.success(
+                ":white_check_mark: **Previsão:** o aluno **atingiu** seu ponto de virada :grinning:"
+            )
+        else:
+            st.warning(
+                ":warning: **Previsão:** o aluno ainda **não atingiu** seu ponto de virada :disappointed:"
+            )
 
     def render(self):
         with self.tab:
@@ -167,5 +249,4 @@ class ModelosPrevisaoPontoViradaModeloTab(TabInterface):
                     st.subheader(":blue[Matriz de entrada do modelo]", divider="blue")
                     st.dataframe(aluno, hide_index=True)
 
-                    st.subheader(":blue[Previsão do modelo]", divider="blue")
                     self.predict(aluno)

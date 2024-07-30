@@ -20,7 +20,6 @@ class ModelosPrevisaoIndicacaoBolsaSobreTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.subheader(":blue[Sobre o modelo]", divider="blue")
             st.markdown(
                 f"""A proposta deste modelo **:blue[(um MLP ou Multilayer Perceptron)]** é identificar quais alunos podem ser recomendados para receber uma bolsa de estudos. Utilizamos dados históricos de **:blue[2022]** (os únicos disponíveis) e dados simulados para melhorar a base de treinamento. Os dados simulados seguiram o critério de que notas menores ou iguais a **:blue[5]** desclassificam o aluno, enquanto notas iguais ou superiores a **:blue[8]** garantem a recomendação para a bolsa. A decisão para notas intermediárias fica a cargo do modelo, utilizando os dados de treinamento.""",
                 unsafe_allow_html=True,
