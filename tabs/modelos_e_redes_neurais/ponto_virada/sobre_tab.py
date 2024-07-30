@@ -16,3 +16,8 @@ class ModelosPrevisaoPontoViradaSobreTab(TabInterface):
                 """,
                 unsafe_allow_html=True,
             )
+
+            st.info(
+                "**IMPORTANTE**: Foram criados 2 versões do **NLP** para este projeto. Os detalhes de ambas serão discutidos na seção de **\"Análise de sentimento: Texto\"**. De maneira resumida, para a análise dos comentários que serão utilizados pelo **XGB**, optou-se por utilizar a **V2** que é melhor em identificar comentários positivos ou negativos, em detrimento da identificação de comentários neutros.",
+                icon=":material/help:",
+            )
