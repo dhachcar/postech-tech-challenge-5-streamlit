@@ -96,7 +96,9 @@ class ModelosPrevisaoPontoViradaModeloTab(TabInterface):
         df = df[sorted(df.columns)]
         pred = self.xgb.predict(df)
 
-        st.subheader(":blue[Matriz de entrada processada para o modelo]", divider="blue")
+        st.subheader(
+            ":blue[Matriz de entrada processada para o modelo]", divider="blue"
+        )
         st.dataframe(df, hide_index=True)
 
         st.subheader(":blue[Previsão do modelo]", divider="blue")
@@ -112,6 +114,10 @@ class ModelosPrevisaoPontoViradaModeloTab(TabInterface):
 
     def render(self):
         with self.tab:
+            st.markdown(
+                """Utilize os controles abaixo para simular os indicadores de performance junto de comentários de destaque de um aluno. Após a seleção, clique em **:blue[Prever]** para executar o modelo de previsão do ponto de virada. Aqui temos **:blue[2]** resultados possíveis: o aluno **:blue[atingiu]** o ponto de virada ou **:blue[não atingiu]** ainda o ponto de virada."""
+            )
+
             with st.container():
                 col0, col1, col2 = st.columns(3)
 

@@ -1,34 +1,18 @@
-import pandas as pd
 from tabs.tab import TabInterface
 import streamlit as st
-import plotly.graph_objs as go
 
 
-class ModelosPrevisaoPontoViradaModeloTab(TabInterface):
+class ModelosPrevisaoPontoViradaSobreTab(TabInterface):
     def __init__(self, tab):
         self.tab = tab
-
-        # TODO: carregar o modelo + scalers tbm
-        self.df = pd.read_csv("assets/csv/processado_base_ml_pv.csv", sep=";")
-
         self.render()
-
-    def predict(self, texto):
-        x = 1
-        # texto_tokenizado = self.tokenizer(texto)
-        # text_vect = self.vect.transform([texto_tokenizado])
-        # pred = self.modelo.predict(text_vect)
-
-        # st.markdown(pred)
 
     def render(self):
         with self.tab:
             st.markdown(
-                f"""Modelo criado utilizando XGBoost""",
+                f"""
+                A proposta deste modelo é identificar o ponto de virada de um aluno dentro da **:blue[Passos Mágicos]**, utilizando como base alguns comentários de destaque que os próprios professores alimentam na base de dados, juntamente com seus indicadores de performance. Esse ponto de virada representa um momento crucial na jornada de aprendizado do estudante, onde mudanças significativas em seu desempenho são observadas. Para isso, analisamos detalhadamente os feedbacks fornecidos pelos professores e correlacionamos esses insights com métricas de desempenho dos alunos, como notas, participação em sala e outros indicadores relevantes.<br/><br/>
+                Os comentários dados pelos professores são então classificados por um sistema de **:blue[NLP]**, que os categoriza como positivos, neutros ou negativos. Esses dados categorizados, juntamente com os indicadores de performance, são alimentados em um modelo **:blue[XGB]**. Este modelo avançado de machine learning é responsável por fazer a previsão do ponto de virada do aluno
+                """,
                 unsafe_allow_html=True,
             )
-            st.markdown(
-                f"""A proposta deste modelo é identificar quais alunos podem podem atingir o seu Ponto de Virada.""",
-                unsafe_allow_html=True,
-            )
-

@@ -31,7 +31,7 @@ class ModelosPrevisaoIndicacaoBolsaModeloTab(TabInterface):
     def render(self):
         with self.tab:
             st.markdown(
-                """Utilize os controles abaixo para simular os indicadores de performance de um aluno e clique em **:blue[Prever]** para executar o modelo de concessão de bolsas de estudos."""
+                """Utilize os controles abaixo para simular os indicadores de performance de um aluno e clique em **:blue[Prever]** para executar o modelo de concessão de bolsas de estudos. Este modelo fornece **:blue[2]** resultados possíveis: recomendar que o aluno **:blue[receba]** uma bolsa de estudos ou **:blue[não receba]** a bolsa de estudos."""
             )
 
             with st.container():

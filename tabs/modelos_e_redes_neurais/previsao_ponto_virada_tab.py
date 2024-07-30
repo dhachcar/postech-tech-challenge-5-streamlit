@@ -1,13 +1,11 @@
-import pandas as pd
-from tabs.modelos_e_redes_neurais.ponto_virada.correlacao_tab import (
-    ModelosPrevisaoPontoViradaCorrelacaoTab,
-)
 from tabs.modelos_e_redes_neurais.ponto_virada.modelo_tab import (
     ModelosPrevisaoPontoViradaModeloTab,
 )
+from tabs.modelos_e_redes_neurais.ponto_virada.sobre_tab import (
+    ModelosPrevisaoPontoViradaSobreTab,
+)
 from tabs.tab import TabInterface
 import streamlit as st
-import plotly.graph_objs as go
 
 
 class ModelosPrevisaoPontoViradaTab(TabInterface):
@@ -17,7 +15,8 @@ class ModelosPrevisaoPontoViradaTab(TabInterface):
 
     def render(self):
         with self.tab:
-            tab0, tab1 = st.tabs(tabs=["Correlação", "Modelo"])
+            tab0, tab1 = st.tabs(tabs=["Sobre", "Modelo"])
 
-            ModelosPrevisaoPontoViradaCorrelacaoTab(tab0)
+            # TODO: se der tempo, colocar a matriz de correlação, mas ela deve considerar as colunas processadas por NLP + hotencoder
+            ModelosPrevisaoPontoViradaSobreTab(tab0)
             ModelosPrevisaoPontoViradaModeloTab(tab1)
