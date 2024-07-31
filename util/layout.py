@@ -4,6 +4,7 @@ import locale
 
 from util.constantes import (
     TITULO_ANALISE_EXPLORATORIA,
+    TITULO_CONCLUSAO,
     TITULO_PASSOS_MAGICOS,
     TITULO_INTRODUCAO,
     TITULO_MODELO_E_REDES_NEURAIS,
@@ -38,6 +39,12 @@ def output_layout():
                 "./pages/modelos_e_redes_neurais.py",
                 TITULO_MODELO_E_REDES_NEURAIS,
                 ":robot_face:",
+                use_relative_hash=True,
+            ),
+            Page(
+                "./pages/conclusao.py",
+                TITULO_CONCLUSAO,
+                ":sparkles:",
                 use_relative_hash=True,
             ),
             Page(

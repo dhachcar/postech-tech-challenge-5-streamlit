@@ -4,6 +4,7 @@ TITULO_INTRODUCAO = "Introdução"
 TITULO_PASSOS_MAGICOS = "Passos Mágicos"
 TITULO_ANALISE_EXPLORATORIA = "Análise exploratória"
 TITULO_MODELO_E_REDES_NEURAIS = "Modelos e Redes Neurais"
+TITULO_CONCLUSAO = "Conclusão"
 TITULO_REFERENCIAS = "Referências"
 
 CLASS_PREDICT_TEXT_POSITIVO = "positivo"
