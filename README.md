@@ -6,7 +6,7 @@ Repositório do app Streamlit para o 5º Tech Challenge da FIAP<br/>
 * Ter pelo menos o Python 3.x instalado e configurado na máquina
 * Execute o comando <code>python -m venv venv</code> para criar um novo ambiente local para instalação de dependências
 * Execute o comando <code>source venv/Scripts/activate</code> para ativar o ambiente local recém criado
-* Execute o comando <code>pip install -r requirements.txt</code> para instalar todas as dependências do projeto
+* Execute o comando <code>pip install -r requirements-local.txt</code> para instalar todas as dependências do projeto
 * Execute o comando <code>streamlit run main.py</code> para rodar o app Streamlit
 
 ## Deploy no Streamlit
