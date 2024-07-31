@@ -63,7 +63,7 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
             st.divider()
 
             with st.container():
-                col0, col1, _ = st.columns([2, 2, 8])
+                col0, col1, col3 = st.columns([2, 2, 8])
 
                 # versão do modelo
                 with col0:
@@ -87,10 +87,11 @@ class ModelosAnaliseSentimentoTextoTab(TabInterface):
                     acuracia = format_number(78.89, "%0.2f")
                     st.metric("Acurácia modelo **:orange[V2]**", value=f"{acuracia}%")
 
-            txt = st.text_area(
-                "Review/comentário",
-                placeholder="Digite o texto para ser analisado aqui...",
-            )
+                with col3:
+                    txt = st.text_area(
+                        "Review/comentário",
+                        placeholder="Digite o texto para ser analisado aqui...",
+                    )
 
             if (
                 st.button(
