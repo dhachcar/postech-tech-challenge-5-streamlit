@@ -9,10 +9,9 @@ class IntroSVMTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.subheader(":blue[Sobre]", divider="blue")
             st.markdown(
                 """
-                O **:blue[SVM]** é um tipo de modelo de aprendizado de máquina usada principalmente para classificação. Imagine que você tem uma coleção de pontos em um espaço bidimensional, cada um pertencendo a uma de duas categorias. O **:blue[SVM]** tenta encontrar a melhor linha (ou hiperplano em dimensões mais altas) que separa essas duas categorias com a maior margem possível, ou seja, a linha que deixa a maior distância entre os pontos mais próximos de cada categoria. Essa abordagem ajuda a garantir que o modelo não apenas classifique corretamente os pontos conhecidos, mas também generalize bem para novos pontos.<br/><br/>
+                O **:blue[SVM]** é um tipo de modelo de aprendizado de máquina usada principalmente para classificação. Considere o seguite cenário: você tem uma coleção de pontos em um espaço bidimensional, cada um pertencendo a uma de duas categorias. O **:blue[SVM]** tenta encontrar a melhor linha (ou divisão) que separa essas duas categorias com a maior margem possível, ou seja, a linha que deixa a maior distância entre os pontos mais próximos de cada categoria. Essa abordagem ajuda a garantir que o modelo não apenas classifique corretamente os pontos conhecidos, mas também generalize bem para novos pontos.<br/><br/>
                 Para este projeto especificamente, será utilizado um tipo espécifico de **:blue[SVM]**, no caso o **:blue[SVC (Support Vector Classifier)]** da biblioteca scikit-learn.
             """,
                 unsafe_allow_html=True,

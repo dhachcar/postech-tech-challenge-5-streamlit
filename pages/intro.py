@@ -19,7 +19,7 @@ with st.container():
 
     st.markdown(
         """
-        Nas próximas seções, vamos explorar conceitos e tecnologias fundamentais que ajudarão a entender o trabalho realizado. Falaremos sobre tópicos como **:blue[Redes Neurais]**, **:blue[Processamento de Linguagem Natural (NLP)]**, **:blue[Redes Neurais Convolucionais (CNNs)]**, **:blue[Redes Neurais Recorrentes (RNNs)]**, **:blue[Redes Long Short-term Memory (LSTM)]** e alguns modelos de **:blue[Machine Learning]**.
+        Nesta primeira página, iremos explorar alguns conceitos e tecnologias fundamentais que ajudarão a entender o trabalho realizado. Falaremos de forma breve, a respeito de tópicos como **:blue[Redes Neurais]**, **:blue[Processamento de Linguagem Natural (NLP)]**, **:blue[Redes Neurais Convolucionais (CNNs)]**, **:blue[Perceptrons Multilayer (MLPs)]** e alguns modelos de **:blue[Machine Learning]**, dentre eles o **:blue[SVC]** e o **:blue[XGB]**.
     """
     )
 
@@ -29,7 +29,7 @@ with st.container():
             "Processamento de Linguagem Natural (NLP)",
             "Redes Neurais Convolucionais (CNN)",
             "Multilayer Perceptron (MLP)",
-            "SVM",
+            "SVM / SVC",
             "XGBoost",
         ]
     )

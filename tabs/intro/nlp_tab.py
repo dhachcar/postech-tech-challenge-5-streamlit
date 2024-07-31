@@ -9,10 +9,9 @@ class IntroNLPTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.subheader(":blue[Sobre]", divider="blue")
             st.markdown(
                 """
-                As redes neurais também são comumente aplicadas ao processamento de linguagem natural **:blue[(NLP)]**. Aqui, elas são modelos computacionais projetados para entender, interpretar e gerar linguagem humana. Elas são treinadas com grandes volumes de texto para reconhecer padrões linguísticos e contextos. Utilizando arquiteturas como redes neurais recorrentes **:blue[(RNNs)]** e transformadores, essas redes podem realizar tarefas complexas como tradução automática, análise de sentimentos, resumo de textos e respostas a perguntas. A capacidade das redes neurais de captar nuances e relações contextuais permite que máquinas compreendam e produzam linguagem de maneira mais natural e precisa. Hoje em dia existem grandes players no mercado que lançaram modelos **:blue[NLP]** que são extremamente robustos e aptos a agregar valor no cotidiano da sociedade ( **:blue[OpenAI]** com o  **:blue[ChatGPT]** e  **:blue[Google]** com o  **:blue[Gemini]**).
+                As redes neurais desempenham um papel fundamental no processamento de linguagem natural **:blue[(NLP)]**, atuando como modelos computacionais projetados para compreender, interpretar e gerar linguagem humana. Elas são treinadas com vastos volumes de texto para identificar padrões e contextos linguísticos. Utilizando arquiteturas avançadas como redes neurais recorrentes **:blue[(RNNs)]** e transformadores, essas redes conseguem realizar tarefas complexas, como tradução automática, análise de sentimentos, resumo de textos e respostas a perguntas. Graças à capacidade de capturar nuances e relações contextuais, as redes neurais permitem que máquinas entendam e produzam linguagem de forma mais natural e precisa. Hoje, grandes players do mercado, como a **:blue[OpenAI]** com o **:blue[ChatGPT]** e o **:blue[Google]** com o **:blue[Gemini]**, lançaram modelos de **:blue[NLP]** extremamente robustos, capazes de agregar valor significativo ao cotidiano da sociedade.
             """,
                 unsafe_allow_html=True,
             )

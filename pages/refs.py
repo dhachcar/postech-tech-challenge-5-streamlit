@@ -22,6 +22,7 @@ with st.container():
         * DEEPAK, R, et al. How to reduce the val_loss and increase val_Accuracy. Kaggle. 2021. Disponível em: https://www.kaggle.com/discussions/questions-and-answers/279139. Acesso em: 05/07/2024.
         * DRAPALA, J. Kernel Density Estimator explained step by step. Medium. 2023. Disponível em: https://towardsdatascience.com/kernel-density-estimation-explained-step-by-step-7cc5b5bc4517. Acesso em: 27/06/2024.
         * GOMES, P. C. T. XGBoost: conheça este algoritmo de machine learning. 2019. Disponível em: https://www.datageeks.com.br/xgboost/. Acesso em: 27/06/2024.
+        * Introduction to Convolution Neural Network. 2024. Disponível em: https://www.geeksforgeeks.org/introduction-convolution-neural-network/. Acesso em 30/06/2024.
         * LASKY, A. Implement Multilayer Perceptron (MLP) with Keras using Fashion MNIST. Medium. 2022. Disponível em: https://medium.com/@artjovianprojects/deep-learning-project-multilayer-perceptron-e34017941918. Acesso em: 16/07/2024.
         * MOREIRA, S. Rede Neural Perceptron Multicamadas. Medium. 2018. Disponível em: https://medium.com/ensina-ai/rede-neural-perceptron-multicamadas-f9de8471f1a9. Acesso em: 16/07/2024.
         * Multi-Layer Perceptron Learning in Tensorflow. 2021. Disponível em: https://www.geeksforgeeks.org/multi-layer-perceptron-learning-in-tensorflow/. Acesso em: 18/07/2024.
@@ -44,6 +45,7 @@ with st.container():
         * SIQUEIRA, D. Histograma: O que é, Exemplos, Gráficos e Tipos. Alura. 2023. Disponível em: https://www.alura.com.br/artigos/o-que-e-um-histograma. Acesso em: 07/07/2024.
         * Streamlit. API Referente. Disponível em: https://docs.streamlit.io/develop/api-reference. Acesso em: 15/06/2024.
         * TABOGA, M. Probability density function. Disponível em: https://www.statlect.com/glossary/probability-density-function. Acesso em: 10/07/2024.
+        * What are convolutional neural networks? IBM. Disponível em: https://www.ibm.com/topics/convolutional-neural-networks. Acesso em 28/06/2024.
         * What is NLP and how It is Implemented in Our Lives. Amazinum. Disponível em: https://amazinum.com/insights/what-is-nlp-and-how-it-is-implemented-in-our-lives/. Acesso em: 19/06/2024.
         * Wikipedia. ONU. Disponível em: https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_das_Na%C3%A7%C3%B5es_Unidas. Acesso em: 16/06/2024.
     """
