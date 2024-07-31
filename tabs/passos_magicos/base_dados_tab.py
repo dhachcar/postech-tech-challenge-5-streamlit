@@ -11,10 +11,9 @@ class PassosMagicosBaseDadosTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.subheader(":blue[Base de dados]", divider="blue")
             st.markdown(
                 """
-                    O trabalho utiliza uma base de dados disponibilizada pela **:blue[ONG Passos Mágicos]**, composta por **:blue[1349]** linhas e **:blue[69]** colunas. Esta base de dados oferece uma rica variedade de informações detalhadas, com cada linha representando uma entrada única e cada coluna abrangendo uma característica específica dos dados. É importante destacar que todos os dados dos alunos estão devidamente anonimizados, garantindo a privacidade e a proteção das informações pessoais.<br/><br/>
+                    O trabalho utiliza uma base de dados disponibilizada pela ONG **:blue[Passos Mágicos]**, composta por **:blue[1.349]** linhas e **:blue[69]** colunas. Esta base de dados oferece uma rica variedade de informações detalhadas, com cada linha representando uma entrada única e cada coluna abrangendo uma característica específica dos dados. É importante destacar que todos os dados dos alunos estão devidamente anonimizados, garantindo a privacidade e a proteção das informações pessoais.<br/><br/>
                     Para facilitar a compreensão e a utilização dessa base de dados, a **:blue[Passos Mágicos]** disponibiliza um dicionário de dados para download. Este dicionário de dados serve como um guia essencial, descrevendo de maneira objetiva o propósito de cada coluna, os tipos de dados presentes e as possíveis categorias ou valores esperados. À seguir, é possível realizar o donwload da base de dados original e do dicionário de dados em sua íntegra:<br/>
                 """,
                 unsafe_allow_html=True,

@@ -19,8 +19,6 @@ class AnaliseIndicadoresTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.subheader(":blue[Indicadores de performance dos alunos]")
-
             st.markdown(
                 """ 
                     Nesta página serão apresentados as análises anuais de todos os indicadores utilizados pela **:blue[Passos Mágicos]** para compor o índice **:blue[INDE]** (também incluso na análise).<br/>

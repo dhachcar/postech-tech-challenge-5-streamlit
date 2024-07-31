@@ -11,12 +11,11 @@ class PassosMagicosPEDERelatoriosTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.subheader(":blue[PEDE]", divider="blue")
             st.markdown(
                 """
-                    O **:blue[PEDE]** ou **:blue[Pesquisa Extensiva do Desenvolvimento Educacional]** é um estudo produzido pela **:blue[ONG Passos Mágicos]** e abrange uma análise detalhada de diversos aspectos educacionais, incluindo avaliações e indicadores relacionados ao desenvolvimento educacional dos jovens que fazem parte de seu programa de ensino.<br/><br/>
+                    O **:blue[PEDE]** ou **:blue[Pesquisa Extensiva do Desenvolvimento Educacional]** é um estudo produzido pela ONG **:blue[Passos Mágicos]** e abrange uma análise detalhada de diversos aspectos educacionais, incluindo avaliações e indicadores relacionados ao desenvolvimento educacional dos jovens que fazem parte de seu programa de ensino.<br/><br/>
                     Dentro do **:blue[PEDE]**, é apresentado o **:blue[Índice Nacional de Desenvolvimento Educacional (INDE)]** que é utilizado no relatório para medir e avaliar diferentes dimensões do desenvolvimento educacional. Ele é composto por vários indicadores que avaliam aspectos como adequação de nível, desempenho acadêmico, engajamento, autoavaliação, aspectos psicossociais e psicopedagógicos, além de um indicador específico chamado "Indicador do Ponto de Virada".<br/><br/>
-                    Tais indicadores estão divididos em 3 dimensões principais, conforme abaixo:
+                    Tais indicadores estão divididos em **:blue[3]** dimensões principais, conforme abaixo:
                     1. **:blue[Dimensão acadêmica:]** englobando os indicadores **:blue[IAN]**, **:blue[IDA]** e **:blue[IEG]**;
                     2. **:blue[Dimensão psicossocial:]** englobando os indicadores **:blue[IAA]** e **:blue[IPS]**;
                     3. **:blue[Dimensão psicopedagógica:]** englobando os indicadores **:blue[IPP]** e **:blue[IPV]**;
@@ -39,7 +38,7 @@ class PassosMagicosPEDERelatoriosTab(TabInterface):
                     * **:blue[Indicador Psicopedagógico (IPP):]** Coletado através de um questionário de avaliação individual por aluno, aplicado aos pedagogos e professores que atendem a ONG;
                     * **:blue[Indicador do Ponto de Virada (IPV):]** Coletado através de um questionário de avaliação individual por aluno, aplicado aos pedagogos e professores que atendem a ONG (mesmo processo do IPP, mas com outro objetivo);
 
-                    Por fim, a jornada dos alunos dentro da ONG **:blue[Passos Mágicos]** é dividida em :eight: Fases, sendo a última delas, a Fase :eight:, exclusiva para a etapa do ensino superior (faculdades, universidades, etc). Os indicadores utilizados por fase também são ligeiramente diferentes< conforme a seguir:
+                    Por fim, a jornada dos alunos dentro da ONG **:blue[Passos Mágicos]** é dividida em :eight: Fases, sendo a última delas, a Fase :eight:, exclusiva para a etapa do ensino superior (faculdades, universidades, etc). Os indicadores utilizados por fase também são ligeiramente diferentes, conforme a seguir:
                     * Fase :zero: até a Fase :seven:: considera todos os indicadores disponíveis **:blue[IAN]**, **:blue[IDA]**, **:blue[IEG]**, **:blue[IAA]**, **:blue[IPS]**, **:blue[IPP]** e **:blue[IPV]**;
                     * Fase :eight:: considera os indicadores **:blue[IAN]**, **:blue[IDA]**, **:blue[IEG]**, **:blue[IAA]** e **:blue[IPS]**;
                 """,
@@ -53,7 +52,7 @@ class PassosMagicosPEDERelatoriosTab(TabInterface):
 
             st.subheader(":blue[Relatórios]", divider="blue")
             st.markdown(
-                "Até o momento, foram criados **:blue[3 relatórios PEDE]**. O primeiro foi apresentado em 2021 e era referente aos dados de 2020. O segundo foi apresentado em 2022 e tinha como base o ano de 2021. Por fim, o relatório mais recente foi criado em 2023 com o ano base de 2022. À seguir, são apresentados links para download de cada relatório:"
+                "Até o momento, foram criados **:blue[3 relatórios PEDE]**. O primeiro foi apresentado em **:blue[2021]** e era referente aos dados de **:blue[2020]**. O segundo foi apresentado em **:blue[2022]** e tinha como base o ano de **:blue[2021]**. Por fim, o relatório mais recente foi criado em **:blue[2023]** com o ano base de **:blue[2022]**. À seguir, são apresentados links para download de cada relatório:"
             )
 
             with open("assets/materiais/relatorio-pede-2020.pdf", "rb") as file:

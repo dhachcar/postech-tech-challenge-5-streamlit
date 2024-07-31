@@ -9,15 +9,14 @@ class PassosMagicosONUODSTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.subheader(":blue[ONU]", divider="blue")
             st.markdown(
                 "A **:blue[Organização das Nações Unidas (ONU)]**, fundada em 24 de outubro de 1945, é uma entidade internacional que visa promover a paz, a segurança, a cooperação internacional e os direitos humanos, contando atualmente com 193 Estados-membros. A **:blue[ONU]** atua em diversas áreas, incluindo desenvolvimento econômico e social, saúde, educação, meio ambiente e assistência humanitária, através de seus principais órgãos como a Assembleia Geral, o Conselho de Segurança, o Secretariado, o Conselho Econômico e Social, e o Tribunal Internacional de Justiça, além de várias agências especializadas como a OMS, UNESCO e UNICEF."
             )
 
-            st.subheader(":blue[ODS]", divider="blue")
+            st.subheader(":blue[ONU x ODS]", divider="blue")
             st.markdown(
                 """
-                    Os **:blue[Objetivos de Desenvolvimento Sustentável (ODS)]** da **:blue[ONU]** são **:orange[17 metas]** globais adotadas em 2015, como parte da Agenda 2030 para o Desenvolvimento Sustentável. Esses objetivos buscam acabar com a pobreza, proteger o meio ambiente e garantir que todas as pessoas tenham paz e prosperidade até 2030. São elas:
+                    Os **:blue[Objetivos de Desenvolvimento Sustentável (ODS)]** da **:blue[ONU]** são **:orange[17 metas]** globais adotadas em **:blue[2015]**, como parte da **:blue[Agenda 2030 para o Desenvolvimento Sustentável]**. Esses objetivos buscam acabar com a pobreza, proteger o meio ambiente e garantir que todas as pessoas tenham paz e prosperidade até **:blue[2030]**. São elas:
                     1. **:blue[Erradicação da Pobreza:]** Acabar com a pobreza em todas as suas formas e em todos os lugares.
                     2. **:blue[Fome Zero e Agricultura Sustentável:]** Acabar com a fome, alcançar a segurança alimentar e melhoria da nutrição, e promover a agricultura sustentável.
                     3. **:blue[Saúde e Bem-Estar:]** Garantir uma vida saudável e promover o bem-estar para todos em todas as idades.

@@ -154,7 +154,6 @@ class AnaliseAlunosTab(TabInterface):
 
     def render(self):
         with self.tab:
-            st.subheader(":blue[Alunos]")
             st.markdown(
                 """Nesta página, apresentamos uma listagem paginada de todos os registros de alunos considerados na análise. **:red[É possível clicar na linha (checkbox da primeira coluna)]** para mostrar um gráfico de radar com todos os indicadores do aluno selecionado."""
             )
