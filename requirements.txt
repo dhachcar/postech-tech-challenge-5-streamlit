@@ -71,7 +71,7 @@ scikit-learn==1.3.2
 scipy==1.12.0
 six==1.16.0
 smmap==5.0.1
-st-pages==0.4.5
+st-pages==0.5.0
 stanio==0.5.0
 streamlit==1.36.0
 tenacity==8.2.3
