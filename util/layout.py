@@ -88,6 +88,16 @@ def output_layout():
 
         st.divider()
 
+        st.subheader("Pitch Datathon")
+        st.link_button(
+            "Assitir no YouTube",
+            "https://youtu.be/1zu4Y2PcILQ",
+            help=None,
+            type="secondary",
+            disabled=False,
+            use_container_width=False,
+        )
+
         st.subheader("Repositórios do projeto")
         st.link_button(
             "Repositório Streamlit",
