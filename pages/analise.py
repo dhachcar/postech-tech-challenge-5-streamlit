@@ -29,7 +29,7 @@ with st.container():
         * Para **:blue[2021]**, foram considerados um total de **:blue[{total_2021}]** alunos;
         * Por fim, para **:blue[2022]**, foram considerados um total de **:blue[{total_2022}]** alunos;
 
-        Vale também mencionar um ponto importante das próximas seções, a respeito dos histogramas utilizados. Para todos eles, foram utilizadas as funções de *:blue[probabilidade de densidade]* que representam como os valores de uma variável contínua estão distribuídos. Em vez de contar quantos valores caem em cada intervalo, ela usa uma curva para indicar onde os dados são mais prováveis de aparecer. A altura da curva em qualquer ponto mostra a chance relativa de encontrar um valor perto desse ponto, ajudando a visualizar a distribuição dos dados de forma clara e contínua.
+        Vale também mencionar um ponto importante das próximas seções, a respeito dos histogramas utilizados. Para todos eles, foram utilizadas as funções de **:blue[probabilidade de densidade]** que representam como os valores de uma variável contínua estão distribuídos. Em vez de contar quantos valores caem em cada intervalo, ela usa uma curva para indicar onde os dados são mais prováveis de aparecer. A altura da curva em qualquer ponto mostra a chance relativa de encontrar um valor perto desse ponto, ajudando a visualizar a distribuição dos dados de forma clara e contínua.
     """,
         unsafe_allow_html=True,
     )
