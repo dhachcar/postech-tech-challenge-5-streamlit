@@ -17,3 +17,6 @@ Acesse o [repositório](https://github.com/dhachcar/postech-tech-challenge-5-str
 
 ## GIT Notebook
 Acesse o [repositório](https://github.com/dhachcar/postech-tech-challenge-5) para obter o notebook do projeto.
+
+## Pitch
+Assistir no [YouTube](https://youtu.be/1zu4Y2PcILQ).
