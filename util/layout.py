@@ -90,7 +90,7 @@ def output_layout():
 
         st.subheader("Pitch Datathon")
         st.link_button(
-            "Assitir no YouTube",
+            "Assistir no YouTube",
             "https://youtu.be/1zu4Y2PcILQ",
             help=None,
             type="secondary",
